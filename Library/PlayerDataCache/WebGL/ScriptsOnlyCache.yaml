@@ -969,4 +969,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/iuri.prata/Desktop/Unity AR/WebAR-Sense/Build
+  playerPath: C:/Users/iuri.prata/Desktop/Unity AR/webapp  sense/Build
