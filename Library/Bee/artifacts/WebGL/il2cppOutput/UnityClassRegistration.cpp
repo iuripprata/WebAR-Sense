@@ -115,6 +115,7 @@ class ResourceManager; template <> void RegisterUnityClass<ResourceManager>(cons
 class RuntimeInitializeOnLoadManager; template <> void RegisterUnityClass<RuntimeInitializeOnLoadManager>(const char*);
 class Shader; template <> void RegisterUnityClass<Shader>(const char*);
 class ShaderNameRegistry; template <> void RegisterUnityClass<ShaderNameRegistry>(const char*);
+class SortingGroup; template <> void RegisterUnityClass<SortingGroup>(const char*);
 class Sprite; template <> void RegisterUnityClass<Sprite>(const char*);
 class SpriteAtlas; template <> void RegisterUnityClass<SpriteAtlas>(const char*);
 class SpriteRenderer; template <> void RegisterUnityClass<SpriteRenderer>(const char*);
@@ -139,7 +140,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 67 non stripped classes
+	//Total: 68 non stripped classes
 	//0. Animator
 	RegisterUnityClass<Animator>("Animation");
 	//1. AnimatorController
@@ -236,43 +237,45 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<Shader>("Core");
 	//47. ShaderNameRegistry
 	RegisterUnityClass<ShaderNameRegistry>("Core");
-	//48. Sprite
+	//48. SortingGroup
+	RegisterUnityClass<SortingGroup>("Core");
+	//49. Sprite
 	RegisterUnityClass<Sprite>("Core");
-	//49. SpriteAtlas
+	//50. SpriteAtlas
 	RegisterUnityClass<SpriteAtlas>("Core");
-	//50. SpriteRenderer
+	//51. SpriteRenderer
 	RegisterUnityClass<SpriteRenderer>("Core");
-	//51. TagManager
+	//52. TagManager
 	RegisterUnityClass<TagManager>("Core");
-	//52. TextAsset
+	//53. TextAsset
 	RegisterUnityClass<TextAsset>("Core");
-	//53. Texture
+	//54. Texture
 	RegisterUnityClass<Texture>("Core");
-	//54. Texture2D
+	//55. Texture2D
 	RegisterUnityClass<Texture2D>("Core");
-	//55. Texture2DArray
+	//56. Texture2DArray
 	RegisterUnityClass<Texture2DArray>("Core");
-	//56. Texture3D
+	//57. Texture3D
 	RegisterUnityClass<Texture3D>("Core");
-	//57. TimeManager
+	//58. TimeManager
 	RegisterUnityClass<TimeManager>("Core");
-	//58. Transform
+	//59. Transform
 	RegisterUnityClass<Transform>("Core");
-	//59. Collider
+	//60. Collider
 	RegisterUnityClass<Collider>("Physics");
-	//60. MeshCollider
+	//61. MeshCollider
 	RegisterUnityClass<MeshCollider>("Physics");
-	//61. PhysicsManager
+	//62. PhysicsManager
 	RegisterUnityClass<PhysicsManager>("Physics");
-	//62. Font
+	//63. Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//63. Canvas
+	//64. Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//64. CanvasGroup
+	//65. CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//65. CanvasRenderer
+	//66. CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
-	//66. VideoPlayer
+	//67. VideoPlayer
 	RegisterUnityClass<VideoPlayer>("Video");
 
 }

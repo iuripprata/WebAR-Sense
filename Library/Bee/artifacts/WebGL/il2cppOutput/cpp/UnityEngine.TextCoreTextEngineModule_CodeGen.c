@@ -469,274 +469,276 @@ extern void TextGenerationSettings_Equals_mA5EDDF0453F2A7314AF5E1FE29F4138CD97E5
 extern void TextGenerationSettings_Equals_mDCEEB056B70FC65ED6065E3BFE8D69D823DFEFD0 (void);
 // 0x000000E5 System.Int32 UnityEngine.TextCore.Text.TextGenerationSettings::GetHashCode()
 extern void TextGenerationSettings_GetHashCode_m1F750434FCE1853C36A579827B064619E85453E0 (void);
-// 0x000000E6 System.Void UnityEngine.TextCore.Text.TextGenerationSettings::.ctor()
+// 0x000000E6 System.String UnityEngine.TextCore.Text.TextGenerationSettings::ToString()
+extern void TextGenerationSettings_ToString_mF8AB635EB369C7F66AC3B396934158CF3B6BA6CE (void);
+// 0x000000E7 System.Void UnityEngine.TextCore.Text.TextGenerationSettings::.ctor()
 extern void TextGenerationSettings__ctor_mA20608A16443434DAE9FEF0BF8BD076270FA660E (void);
-// 0x000000E7 UnityEngine.TextCore.Text.TextGenerator UnityEngine.TextCore.Text.TextGenerator::GetTextGenerator()
+// 0x000000E8 UnityEngine.TextCore.Text.TextGenerator UnityEngine.TextCore.Text.TextGenerator::GetTextGenerator()
 extern void TextGenerator_GetTextGenerator_m5BDD6657637032A944115A1D6D52A6D511D43D46 (void);
-// 0x000000E8 System.Void UnityEngine.TextCore.Text.TextGenerator::GenerateText(UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
+// 0x000000E9 System.Void UnityEngine.TextCore.Text.TextGenerator::GenerateText(UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_GenerateText_m28C6EED85E5BB42AA40812F475D533AAF6694757 (void);
-// 0x000000E9 UnityEngine.Vector2 UnityEngine.TextCore.Text.TextGenerator::GetCursorPosition(UnityEngine.TextCore.Text.TextInfo,UnityEngine.Rect,System.Int32,System.Boolean)
+// 0x000000EA UnityEngine.Vector2 UnityEngine.TextCore.Text.TextGenerator::GetCursorPosition(UnityEngine.TextCore.Text.TextInfo,UnityEngine.Rect,System.Int32,System.Boolean)
 extern void TextGenerator_GetCursorPosition_m9F767EE74114971780EF08619DEE0F5223FC5095 (void);
-// 0x000000EA UnityEngine.Vector2 UnityEngine.TextCore.Text.TextGenerator::GetPreferredValues(UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
+// 0x000000EB UnityEngine.Vector2 UnityEngine.TextCore.Text.TextGenerator::GetPreferredValues(UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_GetPreferredValues_m17A1C8F1AA7D260AB9167985429D6819D0E8D9CA (void);
-// 0x000000EB System.Void UnityEngine.TextCore.Text.TextGenerator::Prepare(UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
+// 0x000000EC System.Void UnityEngine.TextCore.Text.TextGenerator::Prepare(UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_Prepare_mD0A24977334138340CA73FB9787627373C6AA255 (void);
-// 0x000000EC System.Void UnityEngine.TextCore.Text.TextGenerator::GenerateTextMesh(UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
+// 0x000000ED System.Void UnityEngine.TextCore.Text.TextGenerator::GenerateTextMesh(UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_GenerateTextMesh_mAB70FC29A49A6C4F8211EA977E37C66BE67D1831 (void);
-// 0x000000ED System.Void UnityEngine.TextCore.Text.TextGenerator::SaveWordWrappingState(UnityEngine.TextCore.Text.WordWrapState&,System.Int32,System.Int32,UnityEngine.TextCore.Text.TextInfo)
+// 0x000000EE System.Void UnityEngine.TextCore.Text.TextGenerator::SaveWordWrappingState(UnityEngine.TextCore.Text.WordWrapState&,System.Int32,System.Int32,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_SaveWordWrappingState_mC07B2C5977EECE10216F8C6AC9CC4204F7EF1936 (void);
-// 0x000000EE System.Int32 UnityEngine.TextCore.Text.TextGenerator::RestoreWordWrappingState(UnityEngine.TextCore.Text.WordWrapState&,UnityEngine.TextCore.Text.TextInfo)
+// 0x000000EF System.Int32 UnityEngine.TextCore.Text.TextGenerator::RestoreWordWrappingState(UnityEngine.TextCore.Text.WordWrapState&,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_RestoreWordWrappingState_mA63B3DD2C02E61CD8670A32A53163AF6BF765F61 (void);
-// 0x000000EF System.Boolean UnityEngine.TextCore.Text.TextGenerator::ValidateHtmlTag(System.Int32[],System.Int32,System.Int32&,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
+// 0x000000F0 System.Boolean UnityEngine.TextCore.Text.TextGenerator::ValidateHtmlTag(System.Int32[],System.Int32,System.Int32&,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_ValidateHtmlTag_m9C85462F15A6165B10E4C4EE93620AC1021BE5CD (void);
-// 0x000000F0 System.Void UnityEngine.TextCore.Text.TextGenerator::SaveGlyphVertexInfo(System.Single,System.Single,UnityEngine.Color32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
+// 0x000000F1 System.Void UnityEngine.TextCore.Text.TextGenerator::SaveGlyphVertexInfo(System.Single,System.Single,UnityEngine.Color32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_SaveGlyphVertexInfo_m0CD6E1D45488FFC6675294AC64F40AC23C986A09 (void);
-// 0x000000F1 System.Void UnityEngine.TextCore.Text.TextGenerator::SaveSpriteVertexInfo(UnityEngine.Color32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
+// 0x000000F2 System.Void UnityEngine.TextCore.Text.TextGenerator::SaveSpriteVertexInfo(UnityEngine.Color32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_SaveSpriteVertexInfo_m4B47901F01927E7CC4E486A1C4354AFBF4D138A5 (void);
-// 0x000000F2 System.Void UnityEngine.TextCore.Text.TextGenerator::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
+// 0x000000F3 System.Void UnityEngine.TextCore.Text.TextGenerator::DrawUnderlineMesh(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,System.Single,System.Single,System.Single,System.Single,UnityEngine.Color32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_DrawUnderlineMesh_m7BA49F01C2BC1BEF7845A3D8487B45F15A3BB20E (void);
-// 0x000000F3 System.Void UnityEngine.TextCore.Text.TextGenerator::DrawTextHighlight(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,UnityEngine.Color32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
+// 0x000000F4 System.Void UnityEngine.TextCore.Text.TextGenerator::DrawTextHighlight(UnityEngine.Vector3,UnityEngine.Vector3,System.Int32&,UnityEngine.Color32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_DrawTextHighlight_m3A8E9A72C0984B5DEEF9858060675F3B517F701B (void);
-// 0x000000F4 System.Void UnityEngine.TextCore.Text.TextGenerator::ClearMesh(System.Boolean,UnityEngine.TextCore.Text.TextInfo)
+// 0x000000F5 System.Void UnityEngine.TextCore.Text.TextGenerator::ClearMesh(System.Boolean,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_ClearMesh_m68BA46B0365FC730BA5D2E6BDF2528BD370B2D83 (void);
-// 0x000000F5 System.Void UnityEngine.TextCore.Text.TextGenerator::EnableMasking()
+// 0x000000F6 System.Void UnityEngine.TextCore.Text.TextGenerator::EnableMasking()
 extern void TextGenerator_EnableMasking_mB38D92D32518523DE33A2FCD85A67DE481BB0991 (void);
-// 0x000000F6 System.Void UnityEngine.TextCore.Text.TextGenerator::DisableMasking()
+// 0x000000F7 System.Void UnityEngine.TextCore.Text.TextGenerator::DisableMasking()
 extern void TextGenerator_DisableMasking_mBDE8E47000367F45FC907243C845A11DBDD89950 (void);
-// 0x000000F7 System.Void UnityEngine.TextCore.Text.TextGenerator::SetArraySizes(System.Int32[],UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
+// 0x000000F8 System.Void UnityEngine.TextCore.Text.TextGenerator::SetArraySizes(System.Int32[],UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_SetArraySizes_mF0041F3D79936C05EB87DEE399F1DC389CCD1BD5 (void);
-// 0x000000F8 UnityEngine.TextCore.Text.TextElement UnityEngine.TextCore.Text.TextGenerator::GetTextElement(UnityEngine.TextCore.Text.TextGenerationSettings,System.UInt32,UnityEngine.TextCore.Text.FontAsset,UnityEngine.TextCore.Text.FontStyles,UnityEngine.TextCore.Text.TextFontWeight,System.Boolean&)
+// 0x000000F9 UnityEngine.TextCore.Text.TextElement UnityEngine.TextCore.Text.TextGenerator::GetTextElement(UnityEngine.TextCore.Text.TextGenerationSettings,System.UInt32,UnityEngine.TextCore.Text.FontAsset,UnityEngine.TextCore.Text.FontStyles,UnityEngine.TextCore.Text.TextFontWeight,System.Boolean&)
 extern void TextGenerator_GetTextElement_mC46F0E788A0F6EB5A62601BCE4F383C3143C78CB (void);
-// 0x000000F9 System.Void UnityEngine.TextCore.Text.TextGenerator::ComputeMarginSize(UnityEngine.Rect,UnityEngine.Vector4)
+// 0x000000FA System.Void UnityEngine.TextCore.Text.TextGenerator::ComputeMarginSize(UnityEngine.Rect,UnityEngine.Vector4)
 extern void TextGenerator_ComputeMarginSize_m485F8B01196058B15F597DE99D6F6A47FA539D3F (void);
-// 0x000000FA System.Void UnityEngine.TextCore.Text.TextGenerator::GetSpecialCharacters(UnityEngine.TextCore.Text.TextGenerationSettings)
+// 0x000000FB System.Void UnityEngine.TextCore.Text.TextGenerator::GetSpecialCharacters(UnityEngine.TextCore.Text.TextGenerationSettings)
 extern void TextGenerator_GetSpecialCharacters_mA82879FA537C58223BB660E797AC135A8E07B492 (void);
-// 0x000000FB System.Void UnityEngine.TextCore.Text.TextGenerator::GetEllipsisSpecialCharacter(UnityEngine.TextCore.Text.TextGenerationSettings)
+// 0x000000FC System.Void UnityEngine.TextCore.Text.TextGenerator::GetEllipsisSpecialCharacter(UnityEngine.TextCore.Text.TextGenerationSettings)
 extern void TextGenerator_GetEllipsisSpecialCharacter_m5139CAE03CD2E25C9A528A6A6FC984A8515C2460 (void);
-// 0x000000FC System.Void UnityEngine.TextCore.Text.TextGenerator::GetUnderlineSpecialCharacter(UnityEngine.TextCore.Text.TextGenerationSettings)
+// 0x000000FD System.Void UnityEngine.TextCore.Text.TextGenerator::GetUnderlineSpecialCharacter(UnityEngine.TextCore.Text.TextGenerationSettings)
 extern void TextGenerator_GetUnderlineSpecialCharacter_mE5E9D5DEB9A7758333CDDCAD05EF25F076EC1AD5 (void);
-// 0x000000FD System.Single UnityEngine.TextCore.Text.TextGenerator::GetPaddingForMaterial(UnityEngine.Material,System.Boolean)
+// 0x000000FE System.Single UnityEngine.TextCore.Text.TextGenerator::GetPaddingForMaterial(UnityEngine.Material,System.Boolean)
 extern void TextGenerator_GetPaddingForMaterial_mE5A4DEF3F64851861C092F7A4FC58C902F775C74 (void);
-// 0x000000FE UnityEngine.Vector2 UnityEngine.TextCore.Text.TextGenerator::GetPreferredValuesInternal(UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
+// 0x000000FF UnityEngine.Vector2 UnityEngine.TextCore.Text.TextGenerator::GetPreferredValuesInternal(UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_GetPreferredValuesInternal_m125B070164DFEA503C67525D1F418DAF41300ABD (void);
-// 0x000000FF UnityEngine.Vector2 UnityEngine.TextCore.Text.TextGenerator::CalculatePreferredValues(System.Single,UnityEngine.Vector2,System.Boolean,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
+// 0x00000100 UnityEngine.Vector2 UnityEngine.TextCore.Text.TextGenerator::CalculatePreferredValues(System.Single,UnityEngine.Vector2,System.Boolean,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGenerator_CalculatePreferredValues_mBBE23FA780CF24415963F32F7C500F0394C2545E (void);
-// 0x00000100 System.Void UnityEngine.TextCore.Text.TextGenerator::.ctor()
+// 0x00000101 System.Void UnityEngine.TextCore.Text.TextGenerator::.ctor()
 extern void TextGenerator__ctor_m52E4D01DC28BDF753BF52F6501E7FD2FB2B30D90 (void);
-// 0x00000101 System.Void UnityEngine.TextCore.Text.TextGenerator/SpecialCharacter::.ctor(UnityEngine.TextCore.Text.Character,System.Int32)
+// 0x00000102 System.Void UnityEngine.TextCore.Text.TextGenerator/SpecialCharacter::.ctor(UnityEngine.TextCore.Text.Character,System.Int32)
 extern void SpecialCharacter__ctor_m6697A8BF272F0144733EE12368C038F45E99F969 (void);
-// 0x00000102 System.Boolean UnityEngine.TextCore.Text.TextGeneratorUtilities::Approximately(System.Single,System.Single)
+// 0x00000103 System.Boolean UnityEngine.TextCore.Text.TextGeneratorUtilities::Approximately(System.Single,System.Single)
 extern void TextGeneratorUtilities_Approximately_m696ABB909732F536F1FF83EA8CE34CF53266794D (void);
-// 0x00000103 UnityEngine.Color32 UnityEngine.TextCore.Text.TextGeneratorUtilities::HexCharsToColor(System.Char[],System.Int32)
+// 0x00000104 UnityEngine.Color32 UnityEngine.TextCore.Text.TextGeneratorUtilities::HexCharsToColor(System.Char[],System.Int32)
 extern void TextGeneratorUtilities_HexCharsToColor_m2C739FBEC67C612B593FDF344E5875F0C0D8AC31 (void);
-// 0x00000104 UnityEngine.Color32 UnityEngine.TextCore.Text.TextGeneratorUtilities::HexCharsToColor(System.Char[],System.Int32,System.Int32)
+// 0x00000105 UnityEngine.Color32 UnityEngine.TextCore.Text.TextGeneratorUtilities::HexCharsToColor(System.Char[],System.Int32,System.Int32)
 extern void TextGeneratorUtilities_HexCharsToColor_m4D7AB2E490DA31C514A42A880AB35CE9CBAF77B4 (void);
-// 0x00000105 System.Int32 UnityEngine.TextCore.Text.TextGeneratorUtilities::HexToInt(System.Char)
+// 0x00000106 System.Int32 UnityEngine.TextCore.Text.TextGeneratorUtilities::HexToInt(System.Char)
 extern void TextGeneratorUtilities_HexToInt_m3017B82A336E3DB4B577D95AF6ADD393000AEB63 (void);
-// 0x00000106 System.Single UnityEngine.TextCore.Text.TextGeneratorUtilities::ConvertToFloat(System.Char[],System.Int32,System.Int32)
+// 0x00000107 System.Single UnityEngine.TextCore.Text.TextGeneratorUtilities::ConvertToFloat(System.Char[],System.Int32,System.Int32)
 extern void TextGeneratorUtilities_ConvertToFloat_m93B85749154AAFB614CD246876786B75C98AE11C (void);
-// 0x00000107 System.Single UnityEngine.TextCore.Text.TextGeneratorUtilities::ConvertToFloat(System.Char[],System.Int32,System.Int32,System.Int32&)
+// 0x00000108 System.Single UnityEngine.TextCore.Text.TextGeneratorUtilities::ConvertToFloat(System.Char[],System.Int32,System.Int32,System.Int32&)
 extern void TextGeneratorUtilities_ConvertToFloat_m37E1CF11E22ED6528B166907211426EEE6D0A4F8 (void);
-// 0x00000108 UnityEngine.Vector2 UnityEngine.TextCore.Text.TextGeneratorUtilities::PackUV(System.Single,System.Single,System.Single)
+// 0x00000109 UnityEngine.Vector2 UnityEngine.TextCore.Text.TextGeneratorUtilities::PackUV(System.Single,System.Single,System.Single)
 extern void TextGeneratorUtilities_PackUV_mE110A97960725C40D87FA903B63E0100AFCB06F5 (void);
-// 0x00000109 System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::StringToCharArray(System.String,System.Int32[]&,UnityEngine.TextCore.Text.TextProcessingStack`1<System.Int32>&,UnityEngine.TextCore.Text.TextGenerationSettings)
+// 0x0000010A System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::StringToCharArray(System.String,System.Int32[]&,UnityEngine.TextCore.Text.TextProcessingStack`1<System.Int32>&,UnityEngine.TextCore.Text.TextGenerationSettings)
 extern void TextGeneratorUtilities_StringToCharArray_m54D1AB72DAC31ADF5CF5EFD69E8B3BA5E2DCD1F5 (void);
-// 0x0000010A System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::ResizeInternalArray(T[]&)
-// 0x0000010B System.Boolean UnityEngine.TextCore.Text.TextGeneratorUtilities::IsTagName(System.String&,System.String,System.Int32)
+// 0x0000010B System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::ResizeInternalArray(T[]&)
+// 0x0000010C System.Boolean UnityEngine.TextCore.Text.TextGeneratorUtilities::IsTagName(System.String&,System.String,System.Int32)
 extern void TextGeneratorUtilities_IsTagName_m67178B96C0B3119FFEA83A8ACED7D7DAD0414208 (void);
-// 0x0000010C System.Boolean UnityEngine.TextCore.Text.TextGeneratorUtilities::IsTagName(System.Int32[]&,System.String,System.Int32)
+// 0x0000010D System.Boolean UnityEngine.TextCore.Text.TextGeneratorUtilities::IsTagName(System.Int32[]&,System.String,System.Int32)
 extern void TextGeneratorUtilities_IsTagName_mA8FA492104AD554B93FD6FDAC0D67416ED746A9D (void);
-// 0x0000010D System.Boolean UnityEngine.TextCore.Text.TextGeneratorUtilities::ReplaceOpeningStyleTag(System.Int32[]&,System.Int32,System.Int32&,System.Int32[]&,System.Int32&,UnityEngine.TextCore.Text.TextProcessingStack`1<System.Int32>&,UnityEngine.TextCore.Text.TextGenerationSettings&)
+// 0x0000010E System.Boolean UnityEngine.TextCore.Text.TextGeneratorUtilities::ReplaceOpeningStyleTag(System.Int32[]&,System.Int32,System.Int32&,System.Int32[]&,System.Int32&,UnityEngine.TextCore.Text.TextProcessingStack`1<System.Int32>&,UnityEngine.TextCore.Text.TextGenerationSettings&)
 extern void TextGeneratorUtilities_ReplaceOpeningStyleTag_m4559E128C7101E4C355B98D3E10A00E603FA9140 (void);
-// 0x0000010E System.Boolean UnityEngine.TextCore.Text.TextGeneratorUtilities::ReplaceOpeningStyleTag(System.String&,System.Int32,System.Int32&,System.Int32[]&,System.Int32&,UnityEngine.TextCore.Text.TextProcessingStack`1<System.Int32>&,UnityEngine.TextCore.Text.TextGenerationSettings&)
+// 0x0000010F System.Boolean UnityEngine.TextCore.Text.TextGeneratorUtilities::ReplaceOpeningStyleTag(System.String&,System.Int32,System.Int32&,System.Int32[]&,System.Int32&,UnityEngine.TextCore.Text.TextProcessingStack`1<System.Int32>&,UnityEngine.TextCore.Text.TextGenerationSettings&)
 extern void TextGeneratorUtilities_ReplaceOpeningStyleTag_mE66FFFF690CBFBFAAE2982103CF0D6211CFFA5A6 (void);
-// 0x0000010F System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::ReplaceClosingStyleTag(System.Int32[]&,System.Int32&,UnityEngine.TextCore.Text.TextProcessingStack`1<System.Int32>&,UnityEngine.TextCore.Text.TextGenerationSettings&)
+// 0x00000110 System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::ReplaceClosingStyleTag(System.Int32[]&,System.Int32&,UnityEngine.TextCore.Text.TextProcessingStack`1<System.Int32>&,UnityEngine.TextCore.Text.TextGenerationSettings&)
 extern void TextGeneratorUtilities_ReplaceClosingStyleTag_m3659E196D25EB735F5F7D53B7B5FED3DC211CC48 (void);
-// 0x00000110 UnityEngine.TextCore.Text.TextStyle UnityEngine.TextCore.Text.TextGeneratorUtilities::GetStyle(UnityEngine.TextCore.Text.TextGenerationSettings,System.Int32)
+// 0x00000111 UnityEngine.TextCore.Text.TextStyle UnityEngine.TextCore.Text.TextGeneratorUtilities::GetStyle(UnityEngine.TextCore.Text.TextGenerationSettings,System.Int32)
 extern void TextGeneratorUtilities_GetStyle_m236E7C5EBFA951D1D4B2C3C7803BBEA5C2FD1812 (void);
-// 0x00000111 System.Int32 UnityEngine.TextCore.Text.TextGeneratorUtilities::GetUtf32(System.String,System.Int32)
+// 0x00000112 System.Int32 UnityEngine.TextCore.Text.TextGeneratorUtilities::GetUtf32(System.String,System.Int32)
 extern void TextGeneratorUtilities_GetUtf32_mD4E8A09D5232957490A6B6D2001867D2814CFBDB (void);
-// 0x00000112 System.Int32 UnityEngine.TextCore.Text.TextGeneratorUtilities::GetUtf16(System.String,System.Int32)
+// 0x00000113 System.Int32 UnityEngine.TextCore.Text.TextGeneratorUtilities::GetUtf16(System.String,System.Int32)
 extern void TextGeneratorUtilities_GetUtf16_mCCED0D4CAB31E7C9ADB22A3546D1C209FA2C3E13 (void);
-// 0x00000113 System.Int32 UnityEngine.TextCore.Text.TextGeneratorUtilities::GetTagHashCode(System.Int32[]&,System.Int32,System.Int32&)
+// 0x00000114 System.Int32 UnityEngine.TextCore.Text.TextGeneratorUtilities::GetTagHashCode(System.Int32[]&,System.Int32,System.Int32&)
 extern void TextGeneratorUtilities_GetTagHashCode_m89243960CD468B3DA8EC0AC29829FD8125056D9F (void);
-// 0x00000114 System.Int32 UnityEngine.TextCore.Text.TextGeneratorUtilities::GetTagHashCode(System.String&,System.Int32,System.Int32&)
+// 0x00000115 System.Int32 UnityEngine.TextCore.Text.TextGeneratorUtilities::GetTagHashCode(System.String&,System.Int32,System.Int32&)
 extern void TextGeneratorUtilities_GetTagHashCode_m52AED809412409E8D9D9AD9D4DDDF0990A0049CE (void);
-// 0x00000115 System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::FillCharacterVertexBuffers(System.Int32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
+// 0x00000116 System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::FillCharacterVertexBuffers(System.Int32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGeneratorUtilities_FillCharacterVertexBuffers_m54CA97C6C26BA84BC949845B20E9DADF2F0C19CA (void);
-// 0x00000116 System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::FillSpriteVertexBuffers(System.Int32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
+// 0x00000117 System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::FillSpriteVertexBuffers(System.Int32,UnityEngine.TextCore.Text.TextGenerationSettings,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGeneratorUtilities_FillSpriteVertexBuffers_m4305B80FA32FE21A59AF68A5501226E5A4203CC3 (void);
-// 0x00000117 System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::AdjustLineOffset(System.Int32,System.Int32,System.Single,UnityEngine.TextCore.Text.TextInfo)
+// 0x00000118 System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::AdjustLineOffset(System.Int32,System.Int32,System.Single,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGeneratorUtilities_AdjustLineOffset_m811C187EA3E41781116F0C7A679B05BB27874123 (void);
-// 0x00000118 System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::ResizeLineExtents(System.Int32,UnityEngine.TextCore.Text.TextInfo)
+// 0x00000119 System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::ResizeLineExtents(System.Int32,UnityEngine.TextCore.Text.TextInfo)
 extern void TextGeneratorUtilities_ResizeLineExtents_m2EA9BE32A38D5E075DEF8EDA9EC01766E45C0F85 (void);
-// 0x00000119 UnityEngine.TextCore.Text.FontStyles UnityEngine.TextCore.Text.TextGeneratorUtilities::LegacyStyleToNewStyle(UnityEngine.FontStyle)
+// 0x0000011A UnityEngine.TextCore.Text.FontStyles UnityEngine.TextCore.Text.TextGeneratorUtilities::LegacyStyleToNewStyle(UnityEngine.FontStyle)
 extern void TextGeneratorUtilities_LegacyStyleToNewStyle_m8E9C09A7BE7B27A4EC73ADD747BFD9A4DE7E656C (void);
-// 0x0000011A UnityEngine.TextCore.Text.TextAlignment UnityEngine.TextCore.Text.TextGeneratorUtilities::LegacyAlignmentToNewAlignment(UnityEngine.TextAnchor)
+// 0x0000011B UnityEngine.TextCore.Text.TextAlignment UnityEngine.TextCore.Text.TextGeneratorUtilities::LegacyAlignmentToNewAlignment(UnityEngine.TextAnchor)
 extern void TextGeneratorUtilities_LegacyAlignmentToNewAlignment_mA16F5CB58D3C8F352CAACB8DACA5AFED59D3ED63 (void);
-// 0x0000011B System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::.cctor()
+// 0x0000011C System.Void UnityEngine.TextCore.Text.TextGeneratorUtilities::.cctor()
 extern void TextGeneratorUtilities__cctor_m01201F8A0A4161B232AB9D179AB74877D4E17D85 (void);
-// 0x0000011C System.Void UnityEngine.TextCore.Text.TextInfo::.ctor()
+// 0x0000011D System.Void UnityEngine.TextCore.Text.TextInfo::.ctor()
 extern void TextInfo__ctor_m241E24715CC5F6293DC90A4D25884548BAD0D602 (void);
-// 0x0000011D System.Void UnityEngine.TextCore.Text.TextInfo::Clear()
+// 0x0000011E System.Void UnityEngine.TextCore.Text.TextInfo::Clear()
 extern void TextInfo_Clear_m60412774208F9D920707448E71E89C99233D9128 (void);
-// 0x0000011E System.Void UnityEngine.TextCore.Text.TextInfo::ClearMeshInfo(System.Boolean)
+// 0x0000011F System.Void UnityEngine.TextCore.Text.TextInfo::ClearMeshInfo(System.Boolean)
 extern void TextInfo_ClearMeshInfo_mCA598F01C7F302CFCD0F508E2DBF072E66CA74F3 (void);
-// 0x0000011F System.Void UnityEngine.TextCore.Text.TextInfo::ClearLineInfo()
+// 0x00000120 System.Void UnityEngine.TextCore.Text.TextInfo::ClearLineInfo()
 extern void TextInfo_ClearLineInfo_m986C886D34A324C8C4D30F9D8EF24AC242A10AD7 (void);
-// 0x00000120 System.Void UnityEngine.TextCore.Text.TextInfo::Resize(T[]&,System.Int32)
-// 0x00000121 System.Void UnityEngine.TextCore.Text.TextInfo::Resize(T[]&,System.Int32,System.Boolean)
-// 0x00000122 System.Void UnityEngine.TextCore.Text.TextInfo::.cctor()
+// 0x00000121 System.Void UnityEngine.TextCore.Text.TextInfo::Resize(T[]&,System.Int32)
+// 0x00000122 System.Void UnityEngine.TextCore.Text.TextInfo::Resize(T[]&,System.Int32,System.Boolean)
+// 0x00000123 System.Void UnityEngine.TextCore.Text.TextInfo::.cctor()
 extern void TextInfo__cctor_m0B33CCC02D4B32FB18864B6B7657695E9AEB3F0D (void);
-// 0x00000123 System.Void UnityEngine.TextCore.Text.FontStyleStack::Clear()
+// 0x00000124 System.Void UnityEngine.TextCore.Text.FontStyleStack::Clear()
 extern void FontStyleStack_Clear_m989659363648B27540168E46F23E1EF9877C06E0 (void);
-// 0x00000124 System.Byte UnityEngine.TextCore.Text.FontStyleStack::Add(UnityEngine.TextCore.Text.FontStyles)
+// 0x00000125 System.Byte UnityEngine.TextCore.Text.FontStyleStack::Add(UnityEngine.TextCore.Text.FontStyles)
 extern void FontStyleStack_Add_m26E701C9F052EEEBB213B9B8BC6CB8F1F8F6AFCB (void);
-// 0x00000125 System.Byte UnityEngine.TextCore.Text.FontStyleStack::Remove(UnityEngine.TextCore.Text.FontStyles)
+// 0x00000126 System.Byte UnityEngine.TextCore.Text.FontStyleStack::Remove(UnityEngine.TextCore.Text.FontStyles)
 extern void FontStyleStack_Remove_mC2B4F44A6596E92D6992DBCA298648F8A7416CAB (void);
-// 0x00000126 System.Void UnityEngine.TextCore.Text.TextProcessingStack`1::.ctor(T[])
-// 0x00000127 System.Void UnityEngine.TextCore.Text.TextProcessingStack`1::.ctor(System.Int32)
-// 0x00000128 System.Void UnityEngine.TextCore.Text.TextProcessingStack`1::Clear()
-// 0x00000129 System.Void UnityEngine.TextCore.Text.TextProcessingStack`1::SetDefault(T)
-// 0x0000012A System.Void UnityEngine.TextCore.Text.TextProcessingStack`1::Add(T)
-// 0x0000012B T UnityEngine.TextCore.Text.TextProcessingStack`1::Remove()
-// 0x0000012C System.Void UnityEngine.TextCore.Text.TextProcessingStack`1::Push(T)
-// 0x0000012D T UnityEngine.TextCore.Text.TextProcessingStack`1::Pop()
-// 0x0000012E T UnityEngine.TextCore.Text.TextProcessingStack`1::Peek()
-// 0x0000012F T UnityEngine.TextCore.Text.TextProcessingStack`1::CurrentItem()
-// 0x00000130 System.Void UnityEngine.TextCore.Text.TextResourceManager::AddFontAsset(UnityEngine.TextCore.Text.FontAsset)
+// 0x00000127 System.Void UnityEngine.TextCore.Text.TextProcessingStack`1::.ctor(T[])
+// 0x00000128 System.Void UnityEngine.TextCore.Text.TextProcessingStack`1::.ctor(System.Int32)
+// 0x00000129 System.Void UnityEngine.TextCore.Text.TextProcessingStack`1::Clear()
+// 0x0000012A System.Void UnityEngine.TextCore.Text.TextProcessingStack`1::SetDefault(T)
+// 0x0000012B System.Void UnityEngine.TextCore.Text.TextProcessingStack`1::Add(T)
+// 0x0000012C T UnityEngine.TextCore.Text.TextProcessingStack`1::Remove()
+// 0x0000012D System.Void UnityEngine.TextCore.Text.TextProcessingStack`1::Push(T)
+// 0x0000012E T UnityEngine.TextCore.Text.TextProcessingStack`1::Pop()
+// 0x0000012F T UnityEngine.TextCore.Text.TextProcessingStack`1::Peek()
+// 0x00000130 T UnityEngine.TextCore.Text.TextProcessingStack`1::CurrentItem()
+// 0x00000131 System.Void UnityEngine.TextCore.Text.TextResourceManager::AddFontAsset(UnityEngine.TextCore.Text.FontAsset)
 extern void TextResourceManager_AddFontAsset_mAAD97609F00F02146B283982E5DE667EB7A692EA (void);
-// 0x00000131 System.Void UnityEngine.TextCore.Text.TextResourceManager::.cctor()
+// 0x00000132 System.Void UnityEngine.TextCore.Text.TextResourceManager::.cctor()
 extern void TextResourceManager__cctor_m54E40FCFB355A0C90B56366B057F307F75832868 (void);
-// 0x00000132 System.Void UnityEngine.TextCore.Text.TextResourceManager/FontAssetRef::.ctor(System.Int32,System.Int32,System.Int32,UnityEngine.TextCore.Text.FontAsset)
+// 0x00000133 System.Void UnityEngine.TextCore.Text.TextResourceManager/FontAssetRef::.ctor(System.Int32,System.Int32,System.Int32,UnityEngine.TextCore.Text.FontAsset)
 extern void FontAssetRef__ctor_m5553FC4D7E51DE97D70CE09E1C99B002A61FFDB5 (void);
-// 0x00000133 System.String UnityEngine.TextCore.Text.TextSettings::get_version()
+// 0x00000134 System.String UnityEngine.TextCore.Text.TextSettings::get_version()
 extern void TextSettings_get_version_mB5B7C3F04FFC8DCDFCFF63CFFF7612B768E267CB (void);
-// 0x00000134 System.Void UnityEngine.TextCore.Text.TextSettings::set_version(System.String)
+// 0x00000135 System.Void UnityEngine.TextCore.Text.TextSettings::set_version(System.String)
 extern void TextSettings_set_version_m7BEE644EEDD77892C295170F9B2B68BC45C7C6CF (void);
-// 0x00000135 UnityEngine.TextCore.Text.FontAsset UnityEngine.TextCore.Text.TextSettings::get_defaultFontAsset()
+// 0x00000136 UnityEngine.TextCore.Text.FontAsset UnityEngine.TextCore.Text.TextSettings::get_defaultFontAsset()
 extern void TextSettings_get_defaultFontAsset_mC6280464BFEE081DB23243BB94E49C72A0885A1F (void);
-// 0x00000136 System.Void UnityEngine.TextCore.Text.TextSettings::set_defaultFontAsset(UnityEngine.TextCore.Text.FontAsset)
+// 0x00000137 System.Void UnityEngine.TextCore.Text.TextSettings::set_defaultFontAsset(UnityEngine.TextCore.Text.FontAsset)
 extern void TextSettings_set_defaultFontAsset_mC0137D9AEB9EE7A9E1B3D7C499414EDD217AF3BA (void);
-// 0x00000137 System.String UnityEngine.TextCore.Text.TextSettings::get_defaultFontAssetPath()
+// 0x00000138 System.String UnityEngine.TextCore.Text.TextSettings::get_defaultFontAssetPath()
 extern void TextSettings_get_defaultFontAssetPath_mF7B1713753CFAE048C745C3572332CE18CD51D3B (void);
-// 0x00000138 System.Void UnityEngine.TextCore.Text.TextSettings::set_defaultFontAssetPath(System.String)
+// 0x00000139 System.Void UnityEngine.TextCore.Text.TextSettings::set_defaultFontAssetPath(System.String)
 extern void TextSettings_set_defaultFontAssetPath_m35111382F9C2E3C76FA6B77BABEE8149BDDCC7ED (void);
-// 0x00000139 System.Collections.Generic.List`1<UnityEngine.TextCore.Text.FontAsset> UnityEngine.TextCore.Text.TextSettings::get_fallbackFontAssets()
+// 0x0000013A System.Collections.Generic.List`1<UnityEngine.TextCore.Text.FontAsset> UnityEngine.TextCore.Text.TextSettings::get_fallbackFontAssets()
 extern void TextSettings_get_fallbackFontAssets_m332526E834C994425141A58C968FD40320573F98 (void);
-// 0x0000013A System.Void UnityEngine.TextCore.Text.TextSettings::set_fallbackFontAssets(System.Collections.Generic.List`1<UnityEngine.TextCore.Text.FontAsset>)
+// 0x0000013B System.Void UnityEngine.TextCore.Text.TextSettings::set_fallbackFontAssets(System.Collections.Generic.List`1<UnityEngine.TextCore.Text.FontAsset>)
 extern void TextSettings_set_fallbackFontAssets_mEBEC769B2FF339BDB44D72CB48F0010577889772 (void);
-// 0x0000013B System.Boolean UnityEngine.TextCore.Text.TextSettings::get_matchMaterialPreset()
+// 0x0000013C System.Boolean UnityEngine.TextCore.Text.TextSettings::get_matchMaterialPreset()
 extern void TextSettings_get_matchMaterialPreset_m4675979547AE4C83E680260EAE5ACBC4FAC53B87 (void);
-// 0x0000013C System.Void UnityEngine.TextCore.Text.TextSettings::set_matchMaterialPreset(System.Boolean)
+// 0x0000013D System.Void UnityEngine.TextCore.Text.TextSettings::set_matchMaterialPreset(System.Boolean)
 extern void TextSettings_set_matchMaterialPreset_mD5A3DDE2D93FE2872C869A2AE0B0C984CF5BC12C (void);
-// 0x0000013D System.Int32 UnityEngine.TextCore.Text.TextSettings::get_missingCharacterUnicode()
+// 0x0000013E System.Int32 UnityEngine.TextCore.Text.TextSettings::get_missingCharacterUnicode()
 extern void TextSettings_get_missingCharacterUnicode_mA707E5E6633633BBB3BAFB96B97A5A995100F3F3 (void);
-// 0x0000013E System.Void UnityEngine.TextCore.Text.TextSettings::set_missingCharacterUnicode(System.Int32)
+// 0x0000013F System.Void UnityEngine.TextCore.Text.TextSettings::set_missingCharacterUnicode(System.Int32)
 extern void TextSettings_set_missingCharacterUnicode_mE3E3E2F902BE89B9FE78F03D3B8C508583D1CDA3 (void);
-// 0x0000013F System.Boolean UnityEngine.TextCore.Text.TextSettings::get_clearDynamicDataOnBuild()
+// 0x00000140 System.Boolean UnityEngine.TextCore.Text.TextSettings::get_clearDynamicDataOnBuild()
 extern void TextSettings_get_clearDynamicDataOnBuild_m0C130F53F106D77250F38239FB73DCB97299FB79 (void);
-// 0x00000140 System.Void UnityEngine.TextCore.Text.TextSettings::set_clearDynamicDataOnBuild(System.Boolean)
+// 0x00000141 System.Void UnityEngine.TextCore.Text.TextSettings::set_clearDynamicDataOnBuild(System.Boolean)
 extern void TextSettings_set_clearDynamicDataOnBuild_m86B73E68953D42C6AE4210BEA5D678768155A1AD (void);
-// 0x00000141 UnityEngine.TextCore.Text.SpriteAsset UnityEngine.TextCore.Text.TextSettings::get_defaultSpriteAsset()
+// 0x00000142 UnityEngine.TextCore.Text.SpriteAsset UnityEngine.TextCore.Text.TextSettings::get_defaultSpriteAsset()
 extern void TextSettings_get_defaultSpriteAsset_m8FA900F9747B7ADBCD2A2F612E7D977DB58D6445 (void);
-// 0x00000142 System.Void UnityEngine.TextCore.Text.TextSettings::set_defaultSpriteAsset(UnityEngine.TextCore.Text.SpriteAsset)
+// 0x00000143 System.Void UnityEngine.TextCore.Text.TextSettings::set_defaultSpriteAsset(UnityEngine.TextCore.Text.SpriteAsset)
 extern void TextSettings_set_defaultSpriteAsset_m6083C46D0B3AFB6816363CF2564D2DB2D1ECFEB9 (void);
-// 0x00000143 System.String UnityEngine.TextCore.Text.TextSettings::get_defaultSpriteAssetPath()
+// 0x00000144 System.String UnityEngine.TextCore.Text.TextSettings::get_defaultSpriteAssetPath()
 extern void TextSettings_get_defaultSpriteAssetPath_mF57875222B7FACC9B69369305EEEB53FFE7986E0 (void);
-// 0x00000144 System.Void UnityEngine.TextCore.Text.TextSettings::set_defaultSpriteAssetPath(System.String)
+// 0x00000145 System.Void UnityEngine.TextCore.Text.TextSettings::set_defaultSpriteAssetPath(System.String)
 extern void TextSettings_set_defaultSpriteAssetPath_m9C49C00A96230DAF828E629C106B229A4552F753 (void);
-// 0x00000145 System.Collections.Generic.List`1<UnityEngine.TextCore.Text.SpriteAsset> UnityEngine.TextCore.Text.TextSettings::get_fallbackSpriteAssets()
+// 0x00000146 System.Collections.Generic.List`1<UnityEngine.TextCore.Text.SpriteAsset> UnityEngine.TextCore.Text.TextSettings::get_fallbackSpriteAssets()
 extern void TextSettings_get_fallbackSpriteAssets_mC6D74088EBDFDFBACD581FE4AB4EAA447ED242AD (void);
-// 0x00000146 System.Void UnityEngine.TextCore.Text.TextSettings::set_fallbackSpriteAssets(System.Collections.Generic.List`1<UnityEngine.TextCore.Text.SpriteAsset>)
+// 0x00000147 System.Void UnityEngine.TextCore.Text.TextSettings::set_fallbackSpriteAssets(System.Collections.Generic.List`1<UnityEngine.TextCore.Text.SpriteAsset>)
 extern void TextSettings_set_fallbackSpriteAssets_mB28744780B58AE04BA7F1275508FF7DEE4E485E5 (void);
-// 0x00000147 System.UInt32 UnityEngine.TextCore.Text.TextSettings::get_missingSpriteCharacterUnicode()
+// 0x00000148 System.UInt32 UnityEngine.TextCore.Text.TextSettings::get_missingSpriteCharacterUnicode()
 extern void TextSettings_get_missingSpriteCharacterUnicode_m496D85B0D88C91F2A5CC9929C233EAA84831523E (void);
-// 0x00000148 System.Void UnityEngine.TextCore.Text.TextSettings::set_missingSpriteCharacterUnicode(System.UInt32)
+// 0x00000149 System.Void UnityEngine.TextCore.Text.TextSettings::set_missingSpriteCharacterUnicode(System.UInt32)
 extern void TextSettings_set_missingSpriteCharacterUnicode_mFE1AFD04C4AA793559E0A157C9E5472E3C3F6701 (void);
-// 0x00000149 UnityEngine.TextCore.Text.TextStyleSheet UnityEngine.TextCore.Text.TextSettings::get_defaultStyleSheet()
+// 0x0000014A UnityEngine.TextCore.Text.TextStyleSheet UnityEngine.TextCore.Text.TextSettings::get_defaultStyleSheet()
 extern void TextSettings_get_defaultStyleSheet_mDA420960556C00405FA66CBD2DA36807F8F4B4F2 (void);
-// 0x0000014A System.Void UnityEngine.TextCore.Text.TextSettings::set_defaultStyleSheet(UnityEngine.TextCore.Text.TextStyleSheet)
+// 0x0000014B System.Void UnityEngine.TextCore.Text.TextSettings::set_defaultStyleSheet(UnityEngine.TextCore.Text.TextStyleSheet)
 extern void TextSettings_set_defaultStyleSheet_m2867A0B047E623E4485F10EE717FF0B46BAAECEE (void);
-// 0x0000014B System.String UnityEngine.TextCore.Text.TextSettings::get_styleSheetsResourcePath()
+// 0x0000014C System.String UnityEngine.TextCore.Text.TextSettings::get_styleSheetsResourcePath()
 extern void TextSettings_get_styleSheetsResourcePath_mE65A055D1C99CA2048BE6F246258EF262E43C4E6 (void);
-// 0x0000014C System.Void UnityEngine.TextCore.Text.TextSettings::set_styleSheetsResourcePath(System.String)
+// 0x0000014D System.Void UnityEngine.TextCore.Text.TextSettings::set_styleSheetsResourcePath(System.String)
 extern void TextSettings_set_styleSheetsResourcePath_m19A5C893047D78B43AC5EB43FB9EA79792464C05 (void);
-// 0x0000014D System.String UnityEngine.TextCore.Text.TextSettings::get_defaultColorGradientPresetsPath()
+// 0x0000014E System.String UnityEngine.TextCore.Text.TextSettings::get_defaultColorGradientPresetsPath()
 extern void TextSettings_get_defaultColorGradientPresetsPath_m1571454580E1F0DC859D3F201BB1F6355A5DBB8E (void);
-// 0x0000014E System.Void UnityEngine.TextCore.Text.TextSettings::set_defaultColorGradientPresetsPath(System.String)
+// 0x0000014F System.Void UnityEngine.TextCore.Text.TextSettings::set_defaultColorGradientPresetsPath(System.String)
 extern void TextSettings_set_defaultColorGradientPresetsPath_m951D5A7AE71C87BFA5B9B8CE8EA2F78A474FE01D (void);
-// 0x0000014F UnityEngine.TextCore.Text.UnicodeLineBreakingRules UnityEngine.TextCore.Text.TextSettings::get_lineBreakingRules()
+// 0x00000150 UnityEngine.TextCore.Text.UnicodeLineBreakingRules UnityEngine.TextCore.Text.TextSettings::get_lineBreakingRules()
 extern void TextSettings_get_lineBreakingRules_m96E2C32D4F08309D904B0BCD83CEBE8CD6716A04 (void);
-// 0x00000150 System.Void UnityEngine.TextCore.Text.TextSettings::set_lineBreakingRules(UnityEngine.TextCore.Text.UnicodeLineBreakingRules)
+// 0x00000151 System.Void UnityEngine.TextCore.Text.TextSettings::set_lineBreakingRules(UnityEngine.TextCore.Text.UnicodeLineBreakingRules)
 extern void TextSettings_set_lineBreakingRules_mB1174FE0F923443130A3D4686C119EDB0430992D (void);
-// 0x00000151 System.Boolean UnityEngine.TextCore.Text.TextSettings::get_displayWarnings()
+// 0x00000152 System.Boolean UnityEngine.TextCore.Text.TextSettings::get_displayWarnings()
 extern void TextSettings_get_displayWarnings_m3CA9FCB44B30CC06F54CD3716D68285FF844DF83 (void);
-// 0x00000152 System.Void UnityEngine.TextCore.Text.TextSettings::set_displayWarnings(System.Boolean)
+// 0x00000153 System.Void UnityEngine.TextCore.Text.TextSettings::set_displayWarnings(System.Boolean)
 extern void TextSettings_set_displayWarnings_m08373EE3900E911B4021CBF8AF915DA69856CC20 (void);
-// 0x00000153 System.Void UnityEngine.TextCore.Text.TextSettings::InitializeFontReferenceLookup()
+// 0x00000154 System.Void UnityEngine.TextCore.Text.TextSettings::InitializeFontReferenceLookup()
 extern void TextSettings_InitializeFontReferenceLookup_m34B5FB3D61296A7620196398D267812EEFCE0B04 (void);
-// 0x00000154 UnityEngine.TextCore.Text.FontAsset UnityEngine.TextCore.Text.TextSettings::GetCachedFontAssetInternal(UnityEngine.Font)
+// 0x00000155 UnityEngine.TextCore.Text.FontAsset UnityEngine.TextCore.Text.TextSettings::GetCachedFontAssetInternal(UnityEngine.Font)
 extern void TextSettings_GetCachedFontAssetInternal_m9308E0DDEF8F6D8ACA17DAADB43745C860788202 (void);
-// 0x00000155 System.Void UnityEngine.TextCore.Text.TextSettings::.ctor()
+// 0x00000156 System.Void UnityEngine.TextCore.Text.TextSettings::.ctor()
 extern void TextSettings__ctor_m860D28B10258792A195E1C6391479E16D04CA8BF (void);
-// 0x00000156 System.Void UnityEngine.TextCore.Text.TextSettings/FontReferenceMap::.ctor(UnityEngine.Font,UnityEngine.TextCore.Text.FontAsset)
+// 0x00000157 System.Void UnityEngine.TextCore.Text.TextSettings/FontReferenceMap::.ctor(UnityEngine.Font,UnityEngine.TextCore.Text.FontAsset)
 extern void FontReferenceMap__ctor_mA94127060F9F3FDC3093D9356832503BFBCE44F5 (void);
-// 0x00000157 UnityEngine.Shader UnityEngine.TextCore.Text.TextShaderUtilities::get_ShaderRef_MobileSDF()
+// 0x00000158 UnityEngine.Shader UnityEngine.TextCore.Text.TextShaderUtilities::get_ShaderRef_MobileSDF()
 extern void TextShaderUtilities_get_ShaderRef_MobileSDF_m9014F695545914ADF74FFD8A461B1DD2590A163B (void);
-// 0x00000158 UnityEngine.Shader UnityEngine.TextCore.Text.TextShaderUtilities::get_ShaderRef_MobileBitmap()
+// 0x00000159 UnityEngine.Shader UnityEngine.TextCore.Text.TextShaderUtilities::get_ShaderRef_MobileBitmap()
 extern void TextShaderUtilities_get_ShaderRef_MobileBitmap_m54CAA31B3B374C0517BF356C80B34F169C89F649 (void);
-// 0x00000159 System.Void UnityEngine.TextCore.Text.TextShaderUtilities::.cctor()
+// 0x0000015A System.Void UnityEngine.TextCore.Text.TextShaderUtilities::.cctor()
 extern void TextShaderUtilities__cctor_m5E3AAC923C6500CFCB7F775610B085AD43CDE4EE (void);
-// 0x0000015A System.Void UnityEngine.TextCore.Text.TextShaderUtilities::GetShaderPropertyIDs()
+// 0x0000015B System.Void UnityEngine.TextCore.Text.TextShaderUtilities::GetShaderPropertyIDs()
 extern void TextShaderUtilities_GetShaderPropertyIDs_mBA841B8CACE147593703FF6E7E2804FF2017DE52 (void);
-// 0x0000015B System.Void UnityEngine.TextCore.Text.TextShaderUtilities::UpdateShaderRatios(UnityEngine.Material)
+// 0x0000015C System.Void UnityEngine.TextCore.Text.TextShaderUtilities::UpdateShaderRatios(UnityEngine.Material)
 extern void TextShaderUtilities_UpdateShaderRatios_m5DFBADF0AABA261FB14F1431E82340B13D38F110 (void);
-// 0x0000015C System.Boolean UnityEngine.TextCore.Text.TextShaderUtilities::IsMaskingEnabled(UnityEngine.Material)
+// 0x0000015D System.Boolean UnityEngine.TextCore.Text.TextShaderUtilities::IsMaskingEnabled(UnityEngine.Material)
 extern void TextShaderUtilities_IsMaskingEnabled_m5613AC55B82463CB01B7983743EF5A4518490331 (void);
-// 0x0000015D System.Single UnityEngine.TextCore.Text.TextShaderUtilities::GetPadding(UnityEngine.Material,System.Boolean,System.Boolean)
+// 0x0000015E System.Single UnityEngine.TextCore.Text.TextShaderUtilities::GetPadding(UnityEngine.Material,System.Boolean,System.Boolean)
 extern void TextShaderUtilities_GetPadding_mB8AB51D48DC021C3446D30408B4515B16E3BFA5F (void);
-// 0x0000015E System.Int32 UnityEngine.TextCore.Text.TextStyle::get_hashCode()
+// 0x0000015F System.Int32 UnityEngine.TextCore.Text.TextStyle::get_hashCode()
 extern void TextStyle_get_hashCode_mA1F4D3630B6AE71C2A31F94B7054C28BDD96084F (void);
-// 0x0000015F System.Int32[] UnityEngine.TextCore.Text.TextStyle::get_styleOpeningTagArray()
+// 0x00000160 System.Int32[] UnityEngine.TextCore.Text.TextStyle::get_styleOpeningTagArray()
 extern void TextStyle_get_styleOpeningTagArray_m32B909EFDDBCFFECC7D1F4D551DCB520A72240EA (void);
-// 0x00000160 System.Int32[] UnityEngine.TextCore.Text.TextStyle::get_styleClosingTagArray()
+// 0x00000161 System.Int32[] UnityEngine.TextCore.Text.TextStyle::get_styleClosingTagArray()
 extern void TextStyle_get_styleClosingTagArray_mB5F9A0BD01EF3E6ABFF44311ADF2A1511D838033 (void);
-// 0x00000161 System.Void UnityEngine.TextCore.Text.TextStyle::RefreshStyle()
+// 0x00000162 System.Void UnityEngine.TextCore.Text.TextStyle::RefreshStyle()
 extern void TextStyle_RefreshStyle_m2D0771408F06C24EF303749ED8E656C800575BDB (void);
-// 0x00000162 System.Collections.Generic.List`1<UnityEngine.TextCore.Text.TextStyle> UnityEngine.TextCore.Text.TextStyleSheet::get_styles()
+// 0x00000163 System.Collections.Generic.List`1<UnityEngine.TextCore.Text.TextStyle> UnityEngine.TextCore.Text.TextStyleSheet::get_styles()
 extern void TextStyleSheet_get_styles_m7916C62D70AA430314D85EA5B5A778FFAE1544DB (void);
-// 0x00000163 UnityEngine.TextCore.Text.TextStyle UnityEngine.TextCore.Text.TextStyleSheet::GetStyle(System.Int32)
+// 0x00000164 UnityEngine.TextCore.Text.TextStyle UnityEngine.TextCore.Text.TextStyleSheet::GetStyle(System.Int32)
 extern void TextStyleSheet_GetStyle_m648B766D750E1B37DD126918BF7EB22DDFD21D29 (void);
-// 0x00000164 UnityEngine.TextCore.Text.TextStyle UnityEngine.TextCore.Text.TextStyleSheet::GetStyle(System.String)
+// 0x00000165 UnityEngine.TextCore.Text.TextStyle UnityEngine.TextCore.Text.TextStyleSheet::GetStyle(System.String)
 extern void TextStyleSheet_GetStyle_mF87D8108EEF60C3FC32A2B01D5C1C23D3F22A4D1 (void);
-// 0x00000165 System.Void UnityEngine.TextCore.Text.TextStyleSheet::RefreshStyles()
+// 0x00000166 System.Void UnityEngine.TextCore.Text.TextStyleSheet::RefreshStyles()
 extern void TextStyleSheet_RefreshStyles_m92525DE6F7951D03D906E18EC89349AA2794AEC5 (void);
-// 0x00000166 System.Void UnityEngine.TextCore.Text.TextStyleSheet::LoadStyleDictionaryInternal()
+// 0x00000167 System.Void UnityEngine.TextCore.Text.TextStyleSheet::LoadStyleDictionaryInternal()
 extern void TextStyleSheet_LoadStyleDictionaryInternal_m482E4CDF0CD2ED291F85869E141EEB5EC21F6D81 (void);
-// 0x00000167 System.Void UnityEngine.TextCore.Text.TextStyleSheet::.ctor()
+// 0x00000168 System.Void UnityEngine.TextCore.Text.TextStyleSheet::.ctor()
 extern void TextStyleSheet__ctor_m1A0B93B55B12CE15FFF1053443179BD010022B75 (void);
-// 0x00000168 System.Char UnityEngine.TextCore.Text.TextUtilities::ToUpperFast(System.Char)
+// 0x00000169 System.Char UnityEngine.TextCore.Text.TextUtilities::ToUpperFast(System.Char)
 extern void TextUtilities_ToUpperFast_m7E98D5D17030A387012E262648346523DCC3AA0B (void);
-// 0x00000169 System.UInt32 UnityEngine.TextCore.Text.TextUtilities::ToUpperASCIIFast(System.UInt32)
+// 0x0000016A System.UInt32 UnityEngine.TextCore.Text.TextUtilities::ToUpperASCIIFast(System.UInt32)
 extern void TextUtilities_ToUpperASCIIFast_m48A8B61739F9D5E8CB46B108746277DAF38AB58C (void);
-// 0x0000016A System.Int32 UnityEngine.TextCore.Text.TextUtilities::GetHashCodeCaseInSensitive(System.String)
+// 0x0000016B System.Int32 UnityEngine.TextCore.Text.TextUtilities::GetHashCodeCaseInSensitive(System.String)
 extern void TextUtilities_GetHashCodeCaseInSensitive_m3241BDD3A6F82A061C21BF5D347B690D732F5B59 (void);
-// 0x0000016B System.String UnityEngine.TextCore.Text.TextUtilities::UintToString(System.Collections.Generic.List`1<System.UInt32>)
+// 0x0000016C System.String UnityEngine.TextCore.Text.TextUtilities::UintToString(System.Collections.Generic.List`1<System.UInt32>)
 extern void TextUtilities_UintToString_m7C0ECB6D2370EC4275FE0E70FB979CADA55A6216 (void);
-// 0x0000016C System.Collections.Generic.HashSet`1<System.UInt32> UnityEngine.TextCore.Text.UnicodeLineBreakingRules::get_leadingCharactersLookup()
+// 0x0000016D System.Collections.Generic.HashSet`1<System.UInt32> UnityEngine.TextCore.Text.UnicodeLineBreakingRules::get_leadingCharactersLookup()
 extern void UnicodeLineBreakingRules_get_leadingCharactersLookup_m1DAC015D7E37112EAE0437E6472AEA0719DFF3DC (void);
-// 0x0000016D System.Collections.Generic.HashSet`1<System.UInt32> UnityEngine.TextCore.Text.UnicodeLineBreakingRules::get_followingCharactersLookup()
+// 0x0000016E System.Collections.Generic.HashSet`1<System.UInt32> UnityEngine.TextCore.Text.UnicodeLineBreakingRules::get_followingCharactersLookup()
 extern void UnicodeLineBreakingRules_get_followingCharactersLookup_m5510A21873DC5DA66F4A2DFA4C26A5EFAD494D8B (void);
-// 0x0000016E System.Void UnityEngine.TextCore.Text.UnicodeLineBreakingRules::LoadLineBreakingRules()
+// 0x0000016F System.Void UnityEngine.TextCore.Text.UnicodeLineBreakingRules::LoadLineBreakingRules()
 extern void UnicodeLineBreakingRules_LoadLineBreakingRules_mD9380F38BF762469AE42BA1255526A610AC143AD (void);
-// 0x0000016F System.Collections.Generic.HashSet`1<System.UInt32> UnityEngine.TextCore.Text.UnicodeLineBreakingRules::GetCharacters(UnityEngine.TextAsset)
+// 0x00000170 System.Collections.Generic.HashSet`1<System.UInt32> UnityEngine.TextCore.Text.UnicodeLineBreakingRules::GetCharacters(UnityEngine.TextAsset)
 extern void UnicodeLineBreakingRules_GetCharacters_m93663235F54D32D801E67994714B79759D2F4137 (void);
-// 0x00000170 System.Void UnityEngine.TextCore.Text.UnicodeLineBreakingRules::.ctor()
+// 0x00000171 System.Void UnityEngine.TextCore.Text.UnicodeLineBreakingRules::.ctor()
 extern void UnicodeLineBreakingRules__ctor_mD94779B4996B56EA84C847EC4DD287AB1A8ADE85 (void);
-// 0x00000171 System.Void UnityEngine.TextCore.Text.UnicodeLineBreakingRules::.cctor()
+// 0x00000172 System.Void UnityEngine.TextCore.Text.UnicodeLineBreakingRules::.cctor()
 extern void UnicodeLineBreakingRules__cctor_m401C164CCBE1ED299AACF899F8535BC6E50CFC03 (void);
-static Il2CppMethodPointer s_methodPointers[369] = 
+static Il2CppMethodPointer s_methodPointers[370] = 
 {
 	Character__ctor_m5DCCE862D40487C733C29A233DB8513A9A6A02F6,
 	Character__ctor_mEEAC42D4227E0053C8008C12B222CC208D781795,
@@ -967,6 +969,7 @@ static Il2CppMethodPointer s_methodPointers[369] =
 	TextGenerationSettings_Equals_mA5EDDF0453F2A7314AF5E1FE29F4138CD97E52D5,
 	TextGenerationSettings_Equals_mDCEEB056B70FC65ED6065E3BFE8D69D823DFEFD0,
 	TextGenerationSettings_GetHashCode_m1F750434FCE1853C36A579827B064619E85453E0,
+	TextGenerationSettings_ToString_mF8AB635EB369C7F66AC3B396934158CF3B6BA6CE,
 	TextGenerationSettings__ctor_mA20608A16443434DAE9FEF0BF8BD076270FA660E,
 	TextGenerator_GetTextGenerator_m5BDD6657637032A944115A1D6D52A6D511D43D46,
 	TextGenerator_GenerateText_m28C6EED85E5BB42AA40812F475D533AAF6694757,
@@ -1134,310 +1137,309 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[15] =
 	{ 0x060000A5, MeshInfo_ClearUnusedVertices_m7B6003EF4CA72C0ABBA4D25DEA8B0BF3934B2830_AdjustorThunk },
 	{ 0x060000A6, MeshInfo_SortGeometry_m92046C53AA6AE75EE3627CE73846296AB3E99DD1_AdjustorThunk },
 	{ 0x060000A7, MeshInfo_SwapVertexData_mD145A4C2B45422DFCB2D9697956E16395E717C7F_AdjustorThunk },
-	{ 0x06000101, SpecialCharacter__ctor_m6697A8BF272F0144733EE12368C038F45E99F969_AdjustorThunk },
-	{ 0x06000123, FontStyleStack_Clear_m989659363648B27540168E46F23E1EF9877C06E0_AdjustorThunk },
-	{ 0x06000124, FontStyleStack_Add_m26E701C9F052EEEBB213B9B8BC6CB8F1F8F6AFCB_AdjustorThunk },
-	{ 0x06000125, FontStyleStack_Remove_mC2B4F44A6596E92D6992DBCA298648F8A7416CAB_AdjustorThunk },
-	{ 0x06000132, FontAssetRef__ctor_m5553FC4D7E51DE97D70CE09E1C99B002A61FFDB5_AdjustorThunk },
-	{ 0x06000156, FontReferenceMap__ctor_mA94127060F9F3FDC3093D9356832503BFBCE44F5_AdjustorThunk },
+	{ 0x06000102, SpecialCharacter__ctor_m6697A8BF272F0144733EE12368C038F45E99F969_AdjustorThunk },
+	{ 0x06000124, FontStyleStack_Clear_m989659363648B27540168E46F23E1EF9877C06E0_AdjustorThunk },
+	{ 0x06000125, FontStyleStack_Add_m26E701C9F052EEEBB213B9B8BC6CB8F1F8F6AFCB_AdjustorThunk },
+	{ 0x06000126, FontStyleStack_Remove_mC2B4F44A6596E92D6992DBCA298648F8A7416CAB_AdjustorThunk },
+	{ 0x06000133, FontAssetRef__ctor_m5553FC4D7E51DE97D70CE09E1C99B002A61FFDB5_AdjustorThunk },
+	{ 0x06000157, FontReferenceMap__ctor_mA94127060F9F3FDC3093D9356832503BFBCE44F5_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[369] = 
+static const int32_t s_InvokerIndices[370] = 
 {
-	3183,
-	823,
-	1508,
-	4106,
-	4186,
-	3102,
-	2603,
-	3083,
-	2586,
-	3068,
-	2574,
-	3083,
-	2586,
-	3083,
-	2586,
-	3102,
-	2603,
-	3102,
-	2603,
-	3102,
-	3102,
-	2603,
-	3102,
-	3102,
-	3102,
-	2603,
-	3083,
-	3046,
-	2549,
-	3046,
-	2549,
-	3083,
-	2586,
-	3083,
-	2586,
-	3083,
-	2586,
-	3083,
-	2586,
-	3102,
-	2603,
-	3102,
-	2603,
-	3102,
-	2603,
-	3102,
-	2603,
-	3069,
-	2576,
-	3137,
+	3311,
+	838,
+	1549,
+	4244,
+	4324,
+	3227,
+	2687,
+	3208,
+	2670,
+	3193,
+	2658,
+	3208,
+	2670,
+	3208,
+	2670,
+	3227,
+	2687,
+	3227,
+	2687,
+	3227,
+	3227,
+	2687,
+	3227,
+	3227,
+	3227,
+	2687,
+	3208,
+	3171,
 	2633,
-	3137,
+	3171,
 	2633,
-	3137,
+	3208,
+	2670,
+	3208,
+	2670,
+	3208,
+	2670,
+	3208,
+	2670,
+	3227,
+	2687,
+	3227,
+	2687,
+	3227,
+	2687,
+	3227,
+	2687,
+	3194,
+	2660,
+	3263,
+	2718,
+	3263,
+	2718,
+	3263,
+	2718,
+	3263,
+	2718,
+	3171,
 	2633,
-	3137,
+	3171,
 	2633,
-	3046,
-	2549,
-	3046,
-	2549,
-	3924,
-	3257,
-	4633,
-	3276,
-	3257,
-	3300,
-	3183,
-	3183,
-	3183,
-	3183,
-	3183,
-	3183,
-	3183,
-	3183,
-	822,
-	1507,
-	3083,
-	3183,
-	3183,
-	3183,
-	3183,
-	1840,
-	619,
-	622,
-	903,
-	304,
-	1859,
-	4633,
-	4633,
-	2402,
-	4770,
-	4869,
-	4770,
-	4869,
-	4869,
-	904,
-	602,
-	904,
-	602,
-	621,
-	621,
-	3183,
-	3046,
-	3183,
-	3183,
-	3183,
-	2603,
-	2603,
-	1466,
+	4062,
+	3388,
+	4776,
+	3410,
+	3388,
+	3435,
+	3311,
+	3311,
+	3311,
+	3311,
+	3311,
+	3311,
+	3311,
+	3311,
+	837,
+	1548,
+	3208,
+	3311,
+	3311,
+	3311,
+	3311,
+	1897,
+	633,
+	636,
+	923,
+	307,
+	1916,
+	4776,
+	4776,
+	2479,
+	4915,
+	5015,
+	4915,
+	5015,
+	5015,
+	924,
+	616,
+	924,
+	616,
+	635,
+	635,
+	3311,
+	3171,
+	3311,
+	3311,
+	3311,
+	2687,
+	2687,
+	1504,
 	0,
-	2549,
-	3183,
-	3183,
-	3183,
-	2549,
-	3183,
-	3183,
-	4869,
-	4869,
-	3183,
-	2401,
-	2401,
-	3347,
-	3347,
-	3306,
-	3937,
-	3937,
-	3102,
-	3183,
-	3183,
-	4869,
-	3183,
-	2399,
-	2399,
-	3102,
-	787,
-	4271,
-	3924,
-	4869,
-	263,
-	3598,
-	3598,
-	4844,
-	4770,
-	2603,
-	4385,
-	1352,
-	4385,
-	1352,
-	4385,
-	1352,
-	4119,
-	881,
-	4119,
-	881,
-	4119,
-	881,
-	4119,
-	881,
-	3183,
-	2586,
-	2586,
-	2549,
-	3183,
-	2586,
-	1336,
-	4869,
-	3068,
-	2574,
-	3102,
-	2603,
-	3102,
-	2603,
-	3102,
-	2603,
-	3102,
-	2603,
-	3183,
-	3183,
-	2167,
-	2225,
-	2183,
-	3684,
-	3684,
-	3684,
-	3482,
-	3673,
-	3673,
-	3183,
-	3183,
-	3183,
-	3183,
-	4869,
-	3183,
-	2401,
-	2401,
-	3102,
-	3183,
-	3183,
-	3102,
-	2603,
-	3083,
-	3083,
-	2586,
-	3102,
-	2603,
-	3083,
-	2586,
-	3183,
-	3183,
-	2552,
-	492,
-	4869,
-	3046,
-	3172,
-	2663,
-	3102,
-	2603,
-	3102,
-	2603,
-	3172,
-	2663,
-	3137,
 	2633,
-	3183,
-	1859,
-	1859,
-	3083,
-	3183,
-	4844,
-	4404,
-	3697,
-	4346,
-	1466,
-	1466,
-	478,
-	1012,
+	3311,
+	3311,
+	3311,
+	2633,
+	3311,
+	3311,
+	5015,
+	5015,
+	3311,
+	2478,
+	2478,
+	3483,
+	3483,
+	3441,
+	4075,
+	4075,
+	3227,
+	3311,
+	3311,
+	5015,
+	3311,
+	2476,
+	2476,
+	3227,
+	802,
+	4409,
+	4062,
+	5015,
+	265,
+	3734,
+	3734,
+	4989,
+	4915,
+	2687,
+	4524,
+	1386,
+	4524,
+	1386,
+	4524,
+	1386,
+	4257,
+	899,
+	4257,
+	899,
+	4257,
+	899,
+	4257,
+	899,
+	3311,
+	2670,
+	2670,
+	2633,
+	3311,
+	2670,
+	1370,
+	5015,
+	3193,
+	2658,
+	3227,
+	2687,
+	3227,
+	2687,
+	3227,
+	2687,
+	3227,
+	2687,
+	3311,
+	3311,
+	2236,
+	2297,
+	2252,
+	3822,
+	3822,
+	3822,
+	3618,
+	3811,
+	3811,
+	3311,
+	3311,
+	3311,
+	3311,
+	5015,
+	3311,
+	2478,
+	2478,
+	3227,
+	3311,
+	3311,
+	3227,
+	2687,
+	3208,
+	3208,
+	2670,
+	3227,
+	2687,
+	3208,
+	2670,
+	3311,
+	3311,
+	2636,
+	503,
+	5015,
+	3171,
+	3300,
+	2750,
+	3227,
+	2687,
+	3227,
+	2687,
+	3300,
+	2750,
+	3263,
+	2718,
+	3311,
+	1916,
+	1916,
+	3208,
+	3227,
+	3311,
+	4989,
+	4543,
+	3835,
+	4484,
+	1504,
+	1504,
+	489,
+	1036,
 	171,
-	288,
-	722,
+	290,
+	738,
 	10,
 	166,
-	4378,
-	3183,
-	3183,
-	805,
+	4516,
+	3311,
+	3311,
+	820,
 	131,
-	1486,
-	2603,
-	2603,
-	2603,
-	1161,
-	1175,
-	249,
-	3183,
-	1462,
-	4144,
-	4187,
-	3833,
-	4581,
-	3950,
-	3691,
-	3972,
-	3742,
+	1525,
+	2687,
+	2687,
+	2687,
+	1189,
+	1204,
+	251,
+	3311,
+	1500,
+	4282,
+	4325,
+	3971,
+	4723,
+	4088,
+	3829,
+	4110,
+	3880,
 	0,
-	3804,
-	3804,
-	3288,
-	3288,
-	3705,
-	4268,
-	4224,
-	4224,
-	3854,
-	3854,
-	4018,
-	4018,
-	3732,
-	4385,
-	4574,
-	4574,
-	4869,
-	3183,
-	3183,
-	2549,
-	3183,
-	0,
-	0,
-	4869,
-	3183,
-	1840,
-	1840,
+	3942,
+	3942,
+	3422,
+	3422,
+	3843,
+	4406,
+	4362,
+	4362,
+	3992,
+	3992,
+	4156,
+	4156,
+	3870,
+	4524,
+	4716,
+	4716,
+	5015,
+	3311,
+	3311,
+	2633,
+	3311,
 	0,
 	0,
+	5015,
+	3311,
+	1897,
+	1897,
 	0,
 	0,
 	0,
@@ -1446,80 +1448,82 @@ static const int32_t s_InvokerIndices[369] =
 	0,
 	0,
 	0,
-	4770,
-	4869,
-	500,
-	3102,
-	2603,
-	3102,
-	2603,
-	3102,
-	2603,
-	3102,
-	2603,
-	3046,
-	2549,
-	3083,
-	2586,
-	3046,
-	2549,
-	3102,
-	2603,
-	3102,
-	2603,
-	3102,
-	2603,
-	3172,
-	2663,
-	3102,
-	2603,
-	3102,
-	2603,
-	3102,
-	2603,
-	3102,
-	2603,
-	3046,
-	2549,
-	3183,
-	2304,
-	3183,
-	1466,
-	4844,
-	4844,
-	4869,
-	4869,
-	4770,
-	4503,
-	3949,
-	3083,
-	3102,
-	3102,
-	3183,
-	3102,
-	2302,
-	2304,
-	3183,
-	3183,
-	3183,
-	4719,
-	4733,
-	4578,
-	4633,
-	3102,
-	3102,
-	4869,
-	4633,
-	3183,
-	4869,
+	0,
+	0,
+	4915,
+	5015,
+	511,
+	3227,
+	2687,
+	3227,
+	2687,
+	3227,
+	2687,
+	3227,
+	2687,
+	3171,
+	2633,
+	3208,
+	2670,
+	3171,
+	2633,
+	3227,
+	2687,
+	3227,
+	2687,
+	3227,
+	2687,
+	3300,
+	2750,
+	3227,
+	2687,
+	3227,
+	2687,
+	3227,
+	2687,
+	3227,
+	2687,
+	3171,
+	2633,
+	3311,
+	2376,
+	3311,
+	1504,
+	4989,
+	4989,
+	5015,
+	5015,
+	4915,
+	4645,
+	4087,
+	3208,
+	3227,
+	3227,
+	3311,
+	3227,
+	2374,
+	2376,
+	3311,
+	3311,
+	3311,
+	4864,
+	4878,
+	4720,
+	4776,
+	3227,
+	3227,
+	5015,
+	4776,
+	3311,
+	5015,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[5] = 
 {
 	{ 0x02000032, { 8, 2 } },
 	{ 0x0600006F, { 0, 5 } },
-	{ 0x0600010A, { 5, 1 } },
-	{ 0x06000120, { 6, 1 } },
-	{ 0x06000121, { 7, 1 } },
+	{ 0x0600010B, { 5, 1 } },
+	{ 0x06000121, { 6, 1 } },
+	{ 0x06000122, { 7, 1 } },
 };
 extern const uint32_t g_rgctx_List_1_tA286387994A1339C2CF844BE5728698C1E998AFA;
 extern const uint32_t g_rgctx_List_1_get_Count_m94023DC2882A00FF3E2A87B830A03C35E07FAED7;
@@ -1548,7 +1552,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_TextCoreTextEngineModule
 const Il2CppCodeGenModule g_UnityEngine_TextCoreTextEngineModule_CodeGenModule = 
 {
 	"UnityEngine.TextCoreTextEngineModule.dll",
-	369,
+	370,
 	s_methodPointers,
 	15,
 	s_adjustorThunks,

@@ -322,9 +322,9 @@ static Il2CppMethodPointer s_methodPointers[150] =
 };
 static const int32_t s_InvokerIndices[150] = 
 {
-	4633,
-	4844,
-	4844,
+	4776,
+	4989,
+	4989,
 	0,
 	0,
 	0,
@@ -350,8 +350,8 @@ static const int32_t s_InvokerIndices[150] =
 	0,
 	0,
 	0,
-	4578,
-	4578,
+	4720,
+	4720,
 	0,
 	0,
 	0,
@@ -475,25 +475,25 @@ static const int32_t s_InvokerIndices[150] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[51] = 
 {
-	{ 0x02000004, { 124, 5 } },
-	{ 0x02000005, { 129, 13 } },
-	{ 0x02000006, { 144, 9 } },
-	{ 0x02000007, { 155, 13 } },
-	{ 0x02000008, { 170, 16 } },
-	{ 0x02000009, { 189, 12 } },
-	{ 0x0200000A, { 204, 16 } },
-	{ 0x0200000B, { 223, 2 } },
-	{ 0x0200000C, { 225, 4 } },
-	{ 0x0200000D, { 229, 17 } },
-	{ 0x0200000E, { 246, 2 } },
-	{ 0x02000010, { 248, 3 } },
-	{ 0x02000011, { 253, 7 } },
-	{ 0x02000012, { 260, 8 } },
-	{ 0x02000013, { 268, 4 } },
-	{ 0x02000014, { 272, 10 } },
-	{ 0x02000015, { 282, 8 } },
-	{ 0x02000016, { 290, 41 } },
-	{ 0x02000018, { 331, 2 } },
+	{ 0x02000004, { 125, 5 } },
+	{ 0x02000005, { 130, 13 } },
+	{ 0x02000006, { 145, 9 } },
+	{ 0x02000007, { 156, 14 } },
+	{ 0x02000008, { 172, 16 } },
+	{ 0x02000009, { 191, 12 } },
+	{ 0x0200000A, { 206, 17 } },
+	{ 0x0200000B, { 226, 2 } },
+	{ 0x0200000C, { 228, 4 } },
+	{ 0x0200000D, { 232, 17 } },
+	{ 0x0200000E, { 249, 2 } },
+	{ 0x02000010, { 251, 3 } },
+	{ 0x02000011, { 256, 7 } },
+	{ 0x02000012, { 263, 8 } },
+	{ 0x02000013, { 271, 4 } },
+	{ 0x02000014, { 275, 10 } },
+	{ 0x02000015, { 285, 8 } },
+	{ 0x02000016, { 293, 41 } },
+	{ 0x02000018, { 334, 3 } },
 	{ 0x06000004, { 0, 10 } },
 	{ 0x06000005, { 10, 10 } },
 	{ 0x06000006, { 20, 5 } },
@@ -502,30 +502,30 @@ static const Il2CppTokenRangePair s_rgctxIndices[51] =
 	{ 0x06000009, { 31, 2 } },
 	{ 0x0600000A, { 33, 2 } },
 	{ 0x0600000B, { 35, 2 } },
-	{ 0x0600000C, { 37, 3 } },
-	{ 0x0600000D, { 40, 2 } },
-	{ 0x0600000E, { 42, 1 } },
-	{ 0x0600000F, { 43, 11 } },
-	{ 0x06000010, { 54, 8 } },
-	{ 0x06000011, { 62, 8 } },
-	{ 0x06000012, { 70, 6 } },
-	{ 0x06000013, { 76, 6 } },
-	{ 0x06000014, { 82, 6 } },
-	{ 0x06000015, { 88, 1 } },
-	{ 0x06000016, { 89, 2 } },
-	{ 0x06000017, { 91, 6 } },
-	{ 0x06000018, { 97, 6 } },
-	{ 0x06000019, { 103, 4 } },
-	{ 0x0600001A, { 107, 6 } },
-	{ 0x0600001B, { 113, 3 } },
-	{ 0x0600001C, { 116, 8 } },
-	{ 0x0600002E, { 142, 2 } },
-	{ 0x06000033, { 153, 2 } },
-	{ 0x06000038, { 168, 2 } },
-	{ 0x0600003E, { 186, 3 } },
-	{ 0x06000043, { 201, 3 } },
-	{ 0x06000048, { 220, 3 } },
-	{ 0x0600005D, { 251, 2 } },
+	{ 0x0600000C, { 37, 4 } },
+	{ 0x0600000D, { 41, 2 } },
+	{ 0x0600000E, { 43, 1 } },
+	{ 0x0600000F, { 44, 11 } },
+	{ 0x06000010, { 55, 8 } },
+	{ 0x06000011, { 63, 8 } },
+	{ 0x06000012, { 71, 6 } },
+	{ 0x06000013, { 77, 6 } },
+	{ 0x06000014, { 83, 6 } },
+	{ 0x06000015, { 89, 1 } },
+	{ 0x06000016, { 90, 2 } },
+	{ 0x06000017, { 92, 6 } },
+	{ 0x06000018, { 98, 6 } },
+	{ 0x06000019, { 104, 4 } },
+	{ 0x0600001A, { 108, 6 } },
+	{ 0x0600001B, { 114, 3 } },
+	{ 0x0600001C, { 117, 8 } },
+	{ 0x0600002E, { 143, 2 } },
+	{ 0x06000033, { 154, 2 } },
+	{ 0x06000038, { 170, 2 } },
+	{ 0x0600003E, { 188, 3 } },
+	{ 0x06000043, { 203, 3 } },
+	{ 0x06000048, { 223, 3 } },
+	{ 0x0600005D, { 254, 2 } },
 };
 extern const uint32_t g_rgctx_Iterator_1_tAFB7558C92D3848C170203685AA45B10B6035464;
 extern const uint32_t g_rgctx_Iterator_1_Where_mB33345A6D2213AB59B7B357292542E752C9AEEF2;
@@ -567,6 +567,7 @@ extern const uint32_t g_rgctx_IOrderedEnumerable_1_CreateOrderedEnumerable_TisTK
 extern const uint32_t g_rgctx_Buffer_1_tC3AA32816753DA7B0898D92E15B122AC7DE23B5B;
 extern const uint32_t g_rgctx_Buffer_1__ctor_m72F00609851E22DF4338204A2E6EC7E3A3E0C3D4;
 extern const uint32_t g_rgctx_Buffer_1_ToArray_m11DBDA9AA16C64F60D134E59D6BD79D515B8D187;
+extern const uint32_t g_rgctx_Buffer_1_tC3AA32816753DA7B0898D92E15B122AC7DE23B5B;
 extern const uint32_t g_rgctx_List_1_t168E1771B2C2914F0DF873822B754BD4110D6958;
 extern const uint32_t g_rgctx_List_1__ctor_mB51694A9EF5013F0A729FC4B8BD80C8A49970CF9;
 extern const uint32_t g_rgctx_Enumerable_ToDictionary_TisTSource_tE31865679B90EA41B3B599272398AC4F59C84AFB_TisTKey_tD37952AE661C99DC819D1D703910E923C1FFB563_TisTElement_tC983FBB6789A209AE3741CF7BF97B4518033512E_m581C4145E7A359AB48C48EF4B9FD323449456C1D;
@@ -689,6 +690,7 @@ extern const uint32_t g_rgctx_WhereListIterator_1__ctor_m172443247095E67B21AF11E
 extern const uint32_t g_rgctx_List_1_t65D73AE3589A56A7B32F4BDFCD91269AD04DD4DF;
 extern const uint32_t g_rgctx_List_1_GetEnumerator_m62042CED4A1CF9B02B5E17694405BBB8BEEDD38C;
 extern const uint32_t g_rgctx_Enumerator_get_Current_m21D84BB0301B459F1ADE9ABD50089FBBB8C63F97;
+extern const uint32_t g_rgctx_Enumerator_t8E62FE91E95BFC5D28A3B09EFA69C2A33120205E;
 extern const uint32_t g_rgctx_Func_2_tC858B64F5B124B5C1F30E774832D4E614DA18793;
 extern const uint32_t g_rgctx_Func_2_Invoke_m1C2F1F284152F67D5FE0FD1BD2D71BD3E2DD280F;
 extern const uint32_t g_rgctx_Enumerator_MoveNext_m1A9C394EDBEE8ABF55FA1F44A260F79D813902E4;
@@ -738,6 +740,7 @@ extern const uint32_t g_rgctx_WhereSelectListIterator_2__ctor_mDFE79323B2924E630
 extern const uint32_t g_rgctx_List_1_t905EFEC983EC5317F0B1F633D205BF984BB0BE1D;
 extern const uint32_t g_rgctx_List_1_GetEnumerator_m906D8353E6DC2D62B1C6ACF3849D1970361C7AED;
 extern const uint32_t g_rgctx_Enumerator_get_Current_mEB276D052415C98826154DC4FDF8574C48E0FAF0;
+extern const uint32_t g_rgctx_Enumerator_t8A622325AF1352D3AB0ECDBB45A0AFB7AF959716;
 extern const uint32_t g_rgctx_Func_2_tBE76289600B0D10382BAB5D9F828D996195A6D07;
 extern const uint32_t g_rgctx_Func_2_Invoke_mF94AE9E660C674B47621BAB249E8B2D27BF85E73;
 extern const uint32_t g_rgctx_Func_2_tC25DAB584B0F47C1DAA1B56A2C30A3D42B88D146;
@@ -859,8 +862,9 @@ extern const uint32_t g_rgctx_HashSet_1_get_Comparer_m313EEB5FFD720AD1F35ABB6109
 extern const uint32_t g_rgctx_T_t1A61667A2FF6D68BB3DAC186281F928B7ED2DB94;
 extern const uint32_t g_rgctx_IEqualityComparer_1_GetHashCode_mB43AB2E622EB30D675693CDC96CA5D836DE43336;
 extern const uint32_t g_rgctx_Enumerator_get_Current_m6F22509C5AEA1EA15942F7F9C9866256CB3EA347;
+extern const uint32_t g_rgctx_Enumerator_tB091A59F0E047A76EF2099D441944326FE3C0B97;
 extern const uint32_t g_rgctx_T_t6D22409F37413B725563BF484486F55FB7202BB8;
-static const Il2CppRGCTXDefinition s_rgctxValues[333] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[337] = 
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Iterator_1_tAFB7558C92D3848C170203685AA45B10B6035464 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Iterator_1_Where_mB33345A6D2213AB59B7B357292542E752C9AEEF2 },
@@ -902,6 +906,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[333] =
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Buffer_1_tC3AA32816753DA7B0898D92E15B122AC7DE23B5B },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Buffer_1__ctor_m72F00609851E22DF4338204A2E6EC7E3A3E0C3D4 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Buffer_1_ToArray_m11DBDA9AA16C64F60D134E59D6BD79D515B8D187 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Buffer_1_tC3AA32816753DA7B0898D92E15B122AC7DE23B5B },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t168E1771B2C2914F0DF873822B754BD4110D6958 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1__ctor_mB51694A9EF5013F0A729FC4B8BD80C8A49970CF9 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerable_ToDictionary_TisTSource_tE31865679B90EA41B3B599272398AC4F59C84AFB_TisTKey_tD37952AE661C99DC819D1D703910E923C1FFB563_TisTElement_tC983FBB6789A209AE3741CF7BF97B4518033512E_m581C4145E7A359AB48C48EF4B9FD323449456C1D },
@@ -1024,6 +1029,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[333] =
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t65D73AE3589A56A7B32F4BDFCD91269AD04DD4DF },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_GetEnumerator_m62042CED4A1CF9B02B5E17694405BBB8BEEDD38C },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_get_Current_m21D84BB0301B459F1ADE9ABD50089FBBB8C63F97 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Enumerator_t8E62FE91E95BFC5D28A3B09EFA69C2A33120205E },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_2_tC858B64F5B124B5C1F30E774832D4E614DA18793 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_2_Invoke_m1C2F1F284152F67D5FE0FD1BD2D71BD3E2DD280F },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_MoveNext_m1A9C394EDBEE8ABF55FA1F44A260F79D813902E4 },
@@ -1073,6 +1079,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[333] =
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t905EFEC983EC5317F0B1F633D205BF984BB0BE1D },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1_GetEnumerator_m906D8353E6DC2D62B1C6ACF3849D1970361C7AED },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_get_Current_mEB276D052415C98826154DC4FDF8574C48E0FAF0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Enumerator_t8A622325AF1352D3AB0ECDBB45A0AFB7AF959716 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_2_tBE76289600B0D10382BAB5D9F828D996195A6D07 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_2_Invoke_mF94AE9E660C674B47621BAB249E8B2D27BF85E73 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_2_tC25DAB584B0F47C1DAA1B56A2C30A3D42B88D146 },
@@ -1194,6 +1201,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[333] =
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t1A61667A2FF6D68BB3DAC186281F928B7ED2DB94 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IEqualityComparer_1_GetHashCode_mB43AB2E622EB30D675693CDC96CA5D836DE43336 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerator_get_Current_m6F22509C5AEA1EA15942F7F9C9866256CB3EA347 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Enumerator_tB091A59F0E047A76EF2099D441944326FE3C0B97 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t6D22409F37413B725563BF484486F55FB7202BB8 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Core_CodeGenModule;
@@ -1209,7 +1217,7 @@ const Il2CppCodeGenModule g_System_Core_CodeGenModule =
 	NULL,
 	51,
 	s_rgctxIndices,
-	333,
+	337,
 	s_rgctxValues,
 	NULL,
 	NULL, // module initializer,

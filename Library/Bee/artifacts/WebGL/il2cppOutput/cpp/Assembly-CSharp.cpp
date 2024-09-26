@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 template <typename R>
@@ -101,6 +100,8 @@ struct List_1_tBDC1DDCBB97713243E7B7ED4B2DFE09406C5F629;
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
 // System.Boolean[]
 struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
+// System.Char[]
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 // System.Delegate[]
 struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 // WebARFoundation.FaceTracker[]
@@ -357,12 +358,6 @@ struct List_1_tCCFE3857C7BEC642354121CA8741EA8D50A9BC80  : public RuntimeObject
 	RuntimeObject* ____syncRoot_4;
 };
 
-struct List_1_tCCFE3857C7BEC642354121CA8741EA8D50A9BC80_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	FaceTrackerU5BU5D_tEDBCE7BC5F70569F0024EEF12A1AFE1E530AF0C3* ___s_emptyArray_5;
-};
-
 // System.Collections.Generic.List`1<WebARFoundation.ImageTracker>
 struct List_1_tBDC1DDCBB97713243E7B7ED4B2DFE09406C5F629  : public RuntimeObject
 {
@@ -376,28 +371,14 @@ struct List_1_tBDC1DDCBB97713243E7B7ED4B2DFE09406C5F629  : public RuntimeObject
 	RuntimeObject* ____syncRoot_4;
 };
 
-struct List_1_tBDC1DDCBB97713243E7B7ED4B2DFE09406C5F629_StaticFields
+// <PrivateImplementationDetails>
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
 {
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	ImageTrackerU5BU5D_t5AC72C72CC3FA285EFF7AB4205426F324FDDBA6B* ___s_emptyArray_5;
 };
-struct Il2CppArrayBounds;
 
 // WebARFoundation.FaceMeshGeometry
 struct FaceMeshGeometry_tF36B2552A556112CF0D6BA17C7FB8CAB44928ECE  : public RuntimeObject
 {
-};
-
-struct FaceMeshGeometry_tF36B2552A556112CF0D6BA17C7FB8CAB44928ECE_StaticFields
-{
-	// System.Single[,] WebARFoundation.FaceMeshGeometry::VERTICES
-	SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* ___VERTICES_0;
-	// System.Single[,] WebARFoundation.FaceMeshGeometry::UV
-	SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* ___UV_1;
-	// System.Int32[] WebARFoundation.FaceMeshGeometry::FACES
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___FACES_2;
-	// System.Single[,] WebARFoundation.FaceMeshGeometry::LANDMARK_BASIS
-	SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* ___LANDMARK_BASIS_3;
 };
 
 // WebARFoundation.MindARFacePlugin
@@ -405,29 +386,9 @@ struct MindARFacePlugin_tAE21E3CC0976AFAF3C1B40F80A1E604258D2FC28  : public Runt
 {
 };
 
-struct MindARFacePlugin_tAE21E3CC0976AFAF3C1B40F80A1E604258D2FC28_StaticFields
-{
-	// System.Action WebARFoundation.MindARFacePlugin::onARReadyAction
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onARReadyAction_0;
-	// System.Action WebARFoundation.MindARFacePlugin::onCameraConfigChangeAction
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onCameraConfigChangeAction_1;
-	// WebARFoundation.MindARFacePlugin/OnARUpdateEvent WebARFoundation.MindARFacePlugin::onARUpdateAction
-	OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* ___onARUpdateAction_2;
-};
-
 // WebARFoundation.MindARImagePlugin
 struct MindARImagePlugin_t69A973A8091EA0C38B72EBC1B936D075F3457997  : public RuntimeObject
 {
-};
-
-struct MindARImagePlugin_t69A973A8091EA0C38B72EBC1B936D075F3457997_StaticFields
-{
-	// System.Action WebARFoundation.MindARImagePlugin::onARReadyAction
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onARReadyAction_0;
-	// System.Action WebARFoundation.MindARImagePlugin::onCameraConfigChangeAction
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onCameraConfigChangeAction_1;
-	// WebARFoundation.MindARImagePlugin/OnARUpdateEvent WebARFoundation.MindARImagePlugin::onARUpdateAction
-	OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* ___onARUpdateAction_2;
 };
 
 // System.String
@@ -437,12 +398,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // WebARFoundation.Utils
@@ -473,14 +428,6 @@ struct U3CU3Ec_t4BEF44D246CE0E5716609FE46BEAC53B2DF4D16A  : public RuntimeObject
 {
 };
 
-struct U3CU3Ec_t4BEF44D246CE0E5716609FE46BEAC53B2DF4D16A_StaticFields
-{
-	// WebARFoundation.MindARFaceTrackingManager/<>c WebARFoundation.MindARFaceTrackingManager/<>c::<>9
-	U3CU3Ec_t4BEF44D246CE0E5716609FE46BEAC53B2DF4D16A* ___U3CU3E9_0;
-	// System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<WebARFoundation.FaceTracker>> WebARFoundation.MindARFaceTrackingManager/<>c::<>9__16_0
-	Func_2_t8C54345EB4D4E3C85E84AD4E8067542EE487A2D5* ___U3CU3E9__16_0_1;
-};
-
 // WebARFoundation.MindARImagePlugin/Native
 struct Native_t9B02347F7629EC995F1158299D5199E4B525D9C8  : public RuntimeObject
 {
@@ -489,14 +436,6 @@ struct Native_t9B02347F7629EC995F1158299D5199E4B525D9C8  : public RuntimeObject
 // WebARFoundation.MindARImageTrackingManager/<>c
 struct U3CU3Ec_t2976F8A5B74ED8E9B602FD6D687410FDC0EBFE62  : public RuntimeObject
 {
-};
-
-struct U3CU3Ec_t2976F8A5B74ED8E9B602FD6D687410FDC0EBFE62_StaticFields
-{
-	// WebARFoundation.MindARImageTrackingManager/<>c WebARFoundation.MindARImageTrackingManager/<>c::<>9
-	U3CU3Ec_t2976F8A5B74ED8E9B602FD6D687410FDC0EBFE62* ___U3CU3E9_0;
-	// System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<WebARFoundation.ImageTracker>> WebARFoundation.MindARImageTrackingManager/<>c::<>9__19_0
-	Func_2_tDA9936D322E661EBE487B1A9C086C4A598E15B3E* ___U3CU3E9__19_0_1;
 };
 
 // System.Collections.Generic.List`1/Enumerator<WebARFoundation.FaceTracker>
@@ -545,19 +484,24 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // System.Double
 struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
 {
 	// System.Double System.Double::m_value
 	double ___m_value_0;
+};
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
 };
 
 // System.Int32
@@ -572,12 +516,6 @@ struct IntPtr_t
 {
 	// System.Void* System.IntPtr::m_value
 	void* ___m_value_0;
-};
-
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
 };
 
 // UnityEngine.Matrix4x4
@@ -617,14 +555,6 @@ struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6
 	float ___m33_15;
 };
 
-struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
-{
-	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::zeroMatrix
-	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix_16;
-	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::identityMatrix
-	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix_17;
-};
-
 // UnityEngine.Quaternion
 struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
 {
@@ -636,12 +566,6 @@ struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974
 	float ___z_2;
 	// System.Single UnityEngine.Quaternion::w
 	float ___w_3;
-};
-
-struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
-{
-	// UnityEngine.Quaternion UnityEngine.Quaternion::identityQuaternion
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion_4;
 };
 
 // UnityEngine.SceneManagement.Scene
@@ -667,26 +591,6 @@ struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7
 	float ___y_1;
 };
 
-struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
-{
-	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector_2;
-	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector_3;
-	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector_4;
-	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector_5;
-	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector_6;
-	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector_7;
-	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector_8;
-	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector_9;
-};
-
 // UnityEngine.Vector3
 struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
 {
@@ -696,30 +600,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2
 	float ___y_3;
 	// System.Single UnityEngine.Vector3::z
 	float ___z_4;
-};
-
-struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
-{
-	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector_5;
-	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector_6;
-	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector_7;
-	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector_8;
-	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector_9;
-	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector_10;
-	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector_11;
-	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector_12;
-	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector_13;
-	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector_14;
 };
 
 // UnityEngine.Vector4
@@ -733,18 +613,6 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3
 	float ___z_3;
 	// System.Single UnityEngine.Vector4::w
 	float ___w_4;
-};
-
-struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
-{
-	// UnityEngine.Vector4 UnityEngine.Vector4::zeroVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector_5;
-	// UnityEngine.Vector4 UnityEngine.Vector4::oneVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector_6;
-	// UnityEngine.Vector4 UnityEngine.Vector4::positiveInfinityVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector_7;
-	// UnityEngine.Vector4 UnityEngine.Vector4::negativeInfinityVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector_8;
 };
 
 // System.Void
@@ -819,28 +687,11 @@ struct __StaticArrayInitTypeSizeU3D5616_t31C81CD497097CF99AC43550D20C76B1194F4A7
 	};
 };
 
-// <PrivateImplementationDetails>
-struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
-{
-};
-
-struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
-{
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=3744 <PrivateImplementationDetails>::3C26DBEA4F3A00A93BA6245C900779C4BC6FE8078C68B59B37E89A77C56FC6F4
-	__StaticArrayInitTypeSizeU3D3744_tB3D344F730FE8AD6CC2C8F409386E5A30E190E61 ___3C26DBEA4F3A00A93BA6245C900779C4BC6FE8078C68B59B37E89A77C56FC6F4_0;
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=5616 <PrivateImplementationDetails>::54763E1C0A2729F5BE9DB328DE238EEF222DEDDD527C81D3A3BCA476652D229B
-	__StaticArrayInitTypeSizeU3D5616_t31C81CD497097CF99AC43550D20C76B1194F4A78 ___54763E1C0A2729F5BE9DB328DE238EEF222DEDDD527C81D3A3BCA476652D229B_1;
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=10776 <PrivateImplementationDetails>::61D350723D2B69332719263ED5F04904F7BAA66B814B21C76C901B621B60FD45
-	__StaticArrayInitTypeSizeU3D10776_tB1BC84BBF1C86F775F6F8956832AA336F06F7278 ___61D350723D2B69332719263ED5F04904F7BAA66B814B21C76C901B621B60FD45_2;
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=264 <PrivateImplementationDetails>::A2854FA141755EE18667BF5BBC20A1943FB09DC712A5F351D93F167D47361F6B
-	__StaticArrayInitTypeSizeU3D264_tC17515967D61CE0AFC7F2F0A7EF7442F4CAC65DA ___A2854FA141755EE18667BF5BBC20A1943FB09DC712A5F351D93F167D47361F6B_3;
-};
-
 // System.Delegate
 struct Delegate_t  : public RuntimeObject
 {
 	// System.IntPtr System.Delegate::method_ptr
-	Il2CppMethodPointer ___method_ptr_0;
+	intptr_t ___method_ptr_0;
 	// System.IntPtr System.Delegate::invoke_impl
 	intptr_t ___invoke_impl_1;
 	// System.Object System.Delegate::m_target
@@ -937,12 +788,6 @@ struct Exception_t  : public RuntimeObject
 	// System.Int32 System.Exception::caught_in_unmanaged
 	int32_t ___caught_in_unmanaged_16;
 };
-
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
 // Native definition for P/Invoke marshalling of System.Exception
 struct Exception_t_marshaled_pinvoke
 {
@@ -990,12 +835,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
 };
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
-};
 // Native definition for P/Invoke marshalling of UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
 {
@@ -1012,6 +851,20 @@ struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5
 {
 	// System.IntPtr System.RuntimeFieldHandle::value
 	intptr_t ___value_0;
+};
+
+// UnityEngine.TextureFormat
+struct TextureFormat_t87A73E4A3850D3410DC211676FC14B94226C1C1D 
+{
+	// System.Int32 UnityEngine.TextureFormat::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.Video.VideoSource
+struct VideoSource_t1BCC79FEDD081663192AC0AD8A74AE78B5C8E291 
+{
+	// System.Int32 UnityEngine.Video.VideoSource::value__
+	int32_t ___value___2;
 };
 
 // UnityEngine.Component
@@ -1059,12 +912,6 @@ struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Excep
 // UnityEngine.Texture
 struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
-};
-
-struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
-{
-	// System.Int32 UnityEngine.Texture::GenerateAllMips
-	int32_t ___GenerateAllMips_4;
 };
 
 // System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<WebARFoundation.FaceTracker>>
@@ -1140,16 +987,6 @@ struct OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6  : public Multica
 // UnityEngine.Camera
 struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
 {
-};
-
-struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
-{
-	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreCull
-	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull_4;
-	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreRender
-	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender_5;
-	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPostRender
-	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender_6;
 };
 
 // UnityEngine.MeshRenderer
@@ -1321,6 +1158,459 @@ struct mostrarCards_t140289E2E9EB0201755D8FD44A0285E70163AFFD  : public MonoBeha
 	// UnityEngine.Camera mostrarCards::cam
 	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam_4;
 };
+
+// <Module>
+
+// <Module>
+
+// System.Collections.Generic.List`1<WebARFoundation.FaceTracker>
+struct List_1_tCCFE3857C7BEC642354121CA8741EA8D50A9BC80_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	FaceTrackerU5BU5D_tEDBCE7BC5F70569F0024EEF12A1AFE1E530AF0C3* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<WebARFoundation.FaceTracker>
+
+// System.Collections.Generic.List`1<WebARFoundation.ImageTracker>
+struct List_1_tBDC1DDCBB97713243E7B7ED4B2DFE09406C5F629_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	ImageTrackerU5BU5D_t5AC72C72CC3FA285EFF7AB4205426F324FDDBA6B* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<WebARFoundation.ImageTracker>
+
+// <PrivateImplementationDetails>
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
+{
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=3744 <PrivateImplementationDetails>::3C26DBEA4F3A00A93BA6245C900779C4BC6FE8078C68B59B37E89A77C56FC6F4
+	__StaticArrayInitTypeSizeU3D3744_tB3D344F730FE8AD6CC2C8F409386E5A30E190E61 ___3C26DBEA4F3A00A93BA6245C900779C4BC6FE8078C68B59B37E89A77C56FC6F4_0;
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=5616 <PrivateImplementationDetails>::54763E1C0A2729F5BE9DB328DE238EEF222DEDDD527C81D3A3BCA476652D229B
+	__StaticArrayInitTypeSizeU3D5616_t31C81CD497097CF99AC43550D20C76B1194F4A78 ___54763E1C0A2729F5BE9DB328DE238EEF222DEDDD527C81D3A3BCA476652D229B_1;
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=10776 <PrivateImplementationDetails>::61D350723D2B69332719263ED5F04904F7BAA66B814B21C76C901B621B60FD45
+	__StaticArrayInitTypeSizeU3D10776_tB1BC84BBF1C86F775F6F8956832AA336F06F7278 ___61D350723D2B69332719263ED5F04904F7BAA66B814B21C76C901B621B60FD45_2;
+	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=264 <PrivateImplementationDetails>::A2854FA141755EE18667BF5BBC20A1943FB09DC712A5F351D93F167D47361F6B
+	__StaticArrayInitTypeSizeU3D264_tC17515967D61CE0AFC7F2F0A7EF7442F4CAC65DA ___A2854FA141755EE18667BF5BBC20A1943FB09DC712A5F351D93F167D47361F6B_3;
+};
+
+// <PrivateImplementationDetails>
+
+// WebARFoundation.FaceMeshGeometry
+struct FaceMeshGeometry_tF36B2552A556112CF0D6BA17C7FB8CAB44928ECE_StaticFields
+{
+	// System.Single[,] WebARFoundation.FaceMeshGeometry::VERTICES
+	SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* ___VERTICES_0;
+	// System.Single[,] WebARFoundation.FaceMeshGeometry::UV
+	SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* ___UV_1;
+	// System.Int32[] WebARFoundation.FaceMeshGeometry::FACES
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___FACES_2;
+	// System.Single[,] WebARFoundation.FaceMeshGeometry::LANDMARK_BASIS
+	SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* ___LANDMARK_BASIS_3;
+};
+
+// WebARFoundation.FaceMeshGeometry
+
+// WebARFoundation.MindARFacePlugin
+struct MindARFacePlugin_tAE21E3CC0976AFAF3C1B40F80A1E604258D2FC28_StaticFields
+{
+	// System.Action WebARFoundation.MindARFacePlugin::onARReadyAction
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onARReadyAction_0;
+	// System.Action WebARFoundation.MindARFacePlugin::onCameraConfigChangeAction
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onCameraConfigChangeAction_1;
+	// WebARFoundation.MindARFacePlugin/OnARUpdateEvent WebARFoundation.MindARFacePlugin::onARUpdateAction
+	OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* ___onARUpdateAction_2;
+};
+
+// WebARFoundation.MindARFacePlugin
+
+// WebARFoundation.MindARImagePlugin
+struct MindARImagePlugin_t69A973A8091EA0C38B72EBC1B936D075F3457997_StaticFields
+{
+	// System.Action WebARFoundation.MindARImagePlugin::onARReadyAction
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onARReadyAction_0;
+	// System.Action WebARFoundation.MindARImagePlugin::onCameraConfigChangeAction
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onCameraConfigChangeAction_1;
+	// WebARFoundation.MindARImagePlugin/OnARUpdateEvent WebARFoundation.MindARImagePlugin::onARUpdateAction
+	OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* ___onARUpdateAction_2;
+};
+
+// WebARFoundation.MindARImagePlugin
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// WebARFoundation.Utils
+
+// WebARFoundation.Utils
+
+// WebARFoundation.MindARFacePlugin/Native
+
+// WebARFoundation.MindARFacePlugin/Native
+
+// WebARFoundation.MindARFaceTrackingManager/<>c
+struct U3CU3Ec_t4BEF44D246CE0E5716609FE46BEAC53B2DF4D16A_StaticFields
+{
+	// WebARFoundation.MindARFaceTrackingManager/<>c WebARFoundation.MindARFaceTrackingManager/<>c::<>9
+	U3CU3Ec_t4BEF44D246CE0E5716609FE46BEAC53B2DF4D16A* ___U3CU3E9_0;
+	// System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<WebARFoundation.FaceTracker>> WebARFoundation.MindARFaceTrackingManager/<>c::<>9__16_0
+	Func_2_t8C54345EB4D4E3C85E84AD4E8067542EE487A2D5* ___U3CU3E9__16_0_1;
+};
+
+// WebARFoundation.MindARFaceTrackingManager/<>c
+
+// WebARFoundation.MindARImagePlugin/Native
+
+// WebARFoundation.MindARImagePlugin/Native
+
+// WebARFoundation.MindARImageTrackingManager/<>c
+struct U3CU3Ec_t2976F8A5B74ED8E9B602FD6D687410FDC0EBFE62_StaticFields
+{
+	// WebARFoundation.MindARImageTrackingManager/<>c WebARFoundation.MindARImageTrackingManager/<>c::<>9
+	U3CU3Ec_t2976F8A5B74ED8E9B602FD6D687410FDC0EBFE62* ___U3CU3E9_0;
+	// System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<WebARFoundation.ImageTracker>> WebARFoundation.MindARImageTrackingManager/<>c::<>9__19_0
+	Func_2_tDA9936D322E661EBE487B1A9C086C4A598E15B3E* ___U3CU3E9__19_0_1;
+};
+
+// WebARFoundation.MindARImageTrackingManager/<>c
+
+// System.Collections.Generic.List`1/Enumerator<WebARFoundation.FaceTracker>
+
+// System.Collections.Generic.List`1/Enumerator<WebARFoundation.FaceTracker>
+
+// System.Collections.Generic.List`1/Enumerator<WebARFoundation.ImageTracker>
+
+// System.Collections.Generic.List`1/Enumerator<WebARFoundation.ImageTracker>
+
+// System.Collections.Generic.List`1/Enumerator<System.Object>
+
+// System.Collections.Generic.List`1/Enumerator<System.Object>
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.Double
+
+// System.Double
+
+// System.Int32
+
+// System.Int32
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// UnityEngine.Matrix4x4
+struct Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_StaticFields
+{
+	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::zeroMatrix
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___zeroMatrix_16;
+	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::identityMatrix
+	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___identityMatrix_17;
+};
+
+// UnityEngine.Matrix4x4
+
+// UnityEngine.Quaternion
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	// UnityEngine.Quaternion UnityEngine.Quaternion::identityQuaternion
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion_4;
+};
+
+// UnityEngine.Quaternion
+
+// UnityEngine.SceneManagement.Scene
+
+// UnityEngine.SceneManagement.Scene
+
+// System.Single
+
+// System.Single
+
+// UnityEngine.Vector2
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector_2;
+	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector_3;
+	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector_4;
+	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector_5;
+	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector_6;
+	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector_7;
+	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector_8;
+	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector_9;
+};
+
+// UnityEngine.Vector2
+
+// UnityEngine.Vector3
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector_5;
+	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector_6;
+	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector_7;
+	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector_8;
+	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector_9;
+	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector_10;
+	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector_11;
+	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector_12;
+	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector_13;
+	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector_14;
+};
+
+// UnityEngine.Vector3
+
+// UnityEngine.Vector4
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
+{
+	// UnityEngine.Vector4 UnityEngine.Vector4::zeroVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector_5;
+	// UnityEngine.Vector4 UnityEngine.Vector4::oneVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector_6;
+	// UnityEngine.Vector4 UnityEngine.Vector4::positiveInfinityVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector_7;
+	// UnityEngine.Vector4 UnityEngine.Vector4::negativeInfinityVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector_8;
+};
+
+// UnityEngine.Vector4
+
+// System.Void
+
+// System.Void
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=10776
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=10776
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=264
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=264
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=3744
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=3744
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=5616
+
+// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=5616
+
+// System.Delegate
+
+// System.Delegate
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// System.RuntimeFieldHandle
+
+// System.RuntimeFieldHandle
+
+// UnityEngine.TextureFormat
+
+// UnityEngine.TextureFormat
+
+// UnityEngine.Video.VideoSource
+
+// UnityEngine.Video.VideoSource
+
+// UnityEngine.Component
+
+// UnityEngine.Component
+
+// UnityEngine.GameObject
+
+// UnityEngine.GameObject
+
+// UnityEngine.Material
+
+// UnityEngine.Material
+
+// UnityEngine.Mesh
+
+// UnityEngine.Mesh
+
+// UnityEngine.Texture
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
+{
+	// System.Int32 UnityEngine.Texture::GenerateAllMips
+	int32_t ___GenerateAllMips_4;
+};
+
+// UnityEngine.Texture
+
+// System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<WebARFoundation.FaceTracker>>
+
+// System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<WebARFoundation.FaceTracker>>
+
+// System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<WebARFoundation.ImageTracker>>
+
+// System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<WebARFoundation.ImageTracker>>
+
+// System.Action
+
+// System.Action
+
+// System.AsyncCallback
+
+// System.AsyncCallback
+
+// System.IndexOutOfRangeException
+
+// System.IndexOutOfRangeException
+
+// UnityEngine.MeshFilter
+
+// UnityEngine.MeshFilter
+
+// UnityEngine.Renderer
+
+// UnityEngine.Renderer
+
+// UnityEngine.Texture2D
+
+// UnityEngine.Texture2D
+
+// UnityEngine.Transform
+
+// UnityEngine.Transform
+
+// WebARFoundation.MindARFacePlugin/OnARUpdateEvent
+
+// WebARFoundation.MindARFacePlugin/OnARUpdateEvent
+
+// WebARFoundation.MindARFaceTrackingManager/OnTargetEvent
+
+// WebARFoundation.MindARFaceTrackingManager/OnTargetEvent
+
+// WebARFoundation.MindARImagePlugin/OnARUpdateEvent
+
+// WebARFoundation.MindARImagePlugin/OnARUpdateEvent
+
+// WebARFoundation.MindARImageTrackingManager/OnTargetEvent
+
+// WebARFoundation.MindARImageTrackingManager/OnTargetEvent
+
+// UnityEngine.Camera
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreCull
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull_4;
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreRender
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender_5;
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPostRender
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender_6;
+};
+
+// UnityEngine.Camera
+
+// UnityEngine.MeshRenderer
+
+// UnityEngine.MeshRenderer
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.Video.VideoPlayer
+
+// UnityEngine.Video.VideoPlayer
+
+// WebARFoundation.ARCamera
+
+// WebARFoundation.ARCamera
+
+// ActivateObject
+
+// ActivateObject
+
+// ButtonMeetMe
+
+// ButtonMeetMe
+
+// WebARFoundation.FaceMesh
+
+// WebARFoundation.FaceMesh
+
+// WebARFoundation.FaceTracker
+
+// WebARFoundation.FaceTracker
+
+// WebARFoundation.ImageTracker
+
+// WebARFoundation.ImageTracker
+
+// WebARFoundation.MindARFaceTrackingManager
+
+// WebARFoundation.MindARFaceTrackingManager
+
+// WebARFoundation.MindARImageTrackingManager
+
+// WebARFoundation.MindARImageTrackingManager
+
+// WebARFoundation.SampleFaceTrackingMyController
+
+// WebARFoundation.SampleFaceTrackingMyController
+
+// WebARFoundation.SampleImageTrackingMyController
+
+// WebARFoundation.SampleImageTrackingMyController
+
+// ToggleObjects
+
+// ToggleObjects
+
+// VideoController
+
+// VideoController
+
+// mostrarCards
+
+// mostrarCards
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -1722,11 +2012,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRunt
 // T UnityEngine.Component::GetComponentInChildren<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.Void System.Func`2<System.Object,System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::SelectMany<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Collections.Generic.IEnumerable`1<TResult>>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_SelectMany_TisRuntimeObject_TisRuntimeObject_mC89216034DEE8779F1AC2D0A984C0ADE855BED00_gshared (RuntimeObject* ___source0, Func_2_t9F45EF9F857977243C345F24571962D2521DB4A1* ___selector1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_SelectMany_TisRuntimeObject_TisRuntimeObject_mC89216034DEE8779F1AC2D0A984C0ADE855BED00_gshared (RuntimeObject* ___0_source, Func_2_t9F45EF9F857977243C345F24571962D2521DB4A1* ___1_selector, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1<TSource> System.Linq.Enumerable::ToList<System.Object>(System.Collections.Generic.IEnumerable`1<TSource>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* Enumerable_ToList_TisRuntimeObject_m6456D63764F29E6B5B2422C3DE25113577CF51EE_gshared (RuntimeObject* ___source0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* Enumerable_ToList_TisRuntimeObject_m6456D63764F29E6B5B2422C3DE25113577CF51EE_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.Object>::GetEnumerator()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1/Enumerator<System.Object>::Dispose()
@@ -1741,13 +2031,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922F
 // UnityEngine.GameObject UnityEngine.GameObject::get_gameObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_get_gameObject_m0878015B8CF7F5D432B583C187725810D27B57DC (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.GameObject::SetActive(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Application::OpenURL(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_OpenURL_mE748FA4D503715DEE12BCA4BDD8A5305AE41DB89 (String_t* ___url0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_OpenURL_mE748FA4D503715DEE12BCA4BDD8A5305AE41DB89 (String_t* ___0_url, const RuntimeMethod* method) ;
 // UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300 (String_t* ___name0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300 (String_t* ___0_name, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::GetComponent<UnityEngine.Camera>()
 inline Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* GameObject_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m3B3C11550E48AA36AFF82788636EB163CC51FEE6 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
@@ -1756,16 +2046,16 @@ inline Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* GameObject_GetComponent
 // UnityEngine.Transform UnityEngine.Component::get_transform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::LookAt(UnityEngine.Transform)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_LookAt_mA8567593181FD78BBDC2AF29AD99F93BDB2976B2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___target0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_LookAt_mA8567593181FD78BBDC2AF29AD99F93BDB2976B2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_target, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::GetComponent<UnityEngine.Video.VideoPlayer>()
 inline VideoPlayer_t48EA4A8117B822BC59590150DED9AD46C62F65D3* GameObject_GetComponent_TisVideoPlayer_t48EA4A8117B822BC59590150DED9AD46C62F65D3_m9BBCE64E708CE9AE201EDB598EBD30D79A145451 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
 	return ((  VideoPlayer_t48EA4A8117B822BC59590150DED9AD46C62F65D3* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
 }
 // System.Void UnityEngine.Video.VideoPlayer::set_source(UnityEngine.Video.VideoSource)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_set_source_m31B8A16AF9B6FE58D5DCF549614BE6B53DE53052 (VideoPlayer_t48EA4A8117B822BC59590150DED9AD46C62F65D3* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_set_source_m31B8A16AF9B6FE58D5DCF549614BE6B53DE53052 (VideoPlayer_t48EA4A8117B822BC59590150DED9AD46C62F65D3* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Video.VideoPlayer::set_url(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_set_url_m02AC2BB229F9441257D62F9ACFD96D09F51B4F14 (VideoPlayer_t48EA4A8117B822BC59590150DED9AD46C62F65D3* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_set_url_m02AC2BB229F9441257D62F9ACFD96D09F51B4F14 (VideoPlayer_t48EA4A8117B822BC59590150DED9AD46C62F65D3* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Video.VideoPlayer::Prepare()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_Prepare_mC0EF4CC2E5A6B7C04F9F810DD9406A6146BEE6EA (VideoPlayer_t48EA4A8117B822BC59590150DED9AD46C62F65D3* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Video.VideoPlayer::Play()
@@ -1779,33 +2069,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_OnARReady_mD78900195684
 // System.Void WebARFoundation.MindARFacePlugin::OnCameraConfigChange()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_OnCameraConfigChange_mD5C9CC09EA58176B701C5FC53388FD3436D9D52E (const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin::OnARUpdate(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_OnARUpdate_m585555BA6807A6B136BA3DD69427D2AD85FD4A08 (int32_t ___isFound0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_OnARUpdate_m585555BA6807A6B136BA3DD69427D2AD85FD4A08 (int32_t ___0_isFound, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
 // System.Void System.Action::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin/OnARUpdateEvent::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent__ctor_m88854A9417A632EC8286E08AC603D24B9A8F4887 (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent__ctor_m88854A9417A632EC8286E08AC603D24B9A8F4887 (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin/Native::MindARFace_SetCallbacks(System.Action,System.Action,WebARFoundation.MindARFacePlugin/OnARUpdateEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetCallbacks_m1B70F81653E8B6462299EF99A8D2EDB396FCC7C1 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onARReady0, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onCameraConfigChange1, OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* ___onARUpdate2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetCallbacks_m1B70F81653E8B6462299EF99A8D2EDB396FCC7C1 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_onARReady, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_onCameraConfigChange, OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* ___2_onARUpdate, const RuntimeMethod* method) ;
 // System.Void System.Action::Invoke()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin/OnARUpdateEvent::Invoke(System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_inline (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___isFound0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_inline (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___0_isFound, const RuntimeMethod* method) ;
 // System.IntPtr UnityEngine.Texture::GetNativeTexturePtr()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Texture_GetNativeTexturePtr_mD3019CC9461338665885D431B86C03D3063867EE (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* __this, const RuntimeMethod* method) ;
 // System.Int32 System.IntPtr::op_Explicit(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntPtr_op_Explicit_mC33775570B5AC86421DABA8F8B9885DBFF49B02F (intptr_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IntPtr_op_Explicit_mC33775570B5AC86421DABA8F8B9885DBFF49B02F (intptr_t ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin/Native::MindARFace_TextureUpdate(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_TextureUpdate_mD755F3A47BC68BCDDF0FDDA5327D9D31C1C4F258 (int32_t ___texture0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_TextureUpdate_mD755F3A47BC68BCDDF0FDDA5327D9D31C1C4F258 (int32_t ___0_texture, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin/Native::MindARFace_SetFilterMinCF(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetFilterMinCF_mB6E80A2882FB7D498A2F091D9C55C6388E5B21A5 (float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetFilterMinCF_mB6E80A2882FB7D498A2F091D9C55C6388E5B21A5 (float ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin/Native::MindARFace_SetFilterBeta(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetFilterBeta_m4413501BADDD7E71C0C8947B9643294314062B73 (float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetFilterBeta_m4413501BADDD7E71C0C8947B9643294314062B73 (float ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin/Native::MindARFace_SetIsFacingUser(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetIsFacingUser_m2B694CA851F4B9BEA63956E35F537085EADFC362 (bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetIsFacingUser_m2B694CA851F4B9BEA63956E35F537085EADFC362 (bool ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin/Native::MindARFace_StartAR()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_StartAR_m0C2DD17843F23C194453BC758ECC2761919A389D (const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin/Native::MindARFace_StopAR()
@@ -1819,39 +2109,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_MindARFace_GetVideoHeight_mED1
 // System.IntPtr WebARFoundation.MindARFacePlugin/Native::MindARFace_GetCameraParamsPtr()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_MindARFace_GetCameraParamsPtr_mB5F830E7B2312716994EB575455C0CDFEFE849D5 (const RuntimeMethod* method) ;
 // System.Void System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Single[],System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_Copy_m4744F803E7E605726758725D11D157455BD43775 (intptr_t ___source0, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___destination1, int32_t ___startIndex2, int32_t ___length3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marshal_Copy_m4744F803E7E605726758725D11D157455BD43775 (intptr_t ___0_source, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_destination, int32_t ___2_startIndex, int32_t ___3_length, const RuntimeMethod* method) ;
 // System.IntPtr WebARFoundation.MindARFacePlugin/Native::MindARFace_GetFaceMeshMatrixPtr()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_MindARFace_GetFaceMeshMatrixPtr_mE86F9F4D273EE780620828BEA4747196C748AB45 (const RuntimeMethod* method) ;
 // System.IntPtr WebARFoundation.MindARFacePlugin/Native::MindARFace_GetFaceMeshVerticesPtr()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_MindARFace_GetFaceMeshVerticesPtr_m742439D2AE190A1A4CB3DCF337E80C10690255EC (const RuntimeMethod* method) ;
 // System.Int32 System.Array::GetLength(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_GetLength_mFE7A9FE891DE1E07795230BE09854441CDD0E935 (RuntimeArray* __this, int32_t ___dimension0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_GetLength_mFE7A9FE891DE1E07795230BE09854441CDD0E935 (RuntimeArray* __this, int32_t ___0_dimension, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin::OnARReady()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_OnARReady_m1C9C95FAEDB3BED37AFF4B3A212A7A35D8E620C3 (const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin::OnCameraConfigChange()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_OnCameraConfigChange_mAD21B5440BADF45BF232E6CE1871EB2392530686 (const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin::OnARUpdate(System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_OnARUpdate_m3F77BF2A2B10EBE30AA22EB63D477F3250FAC5C7 (int32_t ___targetIndex0, int32_t ___isFound1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_OnARUpdate_m3F77BF2A2B10EBE30AA22EB63D477F3250FAC5C7 (int32_t ___0_targetIndex, int32_t ___1_isFound, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin/OnARUpdateEvent::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent__ctor_mC6C3D6B09C07DFB582961685175381909D847B43 (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent__ctor_mC6C3D6B09C07DFB582961685175381909D847B43 (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_SetCallbacks(System.Action,System.Action,WebARFoundation.MindARImagePlugin/OnARUpdateEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetCallbacks_m25509A358CF35F5A07069375FE8CB3785122473C (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onARReady0, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onCameraConfigChange1, OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* ___onARUpdate2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetCallbacks_m25509A358CF35F5A07069375FE8CB3785122473C (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_onARReady, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_onCameraConfigChange, OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* ___2_onARUpdate, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin/OnARUpdateEvent::Invoke(System.Int32,System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_inline (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___targetIndex0, int32_t ___isFound1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_inline (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___0_targetIndex, int32_t ___1_isFound, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_TextureUpdate(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_TextureUpdate_m5FF619E5D1D2BFA2C9FA861D77981078DF38B422 (int32_t ___texture0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_TextureUpdate_m5FF619E5D1D2BFA2C9FA861D77981078DF38B422 (int32_t ___0_texture, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_SetMindFilePath(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetMindFilePath_m7C8E019C2A4BE004857F298B9ED7A28E887D3751 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetMindFilePath_m7C8E019C2A4BE004857F298B9ED7A28E887D3751 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_SetMaxTrack(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetMaxTrack_m88D2279C2BA2EE6ED438B83A6A99A0FAB19BAF60 (float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetMaxTrack_m88D2279C2BA2EE6ED438B83A6A99A0FAB19BAF60 (float ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_SetFilterMinCF(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetFilterMinCF_mAD16AAEDB880E0EB2E5479DB68728EADA2E3ADEF (float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetFilterMinCF_mAD16AAEDB880E0EB2E5479DB68728EADA2E3ADEF (float ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_SetFilterBeta(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetFilterBeta_m61ED456172BF90530FF2DF61228F03D735B8CB45 (float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetFilterBeta_m61ED456172BF90530FF2DF61228F03D735B8CB45 (float ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_SetIsFacingUser(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetIsFacingUser_mB28F169227467DED7827B28649F46DDE551833BA (bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetIsFacingUser_mB28F169227467DED7827B28649F46DDE551833BA (bool ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_StartAR()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_StartAR_mBBE833C21CAE7D439CFACE4F101DBE2294F3CE49 (const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_StopAR()
@@ -1865,15 +2155,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_MindARImage_GetVideoHeight_mC9
 // System.Int32 WebARFoundation.MindARImagePlugin/Native::MindARImage_GetNumTargets()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_MindARImage_GetNumTargets_m7A4D56D5E6FB54E3E2CF0E4BCEC2F7F97AB5A43C (const RuntimeMethod* method) ;
 // System.Int32 WebARFoundation.MindARImagePlugin/Native::MindARImage_GetTargetWidth(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_MindARImage_GetTargetWidth_m64E3E62CB38CC11764AFEFE34B1E93AA46480941 (int32_t ___targetIndex0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_MindARImage_GetTargetWidth_m64E3E62CB38CC11764AFEFE34B1E93AA46480941 (int32_t ___0_targetIndex, const RuntimeMethod* method) ;
 // System.Int32 WebARFoundation.MindARImagePlugin/Native::MindARImage_GetTargetHeight(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_MindARImage_GetTargetHeight_mE7B5589E558B0984BEF2B70864FDE3D6E0675950 (int32_t ___targetIndex0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_MindARImage_GetTargetHeight_mE7B5589E558B0984BEF2B70864FDE3D6E0675950 (int32_t ___0_targetIndex, const RuntimeMethod* method) ;
 // System.IntPtr WebARFoundation.MindARImagePlugin/Native::MindARImage_GetCameraParamsPtr()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_MindARImage_GetCameraParamsPtr_mA44F809E26AD37F376098FD77B86FE9A1FBFB9AE (const RuntimeMethod* method) ;
 // System.IntPtr WebARFoundation.MindARImagePlugin/Native::MindARImage_GetTargetWorldMatrixPtr(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_MindARImage_GetTargetWorldMatrixPtr_m61DF3FE53BC4932922E0C7010E4FA7D2B47FBB12 (int32_t ___targetIndex0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_MindARImage_GetTargetWorldMatrixPtr_m61DF3FE53BC4932922E0C7010E4FA7D2B47FBB12 (int32_t ___0_targetIndex, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Texture2D::.ctor(System.Int32,System.Int32,UnityEngine.TextureFormat,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D__ctor_mECF60A9EC0638EC353C02C8E99B6B465D23BE917 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, int32_t ___width0, int32_t ___height1, int32_t ___textureFormat2, bool ___mipChain3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D__ctor_mECF60A9EC0638EC353C02C8E99B6B465D23BE917 (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* __this, int32_t ___0_width, int32_t ___1_height, int32_t ___2_textureFormat, bool ___3_mipChain, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::GetComponent<UnityEngine.MeshRenderer>()
 inline MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* GameObject_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m7FF948365C38BC39333D82B235A7C4EAD219960D (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
@@ -1882,15 +2172,15 @@ inline MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* GameObject_GetCom
 // UnityEngine.Material UnityEngine.Renderer::get_material()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* Renderer_get_material_m5BA2A00816C4CC66580D4B2E409CF10718C15656 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Material::set_mainTexture(UnityEngine.Texture)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_mainTexture_m389E048BA9C81B603EBF36BD792212B296317AC0 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_mainTexture_m389E048BA9C81B603EBF36BD792212B296317AC0 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector2::.ctor(System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___x0, float ___y1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Material::set_mainTextureScale(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_mainTextureScale_mABC2B4327CCDC6BB0E0EA72C6F29817400F56EF1 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_mainTextureScale_mABC2B4327CCDC6BB0E0EA72C6F29817400F56EF1 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Material::set_mainTextureOffset(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_mainTextureOffset_m87C139F275814719F9A10709C34E2132DFEB7A12 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_mainTextureOffset_m87C139F275814719F9A10709C34E2132DFEB7A12 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Vector2::get_Item(System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Screen::get_width()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9 (const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Screen::get_height()
@@ -1903,23 +2193,23 @@ inline Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Component_GetComponent_
 	return ((  Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
 // System.Void UnityEngine.Camera::set_farClipPlane(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_farClipPlane_m84EF39B09573168734613481FD979BFF31C60139 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_farClipPlane_m84EF39B09573168734613481FD979BFF31C60139 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, float ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Camera::set_nearClipPlane(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_nearClipPlane_m78482B5E4E0CE4C195D9CE0332AA75B2D9CCDDF6 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_nearClipPlane_m78482B5E4E0CE4C195D9CE0332AA75B2D9CCDDF6 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, float ___0_value, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Camera::get_farClipPlane()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Camera_get_farClipPlane_m1D7128B85B5DB866F75FBE8CEBA48335716B67BD (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Camera::set_fieldOfView(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_fieldOfView_m5AA9EED4D1603A1DEDBF883D9C42814B2BDEB777 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Camera_set_fieldOfView_m5AA9EED4D1603A1DEDBF883D9C42814B2BDEB777 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, float ___0_value, const RuntimeMethod* method) ;
 // UnityEngine.Transform UnityEngine.GameObject::get_transform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::set_localPosition(UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::set_localScale(UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.FaceMesh::GenerateMesh()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceMesh_GenerateMesh_m85FF02295FAF71BD9BB3FBFF9A51D1D230E761BC (FaceMesh_tCD3427E7ABB571BE74614B6422CDFB0C5FCEE918* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::set_localRotation(UnityEngine.Quaternion)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.MeshFilter>()
 inline MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -1928,52 +2218,52 @@ inline MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* Component_GetCompon
 // UnityEngine.Mesh UnityEngine.MeshFilter::get_mesh()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* MeshFilter_get_mesh_m13172D7EF6682861971817D0A47EE2BE49FBCB1C (MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Mesh::set_vertices(UnityEngine.Vector3[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Mesh::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Object::set_name(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m5F87930F9B0828E5652E2D9D01ED907C01122C86_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m5F87930F9B0828E5652E2D9D01ED907C01122C86_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 UnityEngine.Vector2::op_Implicit(UnityEngine.Vector3)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___v0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Mesh::set_uv(UnityEngine.Vector2[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Mesh::set_triangles(System.Int32[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_triangles_m124405320579A8D92711BB5A124644963A26F60B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MeshFilter::set_mesh(UnityEngine.Mesh)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshFilter_set_mesh_mD2988E2D835205FD6B6CD35A61E1592844D971F8 (MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshFilter_set_mesh_mD2988E2D835205FD6B6CD35A61E1592844D971F8 (MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray(System.Array,System.RuntimeFieldHandle)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___array0, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___fldHandle1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponentInChildren<WebARFoundation.ARCamera>()
 inline ARCamera_t7270A834743B1CB966F161ED49C1882BF71FEC5B* Component_GetComponentInChildren_TisARCamera_t7270A834743B1CB966F161ED49C1882BF71FEC5B_mDCEFE4ED4E118A59BE90171DDB76130F26E85B41 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  ARCamera_t7270A834743B1CB966F161ED49C1882BF71FEC5B* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared)(__this, method);
 }
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogError(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // UnityEngine.SceneManagement.Scene UnityEngine.SceneManagement.SceneManager::GetActiveScene()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8 (const RuntimeMethod* method) ;
 // UnityEngine.GameObject[] UnityEngine.SceneManagement.Scene::GetRootGameObjects()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* Scene_GetRootGameObjects_mFDE0BF9EA926F30EC9AE71F33E0AE4D5D4EC5C5B (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
 // System.Void System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<WebARFoundation.FaceTracker>>::.ctor(System.Object,System.IntPtr)
-inline void Func_2__ctor_m8E6FD5A26C4361814141DA9EF79DC337F409D130 (Func_2_t8C54345EB4D4E3C85E84AD4E8067542EE487A2D5* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Func_2__ctor_m8E6FD5A26C4361814141DA9EF79DC337F409D130 (Func_2_t8C54345EB4D4E3C85E84AD4E8067542EE487A2D5* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Func_2_t8C54345EB4D4E3C85E84AD4E8067542EE487A2D5*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_2_t8C54345EB4D4E3C85E84AD4E8067542EE487A2D5*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::SelectMany<UnityEngine.GameObject,WebARFoundation.FaceTracker>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Collections.Generic.IEnumerable`1<TResult>>)
-inline RuntimeObject* Enumerable_SelectMany_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_TisFaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A_m7472E4C0672F8A7599AD8125E54CAD2EAA9F3160 (RuntimeObject* ___source0, Func_2_t8C54345EB4D4E3C85E84AD4E8067542EE487A2D5* ___selector1, const RuntimeMethod* method)
+inline RuntimeObject* Enumerable_SelectMany_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_TisFaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A_m7472E4C0672F8A7599AD8125E54CAD2EAA9F3160 (RuntimeObject* ___0_source, Func_2_t8C54345EB4D4E3C85E84AD4E8067542EE487A2D5* ___1_selector, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t8C54345EB4D4E3C85E84AD4E8067542EE487A2D5*, const RuntimeMethod*))Enumerable_SelectMany_TisRuntimeObject_TisRuntimeObject_mC89216034DEE8779F1AC2D0A984C0ADE855BED00_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_t8C54345EB4D4E3C85E84AD4E8067542EE487A2D5*, const RuntimeMethod*))Enumerable_SelectMany_TisRuntimeObject_TisRuntimeObject_mC89216034DEE8779F1AC2D0A984C0ADE855BED00_gshared)(___0_source, ___1_selector, method);
 }
 // System.Collections.Generic.List`1<TSource> System.Linq.Enumerable::ToList<WebARFoundation.FaceTracker>(System.Collections.Generic.IEnumerable`1<TSource>)
-inline List_1_tCCFE3857C7BEC642354121CA8741EA8D50A9BC80* Enumerable_ToList_TisFaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A_m5108BBDF3F3C5B5719FCF9365C58E4F6AEC0CF30 (RuntimeObject* ___source0, const RuntimeMethod* method)
+inline List_1_tCCFE3857C7BEC642354121CA8741EA8D50A9BC80* Enumerable_ToList_TisFaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A_m5108BBDF3F3C5B5719FCF9365C58E4F6AEC0CF30 (RuntimeObject* ___0_source, const RuntimeMethod* method)
 {
-	return ((  List_1_tCCFE3857C7BEC642354121CA8741EA8D50A9BC80* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToList_TisRuntimeObject_m6456D63764F29E6B5B2422C3DE25113577CF51EE_gshared)(___source0, method);
+	return ((  List_1_tCCFE3857C7BEC642354121CA8741EA8D50A9BC80* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToList_TisRuntimeObject_m6456D63764F29E6B5B2422C3DE25113577CF51EE_gshared)(___0_source, method);
 }
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<WebARFoundation.FaceTracker>::GetEnumerator()
 inline Enumerator_t1014EC42A786ECC6EB55F3D09A2CBBBEE79A383E List_1_GetEnumerator_mA54AA161A2E80E9F418A1918752312D3D02F8200 (List_1_tCCFE3857C7BEC642354121CA8741EA8D50A9BC80* __this, const RuntimeMethod* method)
@@ -1998,21 +2288,21 @@ inline bool Enumerator_MoveNext_m086FFBD3345C0510760D311B68A845D5EBC553DD (Enume
 	return ((  bool (*) (Enumerator_t1014EC42A786ECC6EB55F3D09A2CBBBEE79A383E*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
 }
 // System.Void WebARFoundation.MindARFacePlugin::add_onARReadyAction(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_add_onARReadyAction_m4F8C19F108FF4B529B5786C9F53C5366BA22CA72 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_add_onARReadyAction_m4F8C19F108FF4B529B5786C9F53C5366BA22CA72 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin::add_onARUpdateAction(WebARFoundation.MindARFacePlugin/OnARUpdateEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_add_onARUpdateAction_m14D0B254E4AA70FFC00E5F861DFCBF0AC3434AEA (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_add_onARUpdateAction_m14D0B254E4AA70FFC00E5F861DFCBF0AC3434AEA (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin::add_onCameraConfigChangeAction(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_add_onCameraConfigChangeAction_m5F058CB84F3C7A3BED613971DF9B772FA453AD0A (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_add_onCameraConfigChangeAction_m5F058CB84F3C7A3BED613971DF9B772FA453AD0A (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFaceTrackingManager::StartAR()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_StartAR_m645C903F9EF2A4157746923C9D2AC47297564007 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFaceTrackingManager::StopAR()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_StopAR_m3BEC686BF9FA09B7EF927514E1CA4B43BE2CD44F (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin::SetIsFacingUser(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_SetIsFacingUser_mA9B647D3EC05268275550BBBF4B8C3E5ED16F33D (bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_SetIsFacingUser_mA9B647D3EC05268275550BBBF4B8C3E5ED16F33D (bool ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin::SetFilterMinCF(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_SetFilterMinCF_m90C878D847A955AC68492A3818187EE5889FEF5D (float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_SetFilterMinCF_m90C878D847A955AC68492A3818187EE5889FEF5D (float ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin::SetFilterBeta(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_SetFilterBeta_m62F42EF3322779E53212CE4E44168C9476C5CE15 (float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_SetFilterBeta_m62F42EF3322779E53212CE4E44168C9476C5CE15 (float ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin::StartAR()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_StartAR_m58F72B8EED665BC47C8F87DE15D35D0B76D9FEEA (const RuntimeMethod* method) ;
 // System.Boolean WebARFoundation.MindARFacePlugin::IsRunning()
@@ -2026,38 +2316,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MindARFacePlugin_GetVideoHeight_mA65F
 // System.Single[] WebARFoundation.MindARFacePlugin::GetCameraParams()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* MindARFacePlugin_GetCameraParams_mCD0F1E41F3504E7578B7FBF91128C0CC5FFF7FA0 (const RuntimeMethod* method) ;
 // System.Void WebARFoundation.ARCamera::UpdateCameraConfig(System.Int32,System.Int32,System.Single,System.Single,System.Single,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCamera_UpdateCameraConfig_m12384980C46CB594DD7145FDFF59C309F331E217 (ARCamera_t7270A834743B1CB966F161ED49C1882BF71FEC5B* __this, int32_t ___videoWidth0, int32_t ___videoHeight1, float ___fov2, float ___near3, float ___far4, bool ___facingUser5, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCamera_UpdateCameraConfig_m12384980C46CB594DD7145FDFF59C309F331E217 (ARCamera_t7270A834743B1CB966F161ED49C1882BF71FEC5B* __this, int32_t ___0_videoWidth, int32_t ___1_videoHeight, float ___2_fov, float ___3_near, float ___4_far, bool ___5_facingUser, const RuntimeMethod* method) ;
 // UnityEngine.Texture WebARFoundation.ARCamera::GetWebCamTexture()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ARCamera_GetWebCamTexture_mE9FB07D84CDD60E23665168FA7E36CD2B3CBAFCB_inline (ARCamera_t7270A834743B1CB966F161ED49C1882BF71FEC5B* __this, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFacePlugin::BindVideoTexture(UnityEngine.Texture)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_BindVideoTexture_m86D20D7E094269A11772294A26B30621CB70D8D9 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___texture0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_BindVideoTexture_m86D20D7E094269A11772294A26B30621CB70D8D9 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_texture, const RuntimeMethod* method) ;
 // System.Single[] WebARFoundation.MindARFacePlugin::GetFaceMeshMatrix()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* MindARFacePlugin_GetFaceMeshMatrix_m2194EA38F00BE1F9F0688FB1CC95C289A619FB86 (const RuntimeMethod* method) ;
 // UnityEngine.Vector3[] WebARFoundation.MindARFacePlugin::GetFaceMeshVertices()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* MindARFacePlugin_GetFaceMeshVertices_m6CF057657FA897238AA4BF3F811728E77ADBC951 (const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFaceTrackingManager::UpdateTargetPose(WebARFoundation.FaceTracker,System.Single[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_UpdateTargetPose_m2850709D62E7CF130D37AE02769BC4E025EF9252 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, FaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A* ___faceTracker0, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___preprocessedMatrixArray1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_UpdateTargetPose_m2850709D62E7CF130D37AE02769BC4E025EF9252 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, FaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A* ___0_faceTracker, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_preprocessedMatrixArray, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponentInChildren<WebARFoundation.FaceMesh>()
 inline FaceMesh_tCD3427E7ABB571BE74614B6422CDFB0C5FCEE918* Component_GetComponentInChildren_TisFaceMesh_tCD3427E7ABB571BE74614B6422CDFB0C5FCEE918_m108C83EC40E2DF79D8EAE6DF417B50E94163A58D (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
 	return ((  FaceMesh_tCD3427E7ABB571BE74614B6422CDFB0C5FCEE918* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared)(__this, method);
 }
 // System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___exists0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.FaceMesh::UpdateGeometry(UnityEngine.Vector3[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceMesh_UpdateGeometry_m06E3F72DAE082FEAA4679AA8E3B2035B9BC6D48C (FaceMesh_tCD3427E7ABB571BE74614B6422CDFB0C5FCEE918* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___vertices0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceMesh_UpdateGeometry_m06E3F72DAE082FEAA4679AA8E3B2035B9BC6D48C (FaceMesh_tCD3427E7ABB571BE74614B6422CDFB0C5FCEE918* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_vertices, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFaceTrackingManager/OnTargetEvent::Invoke()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTargetEvent_Invoke_m45C6E4D8029AB8062E29276DBC9A472C310D2A4F_inline (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* __this, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.Utils::AssignMatrix4x4FromArray(UnityEngine.Matrix4x4&,System.Single[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utils_AssignMatrix4x4FromArray_m9640CAD478F303E63CBF424C4F4F6581FD024CE1 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___p0, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___values1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utils_AssignMatrix4x4FromArray_m9640CAD478F303E63CBF424C4F4F6581FD024CE1 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___0_p, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_values, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 WebARFoundation.Utils::GetTranslationFromMatrix(UnityEngine.Matrix4x4&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Utils_GetTranslationFromMatrix_m49E2F75BD637154E14E0ED87B50A3364A6686666 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___matrix0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Utils_GetTranslationFromMatrix_m49E2F75BD637154E14E0ED87B50A3364A6686666 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___0_matrix, const RuntimeMethod* method) ;
 // UnityEngine.Quaternion WebARFoundation.Utils::GetRotationFromMatrix(UnityEngine.Matrix4x4&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Utils_GetRotationFromMatrix_m763F2C965DB3EEAF3E4BBEDCEE85B3A69652E3F8 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___matrix0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Utils_GetRotationFromMatrix_m763F2C965DB3EEAF3E4BBEDCEE85B3A69652E3F8 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___0_matrix, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 WebARFoundation.Utils::GetScaleFromMatrix(UnityEngine.Matrix4x4&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Utils_GetScaleFromMatrix_m6BCE783F344AC8F9C7FB48848DF8F93B1190049C (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___matrix0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Utils_GetScaleFromMatrix_m6BCE783F344AC8F9C7FB48848DF8F93B1190049C (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___0_matrix, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.FaceTracker::UpdatePose(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceTracker_UpdatePose_mDCF4748C7C955B286F3AD04AECBAE3F17FAA8F10 (FaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___translation0, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___scale2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceTracker_UpdatePose_mDCF4748C7C955B286F3AD04AECBAE3F17FAA8F10 (FaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_translation, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_scale, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFaceTrackingManager/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m2A79DB180487FFB68733EB1E685DC21FE9F288A2 (U3CU3Ec_t4BEF44D246CE0E5716609FE46BEAC53B2DF4D16A* __this, const RuntimeMethod* method) ;
 // T[] UnityEngine.GameObject::GetComponentsInChildren<WebARFoundation.FaceTracker>()
@@ -2066,23 +2356,23 @@ inline FaceTrackerU5BU5D_tEDBCE7BC5F70569F0024EEF12A1AFE1E530AF0C3* GameObject_G
 	return ((  FaceTrackerU5BU5D_tEDBCE7BC5F70569F0024EEF12A1AFE1E530AF0C3* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponentsInChildren_TisRuntimeObject_m6F69570C0224EE6620FD43C4DDB0F0AB152A1B20_gshared)(__this, method);
 }
 // System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Void System.Func`2<UnityEngine.GameObject,System.Collections.Generic.IEnumerable`1<WebARFoundation.ImageTracker>>::.ctor(System.Object,System.IntPtr)
-inline void Func_2__ctor_mB92B673F84B4C13E64D93FB39750783AA0064DDB (Func_2_tDA9936D322E661EBE487B1A9C086C4A598E15B3E* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Func_2__ctor_mB92B673F84B4C13E64D93FB39750783AA0064DDB (Func_2_tDA9936D322E661EBE487B1A9C086C4A598E15B3E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Func_2_tDA9936D322E661EBE487B1A9C086C4A598E15B3E*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_2_tDA9936D322E661EBE487B1A9C086C4A598E15B3E*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::SelectMany<UnityEngine.GameObject,WebARFoundation.ImageTracker>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,System.Collections.Generic.IEnumerable`1<TResult>>)
-inline RuntimeObject* Enumerable_SelectMany_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_TisImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB_m55B5EA4206BE1B0397F616B477FFD3DCE9464773 (RuntimeObject* ___source0, Func_2_tDA9936D322E661EBE487B1A9C086C4A598E15B3E* ___selector1, const RuntimeMethod* method)
+inline RuntimeObject* Enumerable_SelectMany_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_TisImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB_m55B5EA4206BE1B0397F616B477FFD3DCE9464773 (RuntimeObject* ___0_source, Func_2_tDA9936D322E661EBE487B1A9C086C4A598E15B3E* ___1_selector, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tDA9936D322E661EBE487B1A9C086C4A598E15B3E*, const RuntimeMethod*))Enumerable_SelectMany_TisRuntimeObject_TisRuntimeObject_mC89216034DEE8779F1AC2D0A984C0ADE855BED00_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tDA9936D322E661EBE487B1A9C086C4A598E15B3E*, const RuntimeMethod*))Enumerable_SelectMany_TisRuntimeObject_TisRuntimeObject_mC89216034DEE8779F1AC2D0A984C0ADE855BED00_gshared)(___0_source, ___1_selector, method);
 }
 // System.Collections.Generic.List`1<TSource> System.Linq.Enumerable::ToList<WebARFoundation.ImageTracker>(System.Collections.Generic.IEnumerable`1<TSource>)
-inline List_1_tBDC1DDCBB97713243E7B7ED4B2DFE09406C5F629* Enumerable_ToList_TisImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB_m61B5EA34BD7E42D1A3E1465684BF06CF17FE10B0 (RuntimeObject* ___source0, const RuntimeMethod* method)
+inline List_1_tBDC1DDCBB97713243E7B7ED4B2DFE09406C5F629* Enumerable_ToList_TisImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB_m61B5EA34BD7E42D1A3E1465684BF06CF17FE10B0 (RuntimeObject* ___0_source, const RuntimeMethod* method)
 {
-	return ((  List_1_tBDC1DDCBB97713243E7B7ED4B2DFE09406C5F629* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToList_TisRuntimeObject_m6456D63764F29E6B5B2422C3DE25113577CF51EE_gshared)(___source0, method);
+	return ((  List_1_tBDC1DDCBB97713243E7B7ED4B2DFE09406C5F629* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToList_TisRuntimeObject_m6456D63764F29E6B5B2422C3DE25113577CF51EE_gshared)(___0_source, method);
 }
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<WebARFoundation.ImageTracker>::GetEnumerator()
 inline Enumerator_t5C5B0ECE11F9F9347E2D3A85C629102CDB875282 List_1_GetEnumerator_m0C52B233C7539C99A82348A4BC7D39DA57BE4EC9 (List_1_tBDC1DDCBB97713243E7B7ED4B2DFE09406C5F629* __this, const RuntimeMethod* method)
@@ -2100,18 +2390,18 @@ inline ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* Enumerator_get_Cu
 	return ((  ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* (*) (Enumerator_t5C5B0ECE11F9F9347E2D3A85C629102CDB875282*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
 }
 // System.Int32 System.Math::Max(System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF (int32_t ___val10, int32_t ___val21, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF (int32_t ___0_val1, int32_t ___1_val2, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.List`1/Enumerator<WebARFoundation.ImageTracker>::MoveNext()
 inline bool Enumerator_MoveNext_m832117A0EE07A04D889DFCB96C3DF3306F73A3A2 (Enumerator_t5C5B0ECE11F9F9347E2D3A85C629102CDB875282* __this, const RuntimeMethod* method)
 {
 	return ((  bool (*) (Enumerator_t5C5B0ECE11F9F9347E2D3A85C629102CDB875282*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
 }
 // System.Void WebARFoundation.MindARImagePlugin::add_onARReadyAction(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_add_onARReadyAction_m9B7FD1F1D8E42E836D4E4D894A18440B4B5C1D38 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_add_onARReadyAction_m9B7FD1F1D8E42E836D4E4D894A18440B4B5C1D38 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin::add_onARUpdateAction(WebARFoundation.MindARImagePlugin/OnARUpdateEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_add_onARUpdateAction_mAA37593E24250BAAA42783B63A8EDBC28A9178B3 (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_add_onARUpdateAction_mAA37593E24250BAAA42783B63A8EDBC28A9178B3 (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin::add_onCameraConfigChangeAction(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_add_onCameraConfigChangeAction_m786B5571B6C0FC6C569450D9EFB490534BE05ECC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_add_onCameraConfigChangeAction_m786B5571B6C0FC6C569450D9EFB490534BE05ECC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImageTrackingManager::StopAR()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_StopAR_mF47A42B3BA8C77106F51043AAB02324F87C8F4DE (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImageTrackingManager::StartAR()
@@ -2121,23 +2411,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MindARImagePlugin_IsRunning_mB6EE737459D
 // System.Void WebARFoundation.MindARImagePlugin::StopAR()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_StopAR_mEEAA66B81F74E301BEFF8DC3896070328925E43D (const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin::SetIsFacingUser(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetIsFacingUser_m97C8B626F5B0A1A3EEDA9754BBDF3A28541F80B5 (bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetIsFacingUser_m97C8B626F5B0A1A3EEDA9754BBDF3A28541F80B5 (bool ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin::SetMindFilePath(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetMindFilePath_m374DDC2203DD1008B54A3A366C5C1ED16D6DD594 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetMindFilePath_m374DDC2203DD1008B54A3A366C5C1ED16D6DD594 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin::SetMaxTrack(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetMaxTrack_m04D37275C6409D89238D2CBB4D0A5A401A7003A5 (int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetMaxTrack_m04D37275C6409D89238D2CBB4D0A5A401A7003A5 (int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin::SetFilterMinCF(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetFilterMinCF_mD244BA6B9DA76526AB95D342AB36F2DCB8C94DAF (float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetFilterMinCF_mD244BA6B9DA76526AB95D342AB36F2DCB8C94DAF (float ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin::SetFilterBeta(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetFilterBeta_mCE13B8717A83A85356C2356AEEA740ABCCDD614C (float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetFilterBeta_mCE13B8717A83A85356C2356AEEA740ABCCDD614C (float ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin::StartAR()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_StartAR_m82B77A1EB4EC244F7EE7EB2E72275EE1078FD51B (const RuntimeMethod* method) ;
 // System.Int32 WebARFoundation.MindARImagePlugin::GetNumTargets()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MindARImagePlugin_GetNumTargets_m1E6FA18E954E96020903AA097ACCBFC97C38BB70 (const RuntimeMethod* method) ;
 // System.Int32 WebARFoundation.MindARImagePlugin::GetTargetWidth(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MindARImagePlugin_GetTargetWidth_m6EA88498685A480186CF0380376C4499FC3CCC09 (int32_t ___targetIndex0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MindARImagePlugin_GetTargetWidth_m6EA88498685A480186CF0380376C4499FC3CCC09 (int32_t ___0_targetIndex, const RuntimeMethod* method) ;
 // System.Int32 WebARFoundation.MindARImagePlugin::GetTargetHeight(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MindARImagePlugin_GetTargetHeight_mA7EE17065B674EBC401CDB2BB5DC6D7771331B10 (int32_t ___targetIndex0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MindARImagePlugin_GetTargetHeight_mA7EE17065B674EBC401CDB2BB5DC6D7771331B10 (int32_t ___0_targetIndex, const RuntimeMethod* method) ;
 // System.Int32 WebARFoundation.MindARImagePlugin::GetVideoWidth()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MindARImagePlugin_GetVideoWidth_m728532BFBB102C1E1CD0C6153AFEC966B426A57F (const RuntimeMethod* method) ;
 // System.Int32 WebARFoundation.MindARImagePlugin::GetVideoHeight()
@@ -2145,19 +2435,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MindARImagePlugin_GetVideoHeight_mBE4
 // System.Single[] WebARFoundation.MindARImagePlugin::GetCameraParams()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* MindARImagePlugin_GetCameraParams_m9DE8E66D29DE2D3CC29EA0750077535BC423E28A (const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImagePlugin::BindVideoTexture(UnityEngine.Texture)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_BindVideoTexture_m0170080899ECC6034F849B7F4CBC5C18C3DCF3E1 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___texture0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_BindVideoTexture_m0170080899ECC6034F849B7F4CBC5C18C3DCF3E1 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_texture, const RuntimeMethod* method) ;
 // System.Single[] WebARFoundation.MindARImagePlugin::GetTargetWorldMatrix(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* MindARImagePlugin_GetTargetWorldMatrix_m6F0D2060592A9B361F016237DD7301DD19158884 (int32_t ___targetIndex0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* MindARImagePlugin_GetTargetWorldMatrix_m6F0D2060592A9B361F016237DD7301DD19158884 (int32_t ___0_targetIndex, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImageTrackingManager::UpdateTargetPose(WebARFoundation.ImageTracker,System.Int32,System.Single[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_UpdateTargetPose_m5D48ED89EA52EDE02A285E9E410F796E250B76EC (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* ___imageTracker0, int32_t ___targetIndex1, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___preprocessedMatrixArray2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_UpdateTargetPose_m5D48ED89EA52EDE02A285E9E410F796E250B76EC (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* ___0_imageTracker, int32_t ___1_targetIndex, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___2_preprocessedMatrixArray, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImageTrackingManager/OnTargetEvent::Invoke(System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_inline (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___targetIndex0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_inline (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___0_targetIndex, const RuntimeMethod* method) ;
 // UnityEngine.Quaternion UnityEngine.Quaternion::Euler(UnityEngine.Vector3)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___euler0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) ;
 // UnityEngine.Quaternion UnityEngine.Quaternion::op_Multiply(UnityEngine.Quaternion,UnityEngine.Quaternion)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___lhs0, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rhs1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.ImageTracker::UpdatePose(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTracker_UpdatePose_m34F727C9B9079883B5C14D1175379F7E5D15DCC9 (ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___translation0, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___scale2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTracker_UpdatePose_m34F727C9B9079883B5C14D1175379F7E5D15DCC9 (ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_translation, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_scale, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImageTrackingManager/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mC7AE1148A4643C0CDB909014302499E7635177C6 (U3CU3Ec_t2976F8A5B74ED8E9B602FD6D687410FDC0EBFE62* __this, const RuntimeMethod* method) ;
 // T[] UnityEngine.GameObject::GetComponentsInChildren<WebARFoundation.ImageTracker>()
@@ -2166,41 +2456,41 @@ inline ImageTrackerU5BU5D_t5AC72C72CC3FA285EFF7AB4205426F324FDDBA6B* GameObject_
 	return ((  ImageTrackerU5BU5D_t5AC72C72CC3FA285EFF7AB4205426F324FDDBA6B* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponentsInChildren_TisRuntimeObject_m6F69570C0224EE6620FD43C4DDB0F0AB152A1B20_gshared)(__this, method);
 }
 // System.Void UnityEngine.Matrix4x4::set_Item(System.Int32,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Matrix4x4_set_Item_m47C4DDBFAE6578D6008AEF433777D4B2FACB62B0 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, int32_t ___index0, float ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Matrix4x4_set_Item_m47C4DDBFAE6578D6008AEF433777D4B2FACB62B0 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, int32_t ___0_index, float ___1_value, const RuntimeMethod* method) ;
 // UnityEngine.Quaternion UnityEngine.Quaternion::LookRotation(UnityEngine.Vector3,UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forward0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upwards1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_forward, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_upwards, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector4::.ctor(System.Single,System.Single,System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___x0, float ___y1, float ___z2, float ___w3, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Vector4::get_magnitude()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector4_get_magnitude_m97A83FC484190F07D8017F4BD10E3C81478E0D20_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFaceTrackingManager/OnTargetEvent::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent__ctor_m8A1AA2C42BEDC31F0C63433FBC22B853FE2BDA47 (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent__ctor_m8A1AA2C42BEDC31F0C63433FBC22B853FE2BDA47 (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFaceTrackingManager::add_onTargetFoundEvent(WebARFoundation.MindARFaceTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_add_onTargetFoundEvent_mBB8465D156E92511EB87441DC81EDCBFC9EE6379 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_add_onTargetFoundEvent_mBB8465D156E92511EB87441DC81EDCBFC9EE6379 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFaceTrackingManager::add_onTargetLostEvent(WebARFoundation.MindARFaceTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_add_onTargetLostEvent_mD1C71F22450A5C4629365F43F3019BCF4F6C3658 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_add_onTargetLostEvent_mD1C71F22450A5C4629365F43F3019BCF4F6C3658 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARFaceTrackingManager::add_onTargetUpdateEvent(WebARFoundation.MindARFaceTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_add_onTargetUpdateEvent_mC695731261288F4FF1F429127AA801731D283DAE (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_add_onTargetUpdateEvent_mC695731261288F4FF1F429127AA801731D283DAE (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImageTrackingManager/OnTargetEvent::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent__ctor_m9BD5FA5DB9825ABC8E5D39974F8B14C52FA83AAC (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent__ctor_m9BD5FA5DB9825ABC8E5D39974F8B14C52FA83AAC (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImageTrackingManager::add_onTargetFoundEvent(WebARFoundation.MindARImageTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_add_onTargetFoundEvent_m78D59AC8546A57C3007D2B911D72FD6586AC5841 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_add_onTargetFoundEvent_m78D59AC8546A57C3007D2B911D72FD6586AC5841 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImageTrackingManager::add_onTargetLostEvent(WebARFoundation.MindARImageTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_add_onTargetLostEvent_m098DD9314234FD63F9C0A202F3F69044919FB2A3 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_add_onTargetLostEvent_m098DD9314234FD63F9C0A202F3F69044919FB2A3 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___0_value, const RuntimeMethod* method) ;
 // System.Void WebARFoundation.MindARImageTrackingManager::add_onTargetUpdateEvent(WebARFoundation.MindARImageTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_add_onTargetUpdateEvent_mF6308F569494E989C7F3F91DC3828AA7FB6A0B32 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_add_onTargetUpdateEvent_mF6308F569494E989C7F3F91DC3828AA7FB6A0B32 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___0_value, const RuntimeMethod* method) ;
 // System.String System.Int32::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
 // System.Void System.IndexOutOfRangeException::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IndexOutOfRangeException__ctor_mFD06819F05B815BE2D6E826D4E04F4C449D0A425 (IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82* __this, String_t* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IndexOutOfRangeException__ctor_mFD06819F05B815BE2D6E826D4E04F4C449D0A425 (IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82* __this, String_t* ___0_message, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, float ___d1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
 // UnityEngine.Quaternion UnityEngine.Quaternion::Internal_FromEulerRad(UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___euler0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_FromEulerRad_m66D4475341F53949471E6870FB5C5E4A5E9BA93E (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Quaternion::.ctor(System.Single,System.Single,System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, float ___x0, float ___y1, float ___z2, float ___w3, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Vector4::Dot(UnityEngine.Vector4,UnityEngine.Vector4)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector4_Dot_m40A3B2E258E53E4847583474E40AC29F68AF8BA3_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___a0, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___b1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector4_Dot_m40A3B2E258E53E4847583474E40AC29F68AF8BA3_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_a, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___1_b, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C void DEFAULT_CALL MindARFace_SetCallbacks(Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
 IL2CPP_EXTERN_C void DEFAULT_CALL MindARFace_StartAR();
 IL2CPP_EXTERN_C void DEFAULT_CALL MindARFace_StopAR();
@@ -2333,11 +2623,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ActivateObject__ctor_m86536C52871DEE38B8
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void ButtonMeetMe::OpenInsta(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonMeetMe_OpenInsta_m67A80FB70779C8BDEDBEA3B2FE37E0005BB994D1 (ButtonMeetMe_tE6510D60477D38493BC53D5A9D6FDA0E6AC64B53* __this, String_t* ___btnLink0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonMeetMe_OpenInsta_m67A80FB70779C8BDEDBEA3B2FE37E0005BB994D1 (ButtonMeetMe_tE6510D60477D38493BC53D5A9D6FDA0E6AC64B53* __this, String_t* ___0_btnLink, const RuntimeMethod* method) 
 {
 	{
 		// Application.OpenURL(btnLink);
-		String_t* L_0 = ___btnLink0;
+		String_t* L_0 = ___0_btnLink;
 		Application_OpenURL_mE748FA4D503715DEE12BCA4BDD8A5305AE41DB89(L_0, NULL);
 		// }
 		return;
@@ -2629,16 +2919,16 @@ extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MindARFacePlugin_OnCameraConf
 	MindARFacePlugin_OnCameraConfigChange_mD5C9CC09EA58176B701C5FC53388FD3436D9D52E(NULL);
 
 }
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MindARFacePlugin_OnARUpdate_m585555BA6807A6B136BA3DD69427D2AD85FD4A08(int32_t ___isFound0)
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MindARFacePlugin_OnARUpdate_m585555BA6807A6B136BA3DD69427D2AD85FD4A08(int32_t ___0_isFound)
 {
 	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
 
 	// Managed method invocation
-	MindARFacePlugin_OnARUpdate_m585555BA6807A6B136BA3DD69427D2AD85FD4A08(___isFound0, NULL);
+	MindARFacePlugin_OnARUpdate_m585555BA6807A6B136BA3DD69427D2AD85FD4A08(___0_isFound, NULL);
 
 }
 // System.Void WebARFoundation.MindARFacePlugin::add_onARReadyAction(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_add_onARReadyAction_m4F8C19F108FF4B529B5786C9F53C5366BA22CA72 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_add_onARReadyAction_m4F8C19F108FF4B529B5786C9F53C5366BA22CA72 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2661,7 +2951,7 @@ IL_0006:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -2683,7 +2973,7 @@ IL_0006:
 	}
 }
 // System.Void WebARFoundation.MindARFacePlugin::remove_onARReadyAction(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_remove_onARReadyAction_m6EC082FA4582F7576FB0C5734876289581E16471 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_remove_onARReadyAction_m6EC082FA4582F7576FB0C5734876289581E16471 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2706,7 +2996,7 @@ IL_0006:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -2728,7 +3018,7 @@ IL_0006:
 	}
 }
 // System.Void WebARFoundation.MindARFacePlugin::add_onCameraConfigChangeAction(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_add_onCameraConfigChangeAction_m5F058CB84F3C7A3BED613971DF9B772FA453AD0A (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_add_onCameraConfigChangeAction_m5F058CB84F3C7A3BED613971DF9B772FA453AD0A (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2751,7 +3041,7 @@ IL_0006:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -2773,7 +3063,7 @@ IL_0006:
 	}
 }
 // System.Void WebARFoundation.MindARFacePlugin::remove_onCameraConfigChangeAction(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_remove_onCameraConfigChangeAction_m60722390451A2560DE769569F781C4A6DAF22FB1 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_remove_onCameraConfigChangeAction_m60722390451A2560DE769569F781C4A6DAF22FB1 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2796,7 +3086,7 @@ IL_0006:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -2818,7 +3108,7 @@ IL_0006:
 	}
 }
 // System.Void WebARFoundation.MindARFacePlugin::add_onARUpdateAction(WebARFoundation.MindARFacePlugin/OnARUpdateEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_add_onARUpdateAction_m14D0B254E4AA70FFC00E5F861DFCBF0AC3434AEA (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_add_onARUpdateAction_m14D0B254E4AA70FFC00E5F861DFCBF0AC3434AEA (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2841,7 +3131,7 @@ IL_0006:
 		OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* L_1 = V_0;
 		V_1 = L_1;
 		OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* L_2 = V_1;
-		OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* L_3 = ___value0;
+		OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15*)CastclassSealed((RuntimeObject*)L_4, OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15_il2cpp_TypeInfo_var));
@@ -2863,7 +3153,7 @@ IL_0006:
 	}
 }
 // System.Void WebARFoundation.MindARFacePlugin::remove_onARUpdateAction(WebARFoundation.MindARFacePlugin/OnARUpdateEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_remove_onARUpdateAction_mDFF818B31A36099DC591E80629B950F03976D33A (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_remove_onARUpdateAction_mDFF818B31A36099DC591E80629B950F03976D33A (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2886,7 +3176,7 @@ IL_0006:
 		OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* L_1 = V_0;
 		V_1 = L_1;
 		OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* L_2 = V_1;
-		OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* L_3 = ___value0;
+		OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15*)CastclassSealed((RuntimeObject*)L_4, OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15_il2cpp_TypeInfo_var));
@@ -2970,7 +3260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_OnCameraConfigChange_mD
 	}
 }
 // System.Void WebARFoundation.MindARFacePlugin::OnARUpdate(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_OnARUpdate_m585555BA6807A6B136BA3DD69427D2AD85FD4A08 (int32_t ___isFound0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_OnARUpdate_m585555BA6807A6B136BA3DD69427D2AD85FD4A08 (int32_t ___0_isFound, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2982,18 +3272,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_OnARUpdate_m585555BA680
 		// onARUpdateAction.Invoke(isFound);
 		il2cpp_codegen_runtime_class_init_inline(MindARFacePlugin_tAE21E3CC0976AFAF3C1B40F80A1E604258D2FC28_il2cpp_TypeInfo_var);
 		OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* L_0 = ((MindARFacePlugin_tAE21E3CC0976AFAF3C1B40F80A1E604258D2FC28_StaticFields*)il2cpp_codegen_static_fields_for(MindARFacePlugin_tAE21E3CC0976AFAF3C1B40F80A1E604258D2FC28_il2cpp_TypeInfo_var))->___onARUpdateAction_2;
-		int32_t L_1 = ___isFound0;
+		int32_t L_1 = ___0_isFound;
 		OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_inline(L_0, L_1, NULL);
 		// }
 		return;
 	}
 }
 // System.Void WebARFoundation.MindARFacePlugin::BindVideoTexture(UnityEngine.Texture)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_BindVideoTexture_m86D20D7E094269A11772294A26B30621CB70D8D9 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___texture0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_BindVideoTexture_m86D20D7E094269A11772294A26B30621CB70D8D9 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_texture, const RuntimeMethod* method) 
 {
 	{
 		// Native.MindARFace_TextureUpdate((int) texture.GetNativeTexturePtr());
-		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_0 = ___texture0;
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_0 = ___0_texture;
 		intptr_t L_1;
 		L_1 = Texture_GetNativeTexturePtr_mD3019CC9461338665885D431B86C03D3063867EE(L_0, NULL);
 		int32_t L_2;
@@ -3004,33 +3294,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_BindVideoTexture_m86D20
 	}
 }
 // System.Void WebARFoundation.MindARFacePlugin::SetFilterMinCF(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_SetFilterMinCF_m90C878D847A955AC68492A3818187EE5889FEF5D (float ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_SetFilterMinCF_m90C878D847A955AC68492A3818187EE5889FEF5D (float ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// Native.MindARFace_SetFilterMinCF(value);
-		float L_0 = ___value0;
+		float L_0 = ___0_value;
 		Native_MindARFace_SetFilterMinCF_mB6E80A2882FB7D498A2F091D9C55C6388E5B21A5(L_0, NULL);
 		// }
 		return;
 	}
 }
 // System.Void WebARFoundation.MindARFacePlugin::SetFilterBeta(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_SetFilterBeta_m62F42EF3322779E53212CE4E44168C9476C5CE15 (float ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_SetFilterBeta_m62F42EF3322779E53212CE4E44168C9476C5CE15 (float ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// Native.MindARFace_SetFilterBeta(value);
-		float L_0 = ___value0;
+		float L_0 = ___0_value;
 		Native_MindARFace_SetFilterBeta_m4413501BADDD7E71C0C8947B9643294314062B73(L_0, NULL);
 		// }
 		return;
 	}
 }
 // System.Void WebARFoundation.MindARFacePlugin::SetIsFacingUser(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_SetIsFacingUser_mA9B647D3EC05268275550BBBF4B8C3E5ED16F33D (bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFacePlugin_SetIsFacingUser_mA9B647D3EC05268275550BBBF4B8C3E5ED16F33D (bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// Native.MindARFace_SetIsFacingUser(value);
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		Native_MindARFace_SetIsFacingUser_m2B694CA851F4B9BEA63956E35F537085EADFC362(L_0, NULL);
 		// }
 		return;
@@ -3237,7 +3527,7 @@ IL_0064:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_Multicast(OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___isFound0, const RuntimeMethod* method)
+void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_Multicast(OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___0_isFound, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates_13->max_length;
 	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
@@ -3245,48 +3535,48 @@ void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_Multicast(
 	{
 		OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* currentDelegate = reinterpret_cast<OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15*>(delegatesToInvoke[i]);
 		typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, const RuntimeMethod*);
-		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___isFound0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___0_isFound, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
 	}
 }
-void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_OpenInst(OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___isFound0, const RuntimeMethod* method)
+void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_OpenInst(OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___0_isFound, const RuntimeMethod* method)
 {
 	typedef void (*FunctionPointerType) (int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr_0)(___isFound0, method);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_isFound, method);
 }
-void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_OpenStatic(OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___isFound0, const RuntimeMethod* method)
+void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_OpenStatic(OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___0_isFound, const RuntimeMethod* method)
 {
 	typedef void (*FunctionPointerType) (int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr_0)(___isFound0, method);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_isFound, method);
 }
-void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_OpenStaticInvoker(OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___isFound0, const RuntimeMethod* method)
+void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_OpenStaticInvoker(OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___0_isFound, const RuntimeMethod* method)
 {
-	InvokerActionInvoker1< int32_t >::Invoke(__this->___method_ptr_0, method, NULL, ___isFound0);
+	InvokerActionInvoker1< int32_t >::Invoke((Il2CppMethodPointer)__this->___method_ptr_0, method, NULL, ___0_isFound);
 }
-void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_ClosedStaticInvoker(OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___isFound0, const RuntimeMethod* method)
+void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_ClosedStaticInvoker(OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___0_isFound, const RuntimeMethod* method)
 {
-	InvokerActionInvoker2< RuntimeObject*, int32_t >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___isFound0);
+	InvokerActionInvoker2< RuntimeObject*, int32_t >::Invoke((Il2CppMethodPointer)__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___0_isFound);
 }
-IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15 (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___isFound0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15 (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___0_isFound, const RuntimeMethod* method)
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc)(int32_t);
 	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
 	// Native function invocation
-	il2cppPInvokeFunc(___isFound0);
+	il2cppPInvokeFunc(___0_isFound);
 
 }
 // System.Void WebARFoundation.MindARFacePlugin/OnARUpdateEvent::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent__ctor_m88854A9417A632EC8286E08AC603D24B9A8F4887 (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent__ctor_m88854A9417A632EC8286E08AC603D24B9A8F4887 (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_ptr_0 = (intptr_t)il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
 	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
 	{
 		bool isOpen = parameterCount == 1;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
 			if (isOpen)
 				__this->___invoke_impl_1 = (intptr_t)&OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_OpenStaticInvoker;
 			else
@@ -3296,27 +3586,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent__ctor_m88854A9417A632EC8
 				__this->___invoke_impl_1 = (intptr_t)&OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_OpenStatic;
 			else
 				{
-					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___invoke_impl_1 = __this->___method_ptr_0;
 					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
 				}
 	}
 	else
 	{
-		if (___object0 == NULL)
+		if (___0_object == NULL)
 			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
-		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___invoke_impl_1 = __this->___method_ptr_0;
 		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
 	}
 	__this->___extra_arg_5 = (intptr_t)&OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_Multicast;
 }
 // System.Void WebARFoundation.MindARFacePlugin/OnARUpdateEvent::Invoke(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038 (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___isFound0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038 (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___0_isFound, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___isFound0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_isFound, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 // System.IAsyncResult WebARFoundation.MindARFacePlugin/OnARUpdateEvent::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnARUpdateEvent_BeginInvoke_m5DE8B882F279BB6FD9458D15A9B5001929A8CD41 (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___isFound0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnARUpdateEvent_BeginInvoke_m5DE8B882F279BB6FD9458D15A9B5001929A8CD41 (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___0_isFound, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3325,13 +3615,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnARUpdateEvent_BeginInvoke_m5
 		s_Il2CppMethodInitialized = true;
 	}
 	void *__d_args[2] = {0};
-	__d_args[0] = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &___isFound0);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+	__d_args[0] = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &___0_isFound);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
 // System.Void WebARFoundation.MindARFacePlugin/OnARUpdateEvent::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent_EndInvoke_m31243596DB52B48ACA570B9BE507E2889D60FAA7 (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent_EndInvoke_m31243596DB52B48ACA570B9BE507E2889D60FAA7 (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -3342,24 +3632,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent_EndInvoke_m31243596DB52B
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void WebARFoundation.MindARFacePlugin/Native::MindARFace_SetCallbacks(System.Action,System.Action,WebARFoundation.MindARFacePlugin/OnARUpdateEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetCallbacks_m1B70F81653E8B6462299EF99A8D2EDB396FCC7C1 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onARReady0, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onCameraConfigChange1, OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* ___onARUpdate2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetCallbacks_m1B70F81653E8B6462299EF99A8D2EDB396FCC7C1 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_onARReady, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_onCameraConfigChange, OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* ___2_onARUpdate, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
 
-	// Marshaling of parameter '___onARReady0' to native representation
-	Il2CppMethodPointer ____onARReady0_marshaled = NULL;
-	____onARReady0_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___onARReady0));
+	// Marshaling of parameter '___0_onARReady' to native representation
+	Il2CppMethodPointer ____0_onARReady_marshaled = NULL;
+	____0_onARReady_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___0_onARReady));
 
-	// Marshaling of parameter '___onCameraConfigChange1' to native representation
-	Il2CppMethodPointer ____onCameraConfigChange1_marshaled = NULL;
-	____onCameraConfigChange1_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___onCameraConfigChange1));
+	// Marshaling of parameter '___1_onCameraConfigChange' to native representation
+	Il2CppMethodPointer ____1_onCameraConfigChange_marshaled = NULL;
+	____1_onCameraConfigChange_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___1_onCameraConfigChange));
 
-	// Marshaling of parameter '___onARUpdate2' to native representation
-	Il2CppMethodPointer ____onARUpdate2_marshaled = NULL;
-	____onARUpdate2_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___onARUpdate2));
+	// Marshaling of parameter '___2_onARUpdate' to native representation
+	Il2CppMethodPointer ____2_onARUpdate_marshaled = NULL;
+	____2_onARUpdate_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___2_onARUpdate));
 
 	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(MindARFace_SetCallbacks)(____onARReady0_marshaled, ____onCameraConfigChange1_marshaled, ____onARUpdate2_marshaled);
+	reinterpret_cast<PInvokeFunc>(MindARFace_SetCallbacks)(____0_onARReady_marshaled, ____1_onCameraConfigChange_marshaled, ____2_onARUpdate_marshaled);
 
 }
 // System.Void WebARFoundation.MindARFacePlugin/Native::MindARFace_StartAR()
@@ -3441,39 +3731,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_MindARFace_GetFaceMeshVertice
 	return returnValue;
 }
 // System.Void WebARFoundation.MindARFacePlugin/Native::MindARFace_TextureUpdate(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_TextureUpdate_mD755F3A47BC68BCDDF0FDDA5327D9D31C1C4F258 (int32_t ___texture0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_TextureUpdate_mD755F3A47BC68BCDDF0FDDA5327D9D31C1C4F258 (int32_t ___0_texture, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
 
 	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(MindARFace_TextureUpdate)(___texture0);
+	reinterpret_cast<PInvokeFunc>(MindARFace_TextureUpdate)(___0_texture);
 
 }
 // System.Void WebARFoundation.MindARFacePlugin/Native::MindARFace_SetIsFacingUser(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetIsFacingUser_m2B694CA851F4B9BEA63956E35F537085EADFC362 (bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetIsFacingUser_m2B694CA851F4B9BEA63956E35F537085EADFC362 (bool ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
 
 	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(MindARFace_SetIsFacingUser)(static_cast<int32_t>(___value0));
+	reinterpret_cast<PInvokeFunc>(MindARFace_SetIsFacingUser)(static_cast<int32_t>(___0_value));
 
 }
 // System.Void WebARFoundation.MindARFacePlugin/Native::MindARFace_SetFilterBeta(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetFilterBeta_m4413501BADDD7E71C0C8947B9643294314062B73 (float ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetFilterBeta_m4413501BADDD7E71C0C8947B9643294314062B73 (float ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (float);
 
 	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(MindARFace_SetFilterBeta)(___value0);
+	reinterpret_cast<PInvokeFunc>(MindARFace_SetFilterBeta)(___0_value);
 
 }
 // System.Void WebARFoundation.MindARFacePlugin/Native::MindARFace_SetFilterMinCF(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetFilterMinCF_mB6E80A2882FB7D498A2F091D9C55C6388E5B21A5 (float ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARFace_SetFilterMinCF_mB6E80A2882FB7D498A2F091D9C55C6388E5B21A5 (float ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (float);
 
 	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(MindARFace_SetFilterMinCF)(___value0);
+	reinterpret_cast<PInvokeFunc>(MindARFace_SetFilterMinCF)(___0_value);
 
 }
 #ifdef __clang__
@@ -3500,16 +3790,16 @@ extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MindARImagePlugin_OnCameraCon
 	MindARImagePlugin_OnCameraConfigChange_mAD21B5440BADF45BF232E6CE1871EB2392530686(NULL);
 
 }
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MindARImagePlugin_OnARUpdate_m3F77BF2A2B10EBE30AA22EB63D477F3250FAC5C7(int32_t ___targetIndex0, int32_t ___isFound1)
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_MindARImagePlugin_OnARUpdate_m3F77BF2A2B10EBE30AA22EB63D477F3250FAC5C7(int32_t ___0_targetIndex, int32_t ___1_isFound)
 {
 	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
 
 	// Managed method invocation
-	MindARImagePlugin_OnARUpdate_m3F77BF2A2B10EBE30AA22EB63D477F3250FAC5C7(___targetIndex0, ___isFound1, NULL);
+	MindARImagePlugin_OnARUpdate_m3F77BF2A2B10EBE30AA22EB63D477F3250FAC5C7(___0_targetIndex, ___1_isFound, NULL);
 
 }
 // System.Void WebARFoundation.MindARImagePlugin::add_onARReadyAction(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_add_onARReadyAction_m9B7FD1F1D8E42E836D4E4D894A18440B4B5C1D38 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_add_onARReadyAction_m9B7FD1F1D8E42E836D4E4D894A18440B4B5C1D38 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3532,7 +3822,7 @@ IL_0006:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -3554,7 +3844,7 @@ IL_0006:
 	}
 }
 // System.Void WebARFoundation.MindARImagePlugin::remove_onARReadyAction(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_remove_onARReadyAction_mC14B68B35F0072F918CB01F575C64E263AD4FE06 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_remove_onARReadyAction_mC14B68B35F0072F918CB01F575C64E263AD4FE06 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3577,7 +3867,7 @@ IL_0006:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -3599,7 +3889,7 @@ IL_0006:
 	}
 }
 // System.Void WebARFoundation.MindARImagePlugin::add_onCameraConfigChangeAction(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_add_onCameraConfigChangeAction_m786B5571B6C0FC6C569450D9EFB490534BE05ECC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_add_onCameraConfigChangeAction_m786B5571B6C0FC6C569450D9EFB490534BE05ECC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3622,7 +3912,7 @@ IL_0006:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -3644,7 +3934,7 @@ IL_0006:
 	}
 }
 // System.Void WebARFoundation.MindARImagePlugin::remove_onCameraConfigChangeAction(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_remove_onCameraConfigChangeAction_mD37BF218F72D69C304C0ECB43ADCFBA395444C44 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_remove_onCameraConfigChangeAction_mD37BF218F72D69C304C0ECB43ADCFBA395444C44 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3667,7 +3957,7 @@ IL_0006:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_1 = V_0;
 		V_1 = L_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
@@ -3689,7 +3979,7 @@ IL_0006:
 	}
 }
 // System.Void WebARFoundation.MindARImagePlugin::add_onARUpdateAction(WebARFoundation.MindARImagePlugin/OnARUpdateEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_add_onARUpdateAction_mAA37593E24250BAAA42783B63A8EDBC28A9178B3 (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_add_onARUpdateAction_mAA37593E24250BAAA42783B63A8EDBC28A9178B3 (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3712,7 +4002,7 @@ IL_0006:
 		OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* L_1 = V_0;
 		V_1 = L_1;
 		OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* L_2 = V_1;
-		OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* L_3 = ___value0;
+		OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4*)CastclassSealed((RuntimeObject*)L_4, OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4_il2cpp_TypeInfo_var));
@@ -3734,7 +4024,7 @@ IL_0006:
 	}
 }
 // System.Void WebARFoundation.MindARImagePlugin::remove_onARUpdateAction(WebARFoundation.MindARImagePlugin/OnARUpdateEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_remove_onARUpdateAction_m5335A0828972AF68504E85251012E42026771EDB (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_remove_onARUpdateAction_m5335A0828972AF68504E85251012E42026771EDB (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3757,7 +4047,7 @@ IL_0006:
 		OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* L_1 = V_0;
 		V_1 = L_1;
 		OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* L_2 = V_1;
-		OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* L_3 = ___value0;
+		OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4*)CastclassSealed((RuntimeObject*)L_4, OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4_il2cpp_TypeInfo_var));
@@ -3841,7 +4131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_OnCameraConfigChange_m
 	}
 }
 // System.Void WebARFoundation.MindARImagePlugin::OnARUpdate(System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_OnARUpdate_m3F77BF2A2B10EBE30AA22EB63D477F3250FAC5C7 (int32_t ___targetIndex0, int32_t ___isFound1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_OnARUpdate_m3F77BF2A2B10EBE30AA22EB63D477F3250FAC5C7 (int32_t ___0_targetIndex, int32_t ___1_isFound, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3853,19 +4143,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_OnARUpdate_m3F77BF2A2B
 		// onARUpdateAction.Invoke(targetIndex, isFound);
 		il2cpp_codegen_runtime_class_init_inline(MindARImagePlugin_t69A973A8091EA0C38B72EBC1B936D075F3457997_il2cpp_TypeInfo_var);
 		OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* L_0 = ((MindARImagePlugin_t69A973A8091EA0C38B72EBC1B936D075F3457997_StaticFields*)il2cpp_codegen_static_fields_for(MindARImagePlugin_t69A973A8091EA0C38B72EBC1B936D075F3457997_il2cpp_TypeInfo_var))->___onARUpdateAction_2;
-		int32_t L_1 = ___targetIndex0;
-		int32_t L_2 = ___isFound1;
+		int32_t L_1 = ___0_targetIndex;
+		int32_t L_2 = ___1_isFound;
 		OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_inline(L_0, L_1, L_2, NULL);
 		// }
 		return;
 	}
 }
 // System.Void WebARFoundation.MindARImagePlugin::BindVideoTexture(UnityEngine.Texture)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_BindVideoTexture_m0170080899ECC6034F849B7F4CBC5C18C3DCF3E1 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___texture0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_BindVideoTexture_m0170080899ECC6034F849B7F4CBC5C18C3DCF3E1 (Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_texture, const RuntimeMethod* method) 
 {
 	{
 		// Native.MindARImage_TextureUpdate((int) texture.GetNativeTexturePtr());
-		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_0 = ___texture0;
+		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_0 = ___0_texture;
 		intptr_t L_1;
 		L_1 = Texture_GetNativeTexturePtr_mD3019CC9461338665885D431B86C03D3063867EE(L_0, NULL);
 		int32_t L_2;
@@ -3876,55 +4166,55 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_BindVideoTexture_m0170
 	}
 }
 // System.Void WebARFoundation.MindARImagePlugin::SetMindFilePath(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetMindFilePath_m374DDC2203DD1008B54A3A366C5C1ED16D6DD594 (String_t* ___path0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetMindFilePath_m374DDC2203DD1008B54A3A366C5C1ED16D6DD594 (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	{
 		// Native.MindARImage_SetMindFilePath(path);
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		Native_MindARImage_SetMindFilePath_m7C8E019C2A4BE004857F298B9ED7A28E887D3751(L_0, NULL);
 		// }
 		return;
 	}
 }
 // System.Void WebARFoundation.MindARImagePlugin::SetMaxTrack(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetMaxTrack_m04D37275C6409D89238D2CBB4D0A5A401A7003A5 (int32_t ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetMaxTrack_m04D37275C6409D89238D2CBB4D0A5A401A7003A5 (int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// Native.MindARImage_SetMaxTrack(value);
-		int32_t L_0 = ___value0;
+		int32_t L_0 = ___0_value;
 		Native_MindARImage_SetMaxTrack_m88D2279C2BA2EE6ED438B83A6A99A0FAB19BAF60(((float)L_0), NULL);
 		// }
 		return;
 	}
 }
 // System.Void WebARFoundation.MindARImagePlugin::SetFilterMinCF(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetFilterMinCF_mD244BA6B9DA76526AB95D342AB36F2DCB8C94DAF (float ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetFilterMinCF_mD244BA6B9DA76526AB95D342AB36F2DCB8C94DAF (float ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// Native.MindARImage_SetFilterMinCF(value);
-		float L_0 = ___value0;
+		float L_0 = ___0_value;
 		Native_MindARImage_SetFilterMinCF_mAD16AAEDB880E0EB2E5479DB68728EADA2E3ADEF(L_0, NULL);
 		// }
 		return;
 	}
 }
 // System.Void WebARFoundation.MindARImagePlugin::SetFilterBeta(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetFilterBeta_mCE13B8717A83A85356C2356AEEA740ABCCDD614C (float ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetFilterBeta_mCE13B8717A83A85356C2356AEEA740ABCCDD614C (float ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// Native.MindARImage_SetFilterBeta(value);
-		float L_0 = ___value0;
+		float L_0 = ___0_value;
 		Native_MindARImage_SetFilterBeta_m61ED456172BF90530FF2DF61228F03D735B8CB45(L_0, NULL);
 		// }
 		return;
 	}
 }
 // System.Void WebARFoundation.MindARImagePlugin::SetIsFacingUser(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetIsFacingUser_m97C8B626F5B0A1A3EEDA9754BBDF3A28541F80B5 (bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImagePlugin_SetIsFacingUser_m97C8B626F5B0A1A3EEDA9754BBDF3A28541F80B5 (bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// Native.MindARImage_SetIsFacingUser(value);
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		Native_MindARImage_SetIsFacingUser_mB28F169227467DED7827B28649F46DDE551833BA(L_0, NULL);
 		// }
 		return;
@@ -3991,22 +4281,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MindARImagePlugin_GetNumTargets_m1E6F
 	}
 }
 // System.Int32 WebARFoundation.MindARImagePlugin::GetTargetWidth(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MindARImagePlugin_GetTargetWidth_m6EA88498685A480186CF0380376C4499FC3CCC09 (int32_t ___targetIndex0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MindARImagePlugin_GetTargetWidth_m6EA88498685A480186CF0380376C4499FC3CCC09 (int32_t ___0_targetIndex, const RuntimeMethod* method) 
 {
 	{
 		// return Native.MindARImage_GetTargetWidth(targetIndex);
-		int32_t L_0 = ___targetIndex0;
+		int32_t L_0 = ___0_targetIndex;
 		int32_t L_1;
 		L_1 = Native_MindARImage_GetTargetWidth_m64E3E62CB38CC11764AFEFE34B1E93AA46480941(L_0, NULL);
 		return L_1;
 	}
 }
 // System.Int32 WebARFoundation.MindARImagePlugin::GetTargetHeight(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MindARImagePlugin_GetTargetHeight_mA7EE17065B674EBC401CDB2BB5DC6D7771331B10 (int32_t ___targetIndex0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MindARImagePlugin_GetTargetHeight_mA7EE17065B674EBC401CDB2BB5DC6D7771331B10 (int32_t ___0_targetIndex, const RuntimeMethod* method) 
 {
 	{
 		// return Native.MindARImage_GetTargetHeight(targetIndex);
-		int32_t L_0 = ___targetIndex0;
+		int32_t L_0 = ___0_targetIndex;
 		int32_t L_1;
 		L_1 = Native_MindARImage_GetTargetHeight_mE7B5589E558B0984BEF2B70864FDE3D6E0675950(L_0, NULL);
 		return L_1;
@@ -4040,7 +4330,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52C
 	}
 }
 // System.Single[] WebARFoundation.MindARImagePlugin::GetTargetWorldMatrix(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* MindARImagePlugin_GetTargetWorldMatrix_m6F0D2060592A9B361F016237DD7301DD19158884 (int32_t ___targetIndex0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* MindARImagePlugin_GetTargetWorldMatrix_m6F0D2060592A9B361F016237DD7301DD19158884 (int32_t ___0_targetIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4052,7 +4342,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52C
 	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_0 = NULL;
 	{
 		// IntPtr ptr = Native.MindARImage_GetTargetWorldMatrixPtr(targetIndex);
-		int32_t L_0 = ___targetIndex0;
+		int32_t L_0 = ___0_targetIndex;
 		intptr_t L_1;
 		L_1 = Native_MindARImage_GetTargetWorldMatrixPtr_m61DF3FE53BC4932922E0C7010E4FA7D2B47FBB12(L_0, NULL);
 		// float[] arr = new float[16];
@@ -4075,7 +4365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_Multicast(OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___targetIndex0, int32_t ___isFound1, const RuntimeMethod* method)
+void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_Multicast(OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___0_targetIndex, int32_t ___1_isFound, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates_13->max_length;
 	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
@@ -4083,48 +4373,48 @@ void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_Multicast(
 	{
 		OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* currentDelegate = reinterpret_cast<OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4*>(delegatesToInvoke[i]);
 		typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, int32_t, const RuntimeMethod*);
-		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___targetIndex0, ___isFound1, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___0_targetIndex, ___1_isFound, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
 	}
 }
-void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_OpenInst(OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___targetIndex0, int32_t ___isFound1, const RuntimeMethod* method)
+void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_OpenInst(OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___0_targetIndex, int32_t ___1_isFound, const RuntimeMethod* method)
 {
 	typedef void (*FunctionPointerType) (int32_t, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr_0)(___targetIndex0, ___isFound1, method);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_targetIndex, ___1_isFound, method);
 }
-void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_OpenStatic(OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___targetIndex0, int32_t ___isFound1, const RuntimeMethod* method)
+void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_OpenStatic(OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___0_targetIndex, int32_t ___1_isFound, const RuntimeMethod* method)
 {
 	typedef void (*FunctionPointerType) (int32_t, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr_0)(___targetIndex0, ___isFound1, method);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_targetIndex, ___1_isFound, method);
 }
-void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_OpenStaticInvoker(OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___targetIndex0, int32_t ___isFound1, const RuntimeMethod* method)
+void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_OpenStaticInvoker(OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___0_targetIndex, int32_t ___1_isFound, const RuntimeMethod* method)
 {
-	InvokerActionInvoker2< int32_t, int32_t >::Invoke(__this->___method_ptr_0, method, NULL, ___targetIndex0, ___isFound1);
+	InvokerActionInvoker2< int32_t, int32_t >::Invoke((Il2CppMethodPointer)__this->___method_ptr_0, method, NULL, ___0_targetIndex, ___1_isFound);
 }
-void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_ClosedStaticInvoker(OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___targetIndex0, int32_t ___isFound1, const RuntimeMethod* method)
+void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_ClosedStaticInvoker(OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___0_targetIndex, int32_t ___1_isFound, const RuntimeMethod* method)
 {
-	InvokerActionInvoker3< RuntimeObject*, int32_t, int32_t >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___targetIndex0, ___isFound1);
+	InvokerActionInvoker3< RuntimeObject*, int32_t, int32_t >::Invoke((Il2CppMethodPointer)__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___0_targetIndex, ___1_isFound);
 }
-IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4 (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___targetIndex0, int32_t ___isFound1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4 (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___0_targetIndex, int32_t ___1_isFound, const RuntimeMethod* method)
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc)(int32_t, int32_t);
 	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
 	// Native function invocation
-	il2cppPInvokeFunc(___targetIndex0, ___isFound1);
+	il2cppPInvokeFunc(___0_targetIndex, ___1_isFound);
 
 }
 // System.Void WebARFoundation.MindARImagePlugin/OnARUpdateEvent::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent__ctor_mC6C3D6B09C07DFB582961685175381909D847B43 (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent__ctor_mC6C3D6B09C07DFB582961685175381909D847B43 (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_ptr_0 = (intptr_t)il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
 	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
 	{
 		bool isOpen = parameterCount == 2;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
 			if (isOpen)
 				__this->___invoke_impl_1 = (intptr_t)&OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_OpenStaticInvoker;
 			else
@@ -4134,27 +4424,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent__ctor_mC6C3D6B09C07DFB58
 				__this->___invoke_impl_1 = (intptr_t)&OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_OpenStatic;
 			else
 				{
-					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___invoke_impl_1 = __this->___method_ptr_0;
 					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
 				}
 	}
 	else
 	{
-		if (___object0 == NULL)
+		if (___0_object == NULL)
 			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
-		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___invoke_impl_1 = __this->___method_ptr_0;
 		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
 	}
 	__this->___extra_arg_5 = (intptr_t)&OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_Multicast;
 }
 // System.Void WebARFoundation.MindARImagePlugin/OnARUpdateEvent::Invoke(System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___targetIndex0, int32_t ___isFound1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___0_targetIndex, int32_t ___1_isFound, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___targetIndex0, ___isFound1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_targetIndex, ___1_isFound, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 // System.IAsyncResult WebARFoundation.MindARImagePlugin/OnARUpdateEvent::BeginInvoke(System.Int32,System.Int32,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnARUpdateEvent_BeginInvoke_m612C1D3CE30127388A6826F4C19CFC2F1A7F723C (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___targetIndex0, int32_t ___isFound1, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback2, RuntimeObject* ___object3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnARUpdateEvent_BeginInvoke_m612C1D3CE30127388A6826F4C19CFC2F1A7F723C (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___0_targetIndex, int32_t ___1_isFound, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4163,14 +4453,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnARUpdateEvent_BeginInvoke_m6
 		s_Il2CppMethodInitialized = true;
 	}
 	void *__d_args[3] = {0};
-	__d_args[0] = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &___targetIndex0);
-	__d_args[1] = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &___isFound1);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
+	__d_args[0] = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &___0_targetIndex);
+	__d_args[1] = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &___1_isFound);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
 // System.Void WebARFoundation.MindARImagePlugin/OnARUpdateEvent::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent_EndInvoke_m58817A575B19628C3E94ECD687DBCAF58307EA29 (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent_EndInvoke_m58817A575B19628C3E94ECD687DBCAF58307EA29 (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -4181,24 +4471,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnARUpdateEvent_EndInvoke_m58817A575B196
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_SetCallbacks(System.Action,System.Action,WebARFoundation.MindARImagePlugin/OnARUpdateEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetCallbacks_m25509A358CF35F5A07069375FE8CB3785122473C (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onARReady0, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___onCameraConfigChange1, OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* ___onARUpdate2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetCallbacks_m25509A358CF35F5A07069375FE8CB3785122473C (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_onARReady, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___1_onCameraConfigChange, OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* ___2_onARUpdate, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (Il2CppMethodPointer, Il2CppMethodPointer, Il2CppMethodPointer);
 
-	// Marshaling of parameter '___onARReady0' to native representation
-	Il2CppMethodPointer ____onARReady0_marshaled = NULL;
-	____onARReady0_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___onARReady0));
+	// Marshaling of parameter '___0_onARReady' to native representation
+	Il2CppMethodPointer ____0_onARReady_marshaled = NULL;
+	____0_onARReady_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___0_onARReady));
 
-	// Marshaling of parameter '___onCameraConfigChange1' to native representation
-	Il2CppMethodPointer ____onCameraConfigChange1_marshaled = NULL;
-	____onCameraConfigChange1_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___onCameraConfigChange1));
+	// Marshaling of parameter '___1_onCameraConfigChange' to native representation
+	Il2CppMethodPointer ____1_onCameraConfigChange_marshaled = NULL;
+	____1_onCameraConfigChange_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___1_onCameraConfigChange));
 
-	// Marshaling of parameter '___onARUpdate2' to native representation
-	Il2CppMethodPointer ____onARUpdate2_marshaled = NULL;
-	____onARUpdate2_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___onARUpdate2));
+	// Marshaling of parameter '___2_onARUpdate' to native representation
+	Il2CppMethodPointer ____2_onARUpdate_marshaled = NULL;
+	____2_onARUpdate_marshaled = il2cpp_codegen_marshal_delegate(reinterpret_cast<MulticastDelegate_t*>(___2_onARUpdate));
 
 	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(MindARImage_SetCallbacks)(____onARReady0_marshaled, ____onCameraConfigChange1_marshaled, ____onARUpdate2_marshaled);
+	reinterpret_cast<PInvokeFunc>(MindARImage_SetCallbacks)(____0_onARReady_marshaled, ____1_onCameraConfigChange_marshaled, ____2_onARUpdate_marshaled);
 
 }
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_StartAR()
@@ -4260,22 +4550,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_MindARImage_GetNumTargets_m7A4
 	return returnValue;
 }
 // System.Int32 WebARFoundation.MindARImagePlugin/Native::MindARImage_GetTargetWidth(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_MindARImage_GetTargetWidth_m64E3E62CB38CC11764AFEFE34B1E93AA46480941 (int32_t ___targetIndex0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_MindARImage_GetTargetWidth_m64E3E62CB38CC11764AFEFE34B1E93AA46480941 (int32_t ___0_targetIndex, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
 
 	// Native function invocation
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(MindARImage_GetTargetWidth)(___targetIndex0);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(MindARImage_GetTargetWidth)(___0_targetIndex);
 
 	return returnValue;
 }
 // System.Int32 WebARFoundation.MindARImagePlugin/Native::MindARImage_GetTargetHeight(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_MindARImage_GetTargetHeight_mE7B5589E558B0984BEF2B70864FDE3D6E0675950 (int32_t ___targetIndex0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_MindARImage_GetTargetHeight_mE7B5589E558B0984BEF2B70864FDE3D6E0675950 (int32_t ___0_targetIndex, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
 
 	// Native function invocation
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(MindARImage_GetTargetHeight)(___targetIndex0);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(MindARImage_GetTargetHeight)(___0_targetIndex);
 
 	return returnValue;
 }
@@ -4290,75 +4580,75 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_MindARImage_GetCameraParamsPt
 	return returnValue;
 }
 // System.IntPtr WebARFoundation.MindARImagePlugin/Native::MindARImage_GetTargetWorldMatrixPtr(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_MindARImage_GetTargetWorldMatrixPtr_m61DF3FE53BC4932922E0C7010E4FA7D2B47FBB12 (int32_t ___targetIndex0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_MindARImage_GetTargetWorldMatrixPtr_m61DF3FE53BC4932922E0C7010E4FA7D2B47FBB12 (int32_t ___0_targetIndex, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
 
 	// Native function invocation
-	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(MindARImage_GetTargetWorldMatrixPtr)(___targetIndex0);
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(MindARImage_GetTargetWorldMatrixPtr)(___0_targetIndex);
 
 	return returnValue;
 }
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_TextureUpdate(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_TextureUpdate_m5FF619E5D1D2BFA2C9FA861D77981078DF38B422 (int32_t ___texture0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_TextureUpdate_m5FF619E5D1D2BFA2C9FA861D77981078DF38B422 (int32_t ___0_texture, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
 
 	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(MindARImage_TextureUpdate)(___texture0);
+	reinterpret_cast<PInvokeFunc>(MindARImage_TextureUpdate)(___0_texture);
 
 }
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_SetIsFacingUser(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetIsFacingUser_mB28F169227467DED7827B28649F46DDE551833BA (bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetIsFacingUser_mB28F169227467DED7827B28649F46DDE551833BA (bool ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
 
 	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(MindARImage_SetIsFacingUser)(static_cast<int32_t>(___value0));
+	reinterpret_cast<PInvokeFunc>(MindARImage_SetIsFacingUser)(static_cast<int32_t>(___0_value));
 
 }
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_SetMindFilePath(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetMindFilePath_m7C8E019C2A4BE004857F298B9ED7A28E887D3751 (String_t* ___path0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetMindFilePath_m7C8E019C2A4BE004857F298B9ED7A28E887D3751 (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
 
-	// Marshaling of parameter '___path0' to native representation
-	char* ____path0_marshaled = NULL;
-	____path0_marshaled = il2cpp_codegen_marshal_string(___path0);
+	// Marshaling of parameter '___0_path' to native representation
+	char* ____0_path_marshaled = NULL;
+	____0_path_marshaled = il2cpp_codegen_marshal_string(___0_path);
 
 	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(MindARImage_SetMindFilePath)(____path0_marshaled);
+	reinterpret_cast<PInvokeFunc>(MindARImage_SetMindFilePath)(____0_path_marshaled);
 
-	// Marshaling cleanup of parameter '___path0' native representation
-	il2cpp_codegen_marshal_free(____path0_marshaled);
-	____path0_marshaled = NULL;
+	// Marshaling cleanup of parameter '___0_path' native representation
+	il2cpp_codegen_marshal_free(____0_path_marshaled);
+	____0_path_marshaled = NULL;
 
 }
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_SetMaxTrack(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetMaxTrack_m88D2279C2BA2EE6ED438B83A6A99A0FAB19BAF60 (float ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetMaxTrack_m88D2279C2BA2EE6ED438B83A6A99A0FAB19BAF60 (float ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (float);
 
 	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(MindARImage_SetMaxTrack)(___value0);
+	reinterpret_cast<PInvokeFunc>(MindARImage_SetMaxTrack)(___0_value);
 
 }
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_SetFilterMinCF(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetFilterMinCF_mAD16AAEDB880E0EB2E5479DB68728EADA2E3ADEF (float ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetFilterMinCF_mAD16AAEDB880E0EB2E5479DB68728EADA2E3ADEF (float ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (float);
 
 	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(MindARImage_SetFilterMinCF)(___value0);
+	reinterpret_cast<PInvokeFunc>(MindARImage_SetFilterMinCF)(___0_value);
 
 }
 // System.Void WebARFoundation.MindARImagePlugin/Native::MindARImage_SetFilterBeta(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetFilterBeta_m61ED456172BF90530FF2DF61228F03D735B8CB45 (float ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_MindARImage_SetFilterBeta_m61ED456172BF90530FF2DF61228F03D735B8CB45 (float ___0_value, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (float);
 
 	// Native function invocation
-	reinterpret_cast<PInvokeFunc>(MindARImage_SetFilterBeta)(___value0);
+	reinterpret_cast<PInvokeFunc>(MindARImage_SetFilterBeta)(___0_value);
 
 }
 #ifdef __clang__
@@ -4379,7 +4669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4
 	}
 }
 // System.Void WebARFoundation.ARCamera::UpdateCameraConfig(System.Int32,System.Int32,System.Single,System.Single,System.Single,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCamera_UpdateCameraConfig_m12384980C46CB594DD7145FDFF59C309F331E217 (ARCamera_t7270A834743B1CB966F161ED49C1882BF71FEC5B* __this, int32_t ___videoWidth0, int32_t ___videoHeight1, float ___fov2, float ___near3, float ___far4, bool ___facingUser5, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCamera_UpdateCameraConfig_m12384980C46CB594DD7145FDFF59C309F331E217 (ARCamera_t7270A834743B1CB966F161ED49C1882BF71FEC5B* __this, int32_t ___0_videoWidth, int32_t ___1_videoHeight, float ___2_fov, float ___3_near, float ___4_far, bool ___5_facingUser, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4391,8 +4681,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCamera_UpdateCameraConfig_m12384980C46
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* V_0 = NULL;
 	{
 		// videoTexture = new Texture2D(videoWidth, videoHeight, TextureFormat.ARGB32, false);
-		int32_t L_0 = ___videoWidth0;
-		int32_t L_1 = ___videoHeight1;
+		int32_t L_0 = ___0_videoWidth;
+		int32_t L_1 = ___1_videoHeight;
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_2 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
 		Texture2D__ctor_mECF60A9EC0638EC353C02C8E99B6B465D23BE917(L_2, L_0, L_1, 5, (bool)0, NULL);
 		__this->___videoTexture_5 = L_2;
@@ -4409,7 +4699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCamera_UpdateCameraConfig_m12384980C46
 		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_7 = __this->___videoTexture_5;
 		Material_set_mainTexture_m389E048BA9C81B603EBF36BD792212B296317AC0(L_6, L_7, NULL);
 		// if (facingUser) { // flip horizontally
-		bool L_8 = ___facingUser5;
+		bool L_8 = ___5_facingUser;
 		if (!L_8)
 		{
 			goto IL_005a;
@@ -4433,13 +4723,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCamera_UpdateCameraConfig_m12384980C46
 IL_005a:
 	{
 		// arFar = far;
-		float L_13 = ___far4;
+		float L_13 = ___4_far;
 		__this->___arFar_9 = L_13;
 		// arFov = fov;
-		float L_14 = ___fov2;
+		float L_14 = ___2_fov;
 		__this->___arFov_7 = L_14;
 		// arNear = near;
-		float L_15 = ___near3;
+		float L_15 = ___3_near;
 		__this->___arNear_8 = L_15;
 		// }
 		return;
@@ -4458,7 +4748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCamera_Update_m6331F1E5BF40CC08FEF8FC5
 	}
 	{
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = __this->___screenSize_6;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2 = (&__this->___screenSize_6);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_2 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___screenSize_6);
 		float L_3;
 		L_3 = Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline(L_2, 0, NULL);
 		int32_t L_4;
@@ -4469,7 +4759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCamera_Update_m6331F1E5BF40CC08FEF8FC5
 		}
 	}
 	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_5 = (&__this->___screenSize_6);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_5 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___screenSize_6);
 		float L_6;
 		L_6 = Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline(L_5, 1, NULL);
 		int32_t L_7;
@@ -4533,12 +4823,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARCamera_UpdateProjection_m79F4218C4CD13
 		float L_4 = __this->___arNear_8;
 		Camera_set_nearClipPlane_m78482B5E4E0CE4C195D9CE0332AA75B2D9CCDDF6(L_3, L_4, NULL);
 		// float screenWidth = screenSize[0];
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_5 = (&__this->___screenSize_6);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_5 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___screenSize_6);
 		float L_6;
 		L_6 = Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline(L_5, 0, NULL);
 		V_1 = L_6;
 		// float screenHeight = screenSize[1];
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_7 = (&__this->___screenSize_6);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_7 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___screenSize_6);
 		float L_8;
 		L_8 = Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline(L_7, 1, NULL);
 		V_2 = L_8;
@@ -4676,30 +4966,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceMesh_OnEnable_mC0621F24514D66CE6114C
 	}
 }
 // System.Void WebARFoundation.FaceMesh::UpdatePose(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceMesh_UpdatePose_mA8C7AE96410D67B027281850C3DF1A8C98CAAD25 (FaceMesh_tCD3427E7ABB571BE74614B6422CDFB0C5FCEE918* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___translation0, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___scale2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceMesh_UpdatePose_mA8C7AE96410D67B027281850C3DF1A8C98CAAD25 (FaceMesh_tCD3427E7ABB571BE74614B6422CDFB0C5FCEE918* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_translation, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_scale, const RuntimeMethod* method) 
 {
 	{
 		// transform.localPosition = translation;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___translation0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_translation;
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_0, L_1, NULL);
 		// transform.localRotation = rotation;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = ___rotation1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = ___1_rotation;
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_2, L_3, NULL);
 		// transform.localScale = scale;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___scale2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___2_scale;
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_4, L_5, NULL);
 		// }
 		return;
 	}
 }
 // System.Void WebARFoundation.FaceMesh::UpdateGeometry(UnityEngine.Vector3[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceMesh_UpdateGeometry_m06E3F72DAE082FEAA4679AA8E3B2035B9BC6D48C (FaceMesh_tCD3427E7ABB571BE74614B6422CDFB0C5FCEE918* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___vertices0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceMesh_UpdateGeometry_m06E3F72DAE082FEAA4679AA8E3B2035B9BC6D48C (FaceMesh_tCD3427E7ABB571BE74614B6422CDFB0C5FCEE918* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_vertices, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4713,7 +5003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceMesh_UpdateGeometry_m06E3F72DAE082FE
 		L_0 = Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623(__this, Component_GetComponent_TisMeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5_mB82F66059DFB5715DD85BDED1D90BC03A6C9E623_RuntimeMethod_var);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_1;
 		L_1 = MeshFilter_get_mesh_m13172D7EF6682861971817D0A47EE2BE49FBCB1C(L_0, NULL);
-		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = ___vertices0;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = ___0_vertices;
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_1, L_2, NULL);
 		// }
 		return;
@@ -4956,23 +5246,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceMeshGeometry__cctor_m2A7062A5EF692C1
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void WebARFoundation.FaceTracker::UpdatePose(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceTracker_UpdatePose_mDCF4748C7C955B286F3AD04AECBAE3F17FAA8F10 (FaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___translation0, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___scale2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceTracker_UpdatePose_mDCF4748C7C955B286F3AD04AECBAE3F17FAA8F10 (FaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_translation, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_scale, const RuntimeMethod* method) 
 {
 	{
 		// transform.localPosition = translation;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___translation0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_translation;
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_0, L_1, NULL);
 		// transform.localRotation = rotation;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = ___rotation1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = ___1_rotation;
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_2, L_3, NULL);
 		// transform.localScale = scale;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___scale2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___2_scale;
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_4, L_5, NULL);
 		// }
 		return;
@@ -5011,23 +5301,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceTracker__ctor_m85DE102BD0A3FAE429794
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void WebARFoundation.ImageTracker::UpdatePose(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTracker_UpdatePose_m34F727C9B9079883B5C14D1175379F7E5D15DCC9 (ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___translation0, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rotation1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___scale2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTracker_UpdatePose_m34F727C9B9079883B5C14D1175379F7E5D15DCC9 (ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_translation, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_scale, const RuntimeMethod* method) 
 {
 	{
 		// transform.localPosition = translation;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___translation0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___0_translation;
 		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_0, L_1, NULL);
 		// transform.localRotation = rotation;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = ___rotation1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = ___1_rotation;
 		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_2, L_3, NULL);
 		// transform.localScale = scale;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4;
 		L_4 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___scale2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5 = ___2_scale;
 		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_4, L_5, NULL);
 		// }
 		return;
@@ -5066,7 +5356,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTracker__ctor_m1D597DFDC2C7A8C5CD90
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void WebARFoundation.MindARFaceTrackingManager::add_onTargetFoundEvent(WebARFoundation.MindARFaceTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_add_onTargetFoundEvent_mBB8465D156E92511EB87441DC81EDCBFC9EE6379 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_add_onTargetFoundEvent_mBB8465D156E92511EB87441DC81EDCBFC9EE6379 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5087,11 +5377,11 @@ IL_0007:
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_1 = V_0;
 		V_1 = L_1;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_2 = V_1;
-		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_3 = ___value0;
+		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7*)CastclassSealed((RuntimeObject*)L_4, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7_il2cpp_TypeInfo_var));
-		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7** L_5 = (&__this->___onTargetFoundEvent_4);
+		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7** L_5 = (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7**)(&__this->___onTargetFoundEvent_4);
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_6 = V_2;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_7 = V_1;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_8;
@@ -5109,7 +5399,7 @@ IL_0007:
 	}
 }
 // System.Void WebARFoundation.MindARFaceTrackingManager::remove_onTargetFoundEvent(WebARFoundation.MindARFaceTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_remove_onTargetFoundEvent_m238DE281EE47ADBA21C402AB2BDED8BCE6F28B3A (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_remove_onTargetFoundEvent_m238DE281EE47ADBA21C402AB2BDED8BCE6F28B3A (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5130,11 +5420,11 @@ IL_0007:
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_1 = V_0;
 		V_1 = L_1;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_2 = V_1;
-		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_3 = ___value0;
+		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7*)CastclassSealed((RuntimeObject*)L_4, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7_il2cpp_TypeInfo_var));
-		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7** L_5 = (&__this->___onTargetFoundEvent_4);
+		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7** L_5 = (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7**)(&__this->___onTargetFoundEvent_4);
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_6 = V_2;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_7 = V_1;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_8;
@@ -5152,7 +5442,7 @@ IL_0007:
 	}
 }
 // System.Void WebARFoundation.MindARFaceTrackingManager::add_onTargetLostEvent(WebARFoundation.MindARFaceTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_add_onTargetLostEvent_mD1C71F22450A5C4629365F43F3019BCF4F6C3658 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_add_onTargetLostEvent_mD1C71F22450A5C4629365F43F3019BCF4F6C3658 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5173,11 +5463,11 @@ IL_0007:
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_1 = V_0;
 		V_1 = L_1;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_2 = V_1;
-		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_3 = ___value0;
+		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7*)CastclassSealed((RuntimeObject*)L_4, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7_il2cpp_TypeInfo_var));
-		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7** L_5 = (&__this->___onTargetLostEvent_5);
+		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7** L_5 = (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7**)(&__this->___onTargetLostEvent_5);
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_6 = V_2;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_7 = V_1;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_8;
@@ -5195,7 +5485,7 @@ IL_0007:
 	}
 }
 // System.Void WebARFoundation.MindARFaceTrackingManager::remove_onTargetLostEvent(WebARFoundation.MindARFaceTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_remove_onTargetLostEvent_mCDC359CF77067B3E6C889769F255B04747CA5444 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_remove_onTargetLostEvent_mCDC359CF77067B3E6C889769F255B04747CA5444 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5216,11 +5506,11 @@ IL_0007:
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_1 = V_0;
 		V_1 = L_1;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_2 = V_1;
-		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_3 = ___value0;
+		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7*)CastclassSealed((RuntimeObject*)L_4, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7_il2cpp_TypeInfo_var));
-		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7** L_5 = (&__this->___onTargetLostEvent_5);
+		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7** L_5 = (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7**)(&__this->___onTargetLostEvent_5);
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_6 = V_2;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_7 = V_1;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_8;
@@ -5238,7 +5528,7 @@ IL_0007:
 	}
 }
 // System.Void WebARFoundation.MindARFaceTrackingManager::add_onTargetUpdateEvent(WebARFoundation.MindARFaceTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_add_onTargetUpdateEvent_mC695731261288F4FF1F429127AA801731D283DAE (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_add_onTargetUpdateEvent_mC695731261288F4FF1F429127AA801731D283DAE (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5259,11 +5549,11 @@ IL_0007:
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_1 = V_0;
 		V_1 = L_1;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_2 = V_1;
-		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_3 = ___value0;
+		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7*)CastclassSealed((RuntimeObject*)L_4, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7_il2cpp_TypeInfo_var));
-		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7** L_5 = (&__this->___onTargetUpdateEvent_6);
+		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7** L_5 = (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7**)(&__this->___onTargetUpdateEvent_6);
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_6 = V_2;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_7 = V_1;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_8;
@@ -5281,7 +5571,7 @@ IL_0007:
 	}
 }
 // System.Void WebARFoundation.MindARFaceTrackingManager::remove_onTargetUpdateEvent(WebARFoundation.MindARFaceTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_remove_onTargetUpdateEvent_m74289C2E31F29ADD24E84AED86775E5B3B52DBB9 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_remove_onTargetUpdateEvent_m74289C2E31F29ADD24E84AED86775E5B3B52DBB9 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5302,11 +5592,11 @@ IL_0007:
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_1 = V_0;
 		V_1 = L_1;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_2 = V_1;
-		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_3 = ___value0;
+		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7*)CastclassSealed((RuntimeObject*)L_4, OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7_il2cpp_TypeInfo_var));
-		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7** L_5 = (&__this->___onTargetUpdateEvent_6);
+		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7** L_5 = (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7**)(&__this->___onTargetUpdateEvent_6);
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_6 = V_2;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_7 = V_1;
 		OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* L_8;
@@ -5657,7 +5947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_OnCameraConfig
 	}
 }
 // System.Void WebARFoundation.MindARFaceTrackingManager::OnARUpdate(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_OnARUpdate_mD514CD0A01FC547F2452BB6FBC8C60E9F794C56D (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, int32_t ___isFound0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_OnARUpdate_mD514CD0A01FC547F2452BB6FBC8C60E9F794C56D (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, int32_t ___0_isFound, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5716,7 +6006,7 @@ IL_001a_1:
 				L_4 = Enumerator_get_Current_m06883FD190AC20D8757A0D31CBA58F02948BAE89_inline((&V_2), Enumerator_get_Current_m06883FD190AC20D8757A0D31CBA58F02948BAE89_RuntimeMethod_var);
 				V_3 = L_4;
 				// if (isFound == 1) {
-				int32_t L_5 = ___isFound0;
+				int32_t L_5 = ___0_isFound;
 				if ((!(((uint32_t)L_5) == ((uint32_t)1))))
 				{
 					goto IL_0055_1;
@@ -5787,7 +6077,7 @@ IL_0061_1:
 IL_007a:
 	{
 		// if (isFound == 1) {
-		int32_t L_19 = ___isFound0;
+		int32_t L_19 = ___0_isFound;
 		if ((!(((uint32_t)L_19) == ((uint32_t)1))))
 		{
 			goto IL_009b;
@@ -5857,14 +6147,14 @@ IL_00b6:
 IL_00c9:
 	{
 		// isTargetVisible = isFound == 1;
-		int32_t L_28 = ___isFound0;
+		int32_t L_28 = ___0_isFound;
 		__this->___isTargetVisible_12 = (bool)((((int32_t)L_28) == ((int32_t)1))? 1 : 0);
 		// }
 		return;
 	}
 }
 // System.Void WebARFoundation.MindARFaceTrackingManager::UpdateTargetPose(WebARFoundation.FaceTracker,System.Single[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_UpdateTargetPose_m2850709D62E7CF130D37AE02769BC4E025EF9252 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, FaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A* ___faceTracker0, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___preprocessedMatrixArray1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_UpdateTargetPose_m2850709D62E7CF130D37AE02769BC4E025EF9252 (MindARFaceTrackingManager_t0071AEBFF66598EB1CE3E4E7A2D09D4E3D98428E* __this, FaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A* ___0_faceTracker, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_preprocessedMatrixArray, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_1;
@@ -5883,7 +6173,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_UpdateTargetPo
 		// Matrix4x4 m = new Matrix4x4();
 		il2cpp_codegen_initobj((&V_1), sizeof(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6));
 		// Utils.AssignMatrix4x4FromArray(ref m, preprocessedMatrixArray);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ___preprocessedMatrixArray1;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_0 = ___1_preprocessedMatrixArray;
 		Utils_AssignMatrix4x4FromArray_m9640CAD478F303E63CBF424C4F4F6581FD024CE1((&V_1), L_0, NULL);
 		// m.m20 = -m.m20;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_1 = V_1;
@@ -5925,7 +6215,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARFaceTrackingManager_UpdateTargetPo
 		float L_20 = V_0;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_5), ((float)(L_13/L_14)), ((float)(L_16/L_17)), ((float)(L_19/L_20)), NULL);
 		// faceTracker.UpdatePose(translation, rotation, newScale);
-		FaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A* L_21 = ___faceTracker0;
+		FaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A* L_21 = ___0_faceTracker;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = V_2;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_23 = V_3;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_5;
@@ -5979,11 +6269,11 @@ void OnTargetEvent_Invoke_m45C6E4D8029AB8062E29276DBC9A472C310D2A4F_OpenStatic(O
 }
 void OnTargetEvent_Invoke_m45C6E4D8029AB8062E29276DBC9A472C310D2A4F_OpenStaticInvoker(OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* __this, const RuntimeMethod* method)
 {
-	InvokerActionInvoker0::Invoke(__this->___method_ptr_0, method, NULL);
+	InvokerActionInvoker0::Invoke((Il2CppMethodPointer)__this->___method_ptr_0, method, NULL);
 }
 void OnTargetEvent_Invoke_m45C6E4D8029AB8062E29276DBC9A472C310D2A4F_ClosedStaticInvoker(OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* __this, const RuntimeMethod* method)
 {
-	InvokerActionInvoker1< RuntimeObject* >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2);
+	InvokerActionInvoker1< RuntimeObject* >::Invoke((Il2CppMethodPointer)__this->___method_ptr_0, method, NULL, __this->___m_target_2);
 }
 IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7 (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* __this, const RuntimeMethod* method)
 {
@@ -5994,18 +6284,18 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnTargetEvent_t373E156A0576C7DA5C28
 
 }
 // System.Void WebARFoundation.MindARFaceTrackingManager/OnTargetEvent::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent__ctor_m8A1AA2C42BEDC31F0C63433FBC22B853FE2BDA47 (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent__ctor_m8A1AA2C42BEDC31F0C63433FBC22B853FE2BDA47 (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_ptr_0 = (intptr_t)il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
 	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
 	{
 		bool isOpen = parameterCount == 0;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
 			if (isOpen)
 				__this->___invoke_impl_1 = (intptr_t)&OnTargetEvent_Invoke_m45C6E4D8029AB8062E29276DBC9A472C310D2A4F_OpenStaticInvoker;
 			else
@@ -6015,15 +6305,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent__ctor_m8A1AA2C42BEDC31F0C6
 				__this->___invoke_impl_1 = (intptr_t)&OnTargetEvent_Invoke_m45C6E4D8029AB8062E29276DBC9A472C310D2A4F_OpenStatic;
 			else
 				{
-					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___invoke_impl_1 = __this->___method_ptr_0;
 					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
 				}
 	}
 	else
 	{
-		if (___object0 == NULL)
+		if (___0_object == NULL)
 			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
-		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___invoke_impl_1 = __this->___method_ptr_0;
 		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
 	}
 	__this->___extra_arg_5 = (intptr_t)&OnTargetEvent_Invoke_m45C6E4D8029AB8062E29276DBC9A472C310D2A4F_Multicast;
@@ -6035,15 +6325,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent_Invoke_m45C6E4D8029AB8062E
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 // System.IAsyncResult WebARFoundation.MindARFaceTrackingManager/OnTargetEvent::BeginInvoke(System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnTargetEvent_BeginInvoke_m7E46053E120D77393B52A4272299DDAE96CC5F8C (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback0, RuntimeObject* ___object1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnTargetEvent_BeginInvoke_m7E46053E120D77393B52A4272299DDAE96CC5F8C (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___0_callback, RuntimeObject* ___1_object, const RuntimeMethod* method) 
 {
 	void *__d_args[1] = {0};
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback0, (RuntimeObject*)___object1);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___0_callback, (RuntimeObject*)___1_object);
 }
 // System.Void WebARFoundation.MindARFaceTrackingManager/OnTargetEvent::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent_EndInvoke_m3A73D2989075CD7BD1413BA9C51C12E620860665 (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent_EndInvoke_m3A73D2989075CD7BD1413BA9C51C12E620860665 (OnTargetEvent_t373E156A0576C7DA5C28A989F3510E78A5B5EAC7* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -6079,7 +6369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m2A79DB180487FFB68733EB1E6
 	}
 }
 // System.Collections.Generic.IEnumerable`1<WebARFoundation.FaceTracker> WebARFoundation.MindARFaceTrackingManager/<>c::<Awake>b__16_0(UnityEngine.GameObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CAwakeU3Eb__16_0_m28578A6F594CCAD3188E3AF5FAFBE0D6CE65DD5D (U3CU3Ec_t4BEF44D246CE0E5716609FE46BEAC53B2DF4D16A* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameObject0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CAwakeU3Eb__16_0_m28578A6F594CCAD3188E3AF5FAFBE0D6CE65DD5D (U3CU3Ec_t4BEF44D246CE0E5716609FE46BEAC53B2DF4D16A* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6090,7 +6380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CAwakeU3Eb__16_0_m28
 	{
 		// .SelectMany(gameObject => gameObject
 		//     .GetComponentsInChildren<FaceTracker>())
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___gameObject0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_gameObject;
 		FaceTrackerU5BU5D_tEDBCE7BC5F70569F0024EEF12A1AFE1E530AF0C3* L_1;
 		L_1 = GameObject_GetComponentsInChildren_TisFaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A_m93447F78A04A2A707E6E1AFF7650B42AA7D521D7(L_0, GameObject_GetComponentsInChildren_TisFaceTracker_t269263181B32670FF51D4B5101BE5C7F081C1F3A_m93447F78A04A2A707E6E1AFF7650B42AA7D521D7_RuntimeMethod_var);
 		return (RuntimeObject*)L_1;
@@ -6105,7 +6395,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CAwakeU3Eb__16_0_m28
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void WebARFoundation.MindARImageTrackingManager::add_onTargetFoundEvent(WebARFoundation.MindARImageTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_add_onTargetFoundEvent_m78D59AC8546A57C3007D2B911D72FD6586AC5841 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_add_onTargetFoundEvent_m78D59AC8546A57C3007D2B911D72FD6586AC5841 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6126,11 +6416,11 @@ IL_0007:
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_1 = V_0;
 		V_1 = L_1;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_2 = V_1;
-		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_3 = ___value0;
+		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6*)CastclassSealed((RuntimeObject*)L_4, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6_il2cpp_TypeInfo_var));
-		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6** L_5 = (&__this->___onTargetFoundEvent_4);
+		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6** L_5 = (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6**)(&__this->___onTargetFoundEvent_4);
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_6 = V_2;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_7 = V_1;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_8;
@@ -6148,7 +6438,7 @@ IL_0007:
 	}
 }
 // System.Void WebARFoundation.MindARImageTrackingManager::remove_onTargetFoundEvent(WebARFoundation.MindARImageTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_remove_onTargetFoundEvent_mBF6B9CCE976705CF0119EC8B6E64242B75BEEBCC (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_remove_onTargetFoundEvent_mBF6B9CCE976705CF0119EC8B6E64242B75BEEBCC (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6169,11 +6459,11 @@ IL_0007:
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_1 = V_0;
 		V_1 = L_1;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_2 = V_1;
-		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_3 = ___value0;
+		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6*)CastclassSealed((RuntimeObject*)L_4, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6_il2cpp_TypeInfo_var));
-		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6** L_5 = (&__this->___onTargetFoundEvent_4);
+		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6** L_5 = (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6**)(&__this->___onTargetFoundEvent_4);
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_6 = V_2;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_7 = V_1;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_8;
@@ -6191,7 +6481,7 @@ IL_0007:
 	}
 }
 // System.Void WebARFoundation.MindARImageTrackingManager::add_onTargetLostEvent(WebARFoundation.MindARImageTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_add_onTargetLostEvent_m098DD9314234FD63F9C0A202F3F69044919FB2A3 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_add_onTargetLostEvent_m098DD9314234FD63F9C0A202F3F69044919FB2A3 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6212,11 +6502,11 @@ IL_0007:
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_1 = V_0;
 		V_1 = L_1;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_2 = V_1;
-		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_3 = ___value0;
+		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6*)CastclassSealed((RuntimeObject*)L_4, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6_il2cpp_TypeInfo_var));
-		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6** L_5 = (&__this->___onTargetLostEvent_5);
+		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6** L_5 = (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6**)(&__this->___onTargetLostEvent_5);
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_6 = V_2;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_7 = V_1;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_8;
@@ -6234,7 +6524,7 @@ IL_0007:
 	}
 }
 // System.Void WebARFoundation.MindARImageTrackingManager::remove_onTargetLostEvent(WebARFoundation.MindARImageTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_remove_onTargetLostEvent_m9BA54ECFF559859EEB63372A22631E4653C8B3E9 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_remove_onTargetLostEvent_m9BA54ECFF559859EEB63372A22631E4653C8B3E9 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6255,11 +6545,11 @@ IL_0007:
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_1 = V_0;
 		V_1 = L_1;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_2 = V_1;
-		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_3 = ___value0;
+		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6*)CastclassSealed((RuntimeObject*)L_4, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6_il2cpp_TypeInfo_var));
-		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6** L_5 = (&__this->___onTargetLostEvent_5);
+		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6** L_5 = (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6**)(&__this->___onTargetLostEvent_5);
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_6 = V_2;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_7 = V_1;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_8;
@@ -6277,7 +6567,7 @@ IL_0007:
 	}
 }
 // System.Void WebARFoundation.MindARImageTrackingManager::add_onTargetUpdateEvent(WebARFoundation.MindARImageTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_add_onTargetUpdateEvent_mF6308F569494E989C7F3F91DC3828AA7FB6A0B32 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_add_onTargetUpdateEvent_mF6308F569494E989C7F3F91DC3828AA7FB6A0B32 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6298,11 +6588,11 @@ IL_0007:
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_1 = V_0;
 		V_1 = L_1;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_2 = V_1;
-		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_3 = ___value0;
+		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6*)CastclassSealed((RuntimeObject*)L_4, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6_il2cpp_TypeInfo_var));
-		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6** L_5 = (&__this->___onTargetUpdateEvent_6);
+		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6** L_5 = (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6**)(&__this->___onTargetUpdateEvent_6);
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_6 = V_2;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_7 = V_1;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_8;
@@ -6320,7 +6610,7 @@ IL_0007:
 	}
 }
 // System.Void WebARFoundation.MindARImageTrackingManager::remove_onTargetUpdateEvent(WebARFoundation.MindARImageTrackingManager/OnTargetEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_remove_onTargetUpdateEvent_m9F76571046405E5A21AEE7FE2B25FC9D1C497A8D (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_remove_onTargetUpdateEvent_m9F76571046405E5A21AEE7FE2B25FC9D1C497A8D (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6341,11 +6631,11 @@ IL_0007:
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_1 = V_0;
 		V_1 = L_1;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_2 = V_1;
-		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_3 = ___value0;
+		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_3 = ___0_value;
 		Delegate_t* L_4;
 		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6*)CastclassSealed((RuntimeObject*)L_4, OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6_il2cpp_TypeInfo_var));
-		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6** L_5 = (&__this->___onTargetUpdateEvent_6);
+		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6** L_5 = (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6**)(&__this->___onTargetUpdateEvent_6);
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_6 = V_2;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_7 = V_1;
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_8;
@@ -6785,7 +7075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_OnCameraConfi
 	}
 }
 // System.Void WebARFoundation.MindARImageTrackingManager::OnARUpdate(System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_OnARUpdate_m1BDBFA5488BE69B9004EF6E8ABB2BD2DDE50ACC3 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, int32_t ___targetIndex0, int32_t ___isFound1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_OnARUpdate_m1BDBFA5488BE69B9004EF6E8ABB2BD2DDE50ACC3 (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, int32_t ___0_targetIndex, int32_t ___1_isFound, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6803,7 +7093,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_OnARUpdate_m1
 	ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* V_2 = NULL;
 	{
 		// float[] worldMatrix = MindARImagePlugin.GetTargetWorldMatrix(targetIndex);
-		int32_t L_0 = ___targetIndex0;
+		int32_t L_0 = ___0_targetIndex;
 		il2cpp_codegen_runtime_class_init_inline(MindARImagePlugin_t69A973A8091EA0C38B72EBC1B936D075F3457997_il2cpp_TypeInfo_var);
 		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_1;
 		L_1 = MindARImagePlugin_GetTargetWorldMatrix_m6F0D2060592A9B361F016237DD7301DD19158884(L_0, NULL);
@@ -6839,7 +7129,7 @@ IL_0015_1:
 				// if (imageTracker.targetIndex == targetIndex) {
 				ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* L_5 = V_2;
 				int32_t L_6 = L_5->___targetIndex_4;
-				int32_t L_7 = ___targetIndex0;
+				int32_t L_7 = ___0_targetIndex;
 				if ((!(((uint32_t)L_6) == ((uint32_t)L_7))))
 				{
 					goto IL_004d_1;
@@ -6847,7 +7137,7 @@ IL_0015_1:
 			}
 			{
 				// if (isFound == 1) {
-				int32_t L_8 = ___isFound1;
+				int32_t L_8 = ___1_isFound;
 				if ((!(((uint32_t)L_8) == ((uint32_t)1))))
 				{
 					goto IL_0041_1;
@@ -6861,7 +7151,7 @@ IL_0015_1:
 				GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)1, NULL);
 				// UpdateTargetPose(imageTracker, targetIndex, worldMatrix);
 				ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* L_11 = V_2;
-				int32_t L_12 = ___targetIndex0;
+				int32_t L_12 = ___0_targetIndex;
 				SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_13 = V_0;
 				MindARImageTrackingManager_UpdateTargetPose_m5D48ED89EA52EDE02A285E9E410F796E250B76EC(__this, L_11, L_12, L_13, NULL);
 				goto IL_004d_1;
@@ -6899,7 +7189,7 @@ IL_004d_1:
 IL_0066:
 	{
 		// if (isFound == 1) {
-		int32_t L_17 = ___isFound1;
+		int32_t L_17 = ___1_isFound;
 		if ((!(((uint32_t)L_17) == ((uint32_t)1))))
 		{
 			goto IL_008a;
@@ -6908,7 +7198,7 @@ IL_0066:
 	{
 		// if (!isTargetVisibles[targetIndex]) {
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_18 = __this->___isTargetVisibles_15;
-		int32_t L_19 = ___targetIndex0;
+		int32_t L_19 = ___0_targetIndex;
 		int32_t L_20 = L_19;
 		uint8_t L_21 = (uint8_t)(L_18)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_20));
 		if (L_21)
@@ -6927,7 +7217,7 @@ IL_0066:
 	{
 		// if (onTargetFoundEvent != null) onTargetFoundEvent.Invoke(targetIndex);
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_23 = __this->___onTargetFoundEvent_4;
-		int32_t L_24 = ___targetIndex0;
+		int32_t L_24 = ___0_targetIndex;
 		OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_inline(L_23, L_24, NULL);
 		goto IL_00a8;
 	}
@@ -6936,7 +7226,7 @@ IL_008a:
 	{
 		// if (isTargetVisibles[targetIndex]) {
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_25 = __this->___isTargetVisibles_15;
-		int32_t L_26 = ___targetIndex0;
+		int32_t L_26 = ___0_targetIndex;
 		int32_t L_27 = L_26;
 		uint8_t L_28 = (uint8_t)(L_25)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_27));
 		if (!L_28)
@@ -6955,7 +7245,7 @@ IL_008a:
 	{
 		// if (onTargetLostEvent != null) onTargetLostEvent.Invoke(targetIndex);
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_30 = __this->___onTargetLostEvent_5;
-		int32_t L_31 = ___targetIndex0;
+		int32_t L_31 = ___0_targetIndex;
 		OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_inline(L_30, L_31, NULL);
 	}
 
@@ -6971,7 +7261,7 @@ IL_00a8:
 	{
 		// if (onTargetUpdateEvent != null) onTargetUpdateEvent.Invoke(targetIndex);
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* L_33 = __this->___onTargetUpdateEvent_6;
-		int32_t L_34 = ___targetIndex0;
+		int32_t L_34 = ___0_targetIndex;
 		OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_inline(L_33, L_34, NULL);
 	}
 
@@ -6979,15 +7269,15 @@ IL_00bc:
 	{
 		// isTargetVisibles[targetIndex] = isFound == 1;
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_35 = __this->___isTargetVisibles_15;
-		int32_t L_36 = ___targetIndex0;
-		int32_t L_37 = ___isFound1;
+		int32_t L_36 = ___0_targetIndex;
+		int32_t L_37 = ___1_isFound;
 		(L_35)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(L_36), (bool)((((int32_t)L_37) == ((int32_t)1))? 1 : 0));
 		// }
 		return;
 	}
 }
 // System.Void WebARFoundation.MindARImageTrackingManager::UpdateTargetPose(WebARFoundation.ImageTracker,System.Int32,System.Single[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_UpdateTargetPose_m5D48ED89EA52EDE02A285E9E410F796E250B76EC (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* ___imageTracker0, int32_t ___targetIndex1, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___preprocessedMatrixArray2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_UpdateTargetPose_m5D48ED89EA52EDE02A285E9E410F796E250B76EC (MindARImageTrackingManager_t30826631F94ABBDC87D1330F4B453DF83765FA84* __this, ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* ___0_imageTracker, int32_t ___1_targetIndex, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___2_preprocessedMatrixArray, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
@@ -7005,13 +7295,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_UpdateTargetP
 	{
 		// float markerWidth = markerDimensions[targetIndex, 0];
 		SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* L_0 = __this->___markerDimensions_13;
-		int32_t L_1 = ___targetIndex1;
+		int32_t L_1 = ___1_targetIndex;
 		float L_2;
 		L_2 = (L_0)->GetAtUnchecked(L_1, 0);
 		V_0 = L_2;
 		// float markerHeight = markerDimensions[targetIndex, 1];
 		SingleU5BU2CU5D_t8C95DA2D5056EB0490FC7DCB1ED30E33DE1D53F4* L_3 = __this->___markerDimensions_13;
-		int32_t L_4 = ___targetIndex1;
+		int32_t L_4 = ___1_targetIndex;
 		float L_5;
 		L_5 = (L_3)->GetAtUnchecked(L_4, 1);
 		V_1 = L_5;
@@ -7020,7 +7310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_UpdateTargetP
 		// Matrix4x4 m = new Matrix4x4();
 		il2cpp_codegen_initobj((&V_3), sizeof(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6));
 		// Utils.AssignMatrix4x4FromArray(ref m, preprocessedMatrixArray);
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_6 = ___preprocessedMatrixArray2;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_6 = ___2_preprocessedMatrixArray;
 		Utils_AssignMatrix4x4FromArray_m9640CAD478F303E63CBF424C4F4F6581FD024CE1((&V_3), L_6, NULL);
 		// m.m03 = m.m00 * markerWidth/2 + m.m01 * markerHeight/2 + m.m03;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_7 = V_3;
@@ -7105,7 +7395,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager_UpdateTargetP
 		float L_57 = V_2;
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_7), ((float)(((float)il2cpp_codegen_multiply(L_47, L_48))/L_49)), ((float)(((float)il2cpp_codegen_multiply(L_51, L_52))/L_53)), ((float)(((float)il2cpp_codegen_multiply(L_55, L_56))/L_57)), NULL);
 		// imageTracker.UpdatePose(translation, rotation, newScale);
-		ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* L_58 = ___imageTracker0;
+		ImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB* L_58 = ___0_imageTracker;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59 = V_4;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60 = V_5;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61 = V_7;
@@ -7136,7 +7426,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MindARImageTrackingManager__ctor_m7E09A2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_Multicast(OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___targetIndex0, const RuntimeMethod* method)
+void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_Multicast(OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___0_targetIndex, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates_13->max_length;
 	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
@@ -7144,48 +7434,48 @@ void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_Multicast(On
 	{
 		OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* currentDelegate = reinterpret_cast<OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6*>(delegatesToInvoke[i]);
 		typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, const RuntimeMethod*);
-		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___targetIndex0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___0_targetIndex, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
 	}
 }
-void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_OpenInst(OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___targetIndex0, const RuntimeMethod* method)
+void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_OpenInst(OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___0_targetIndex, const RuntimeMethod* method)
 {
 	typedef void (*FunctionPointerType) (int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr_0)(___targetIndex0, method);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_targetIndex, method);
 }
-void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_OpenStatic(OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___targetIndex0, const RuntimeMethod* method)
+void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_OpenStatic(OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___0_targetIndex, const RuntimeMethod* method)
 {
 	typedef void (*FunctionPointerType) (int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr_0)(___targetIndex0, method);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_targetIndex, method);
 }
-void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_OpenStaticInvoker(OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___targetIndex0, const RuntimeMethod* method)
+void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_OpenStaticInvoker(OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___0_targetIndex, const RuntimeMethod* method)
 {
-	InvokerActionInvoker1< int32_t >::Invoke(__this->___method_ptr_0, method, NULL, ___targetIndex0);
+	InvokerActionInvoker1< int32_t >::Invoke((Il2CppMethodPointer)__this->___method_ptr_0, method, NULL, ___0_targetIndex);
 }
-void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_ClosedStaticInvoker(OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___targetIndex0, const RuntimeMethod* method)
+void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_ClosedStaticInvoker(OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___0_targetIndex, const RuntimeMethod* method)
 {
-	InvokerActionInvoker2< RuntimeObject*, int32_t >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___targetIndex0);
+	InvokerActionInvoker2< RuntimeObject*, int32_t >::Invoke((Il2CppMethodPointer)__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___0_targetIndex);
 }
-IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6 (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___targetIndex0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6 (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___0_targetIndex, const RuntimeMethod* method)
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc)(int32_t);
 	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
 	// Native function invocation
-	il2cppPInvokeFunc(___targetIndex0);
+	il2cppPInvokeFunc(___0_targetIndex);
 
 }
 // System.Void WebARFoundation.MindARImageTrackingManager/OnTargetEvent::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent__ctor_m9BD5FA5DB9825ABC8E5D39974F8B14C52FA83AAC (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent__ctor_m9BD5FA5DB9825ABC8E5D39974F8B14C52FA83AAC (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_ptr_0 = (intptr_t)il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
 	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
 	{
 		bool isOpen = parameterCount == 1;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
 			if (isOpen)
 				__this->___invoke_impl_1 = (intptr_t)&OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_OpenStaticInvoker;
 			else
@@ -7195,27 +7485,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent__ctor_m9BD5FA5DB9825ABC8E5
 				__this->___invoke_impl_1 = (intptr_t)&OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_OpenStatic;
 			else
 				{
-					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+					__this->___invoke_impl_1 = __this->___method_ptr_0;
 					__this->___method_code_6 = (intptr_t)__this->___m_target_2;
 				}
 	}
 	else
 	{
-		if (___object0 == NULL)
+		if (___0_object == NULL)
 			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
-		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
+		__this->___invoke_impl_1 = __this->___method_ptr_0;
 		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
 	}
 	__this->___extra_arg_5 = (intptr_t)&OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_Multicast;
 }
 // System.Void WebARFoundation.MindARImageTrackingManager/OnTargetEvent::Invoke(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766 (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___targetIndex0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766 (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___0_targetIndex, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___targetIndex0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_targetIndex, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 // System.IAsyncResult WebARFoundation.MindARImageTrackingManager/OnTargetEvent::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnTargetEvent_BeginInvoke_m9723903E1AE404DD80982E88E9A021F6D470D10C (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___targetIndex0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnTargetEvent_BeginInvoke_m9723903E1AE404DD80982E88E9A021F6D470D10C (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___0_targetIndex, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7224,13 +7514,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnTargetEvent_BeginInvoke_m972
 		s_Il2CppMethodInitialized = true;
 	}
 	void *__d_args[2] = {0};
-	__d_args[0] = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &___targetIndex0);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+	__d_args[0] = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &___0_targetIndex);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
 // System.Void WebARFoundation.MindARImageTrackingManager/OnTargetEvent::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent_EndInvoke_mE55F036518D0509B5B97DC28DC58137B94DCD486 (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnTargetEvent_EndInvoke_mE55F036518D0509B5B97DC28DC58137B94DCD486 (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -7266,7 +7556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mC7AE1148A4643C0CDB9090143
 	}
 }
 // System.Collections.Generic.IEnumerable`1<WebARFoundation.ImageTracker> WebARFoundation.MindARImageTrackingManager/<>c::<Awake>b__19_0(UnityEngine.GameObject)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CAwakeU3Eb__19_0_m755301516816D6AD4CD9EB67972B5AF1CDAB1A1C (U3CU3Ec_t2976F8A5B74ED8E9B602FD6D687410FDC0EBFE62* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___gameObject0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CAwakeU3Eb__19_0_m755301516816D6AD4CD9EB67972B5AF1CDAB1A1C (U3CU3Ec_t2976F8A5B74ED8E9B602FD6D687410FDC0EBFE62* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_gameObject, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7277,7 +7567,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CAwakeU3Eb__19_0_m75
 	{
 		// .SelectMany(gameObject => gameObject
 		//     .GetComponentsInChildren<ImageTracker>())
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___gameObject0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = ___0_gameObject;
 		ImageTrackerU5BU5D_t5AC72C72CC3FA285EFF7AB4205426F324FDDBA6B* L_1;
 		L_1 = GameObject_GetComponentsInChildren_TisImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB_m7A0BDF5DB6A6D6B097A00F974164ADA93266E85F(L_0, GameObject_GetComponentsInChildren_TisImageTracker_t3DAD9E514A9327E9A1A53D924954F3A4B1D404DB_m7A0BDF5DB6A6D6B097A00F974164ADA93266E85F_RuntimeMethod_var);
 		return (RuntimeObject*)L_1;
@@ -7292,7 +7582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CU3Ec_U3CAwakeU3Eb__19_0_m75
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void WebARFoundation.Utils::AssignMatrix4x4FromArray(UnityEngine.Matrix4x4&,System.Single[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utils_AssignMatrix4x4FromArray_m9640CAD478F303E63CBF424C4F4F6581FD024CE1 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___p0, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___values1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utils_AssignMatrix4x4FromArray_m9640CAD478F303E63CBF424C4F4F6581FD024CE1 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___0_p, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___1_values, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
@@ -7304,9 +7594,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utils_AssignMatrix4x4FromArray_m9640CAD4
 IL_0004:
 	{
 		// p[i] = values[i];
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_0 = ___p0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_0 = ___0_p;
 		int32_t L_1 = V_0;
-		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = ___values1;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_2 = ___1_values;
 		int32_t L_3 = V_0;
 		int32_t L_4 = L_3;
 		float L_5 = (L_2)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(L_4));
@@ -7331,15 +7621,15 @@ IL_0012:
 	}
 }
 // UnityEngine.Vector3 WebARFoundation.Utils::GetTranslationFromMatrix(UnityEngine.Matrix4x4&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Utils_GetTranslationFromMatrix_m49E2F75BD637154E14E0ED87B50A3364A6686666 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___matrix0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Utils_GetTranslationFromMatrix_m49E2F75BD637154E14E0ED87B50A3364A6686666 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___0_matrix, const RuntimeMethod* method) 
 {
 	{
 		// return new Vector3(matrix.m03, matrix.m13, matrix.m23);
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_0 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_0 = ___0_matrix;
 		float L_1 = L_0->___m03_12;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_2 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_2 = ___0_matrix;
 		float L_3 = L_2->___m13_13;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_4 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_4 = ___0_matrix;
 		float L_5 = L_4->___m23_14;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		memset((&L_6), 0, sizeof(L_6));
@@ -7348,7 +7638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	}
 }
 // UnityEngine.Quaternion WebARFoundation.Utils::GetRotationFromMatrix(UnityEngine.Matrix4x4&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Utils_GetRotationFromMatrix_m763F2C965DB3EEAF3E4BBEDCEE85B3A69652E3F8 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___matrix0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Utils_GetRotationFromMatrix_m763F2C965DB3EEAF3E4BBEDCEE85B3A69652E3F8 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___0_matrix, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
@@ -7356,27 +7646,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 	memset((&V_1), 0, sizeof(V_1));
 	{
 		// forward.x = matrix.m02;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_0 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_0 = ___0_matrix;
 		float L_1 = L_0->___m02_8;
 		(&V_0)->___x_2 = L_1;
 		// forward.y = matrix.m12;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_2 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_2 = ___0_matrix;
 		float L_3 = L_2->___m12_9;
 		(&V_0)->___y_3 = L_3;
 		// forward.z = matrix.m22;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_4 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_4 = ___0_matrix;
 		float L_5 = L_4->___m22_10;
 		(&V_0)->___z_4 = L_5;
 		// upwards.x = matrix.m01;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_6 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_6 = ___0_matrix;
 		float L_7 = L_6->___m01_4;
 		(&V_1)->___x_2 = L_7;
 		// upwards.y = matrix.m11;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_8 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_8 = ___0_matrix;
 		float L_9 = L_8->___m11_5;
 		(&V_1)->___y_3 = L_9;
 		// upwards.z = matrix.m21;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_10 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_10 = ___0_matrix;
 		float L_11 = L_10->___m21_6;
 		(&V_1)->___z_4 = L_11;
 		// return Quaternion.LookRotation(forward, upwards);
@@ -7388,7 +7678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF
 	}
 }
 // UnityEngine.Vector3 WebARFoundation.Utils::GetScaleFromMatrix(UnityEngine.Matrix4x4&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Utils_GetScaleFromMatrix_m6BCE783F344AC8F9C7FB48848DF8F93B1190049C (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___matrix0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Utils_GetScaleFromMatrix_m6BCE783F344AC8F9C7FB48848DF8F93B1190049C (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___0_matrix, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
@@ -7396,13 +7686,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	memset((&V_1), 0, sizeof(V_1));
 	{
 		// scale.x = new Vector4(matrix.m00, matrix.m10, matrix.m20, matrix.m30).magnitude;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_0 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_0 = ___0_matrix;
 		float L_1 = L_0->___m00_0;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_2 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_2 = ___0_matrix;
 		float L_3 = L_2->___m10_1;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_4 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_4 = ___0_matrix;
 		float L_5 = L_4->___m20_2;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_6 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_6 = ___0_matrix;
 		float L_7 = L_6->___m30_3;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_8;
 		memset((&L_8), 0, sizeof(L_8));
@@ -7412,13 +7702,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		L_9 = Vector4_get_magnitude_m97A83FC484190F07D8017F4BD10E3C81478E0D20_inline((&V_1), NULL);
 		(&V_0)->___x_2 = L_9;
 		// scale.y = new Vector4(matrix.m01, matrix.m11, matrix.m21, matrix.m31).magnitude;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_10 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_10 = ___0_matrix;
 		float L_11 = L_10->___m01_4;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_12 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_12 = ___0_matrix;
 		float L_13 = L_12->___m11_5;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_14 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_14 = ___0_matrix;
 		float L_15 = L_14->___m21_6;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_16 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_16 = ___0_matrix;
 		float L_17 = L_16->___m31_7;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_18;
 		memset((&L_18), 0, sizeof(L_18));
@@ -7428,13 +7718,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		L_19 = Vector4_get_magnitude_m97A83FC484190F07D8017F4BD10E3C81478E0D20_inline((&V_1), NULL);
 		(&V_0)->___y_3 = L_19;
 		// scale.z = new Vector4(matrix.m02, matrix.m12, matrix.m22, matrix.m32).magnitude;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_20 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_20 = ___0_matrix;
 		float L_21 = L_20->___m02_8;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_22 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_22 = ___0_matrix;
 		float L_23 = L_22->___m12_9;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_24 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_24 = ___0_matrix;
 		float L_25 = L_24->___m22_10;
-		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_26 = ___matrix0;
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* L_26 = ___0_matrix;
 		float L_27 = L_26->___m32_11;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_28;
 		memset((&L_28), 0, sizeof(L_28));
@@ -7660,7 +7950,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleImageTrackingMyController_StopAR_m
 	}
 }
 // System.Void WebARFoundation.SampleImageTrackingMyController::OnTargetFound(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleImageTrackingMyController_OnTargetFound_mCEA084BFAAD1B8688BEC2E1091C247A344605816 (SampleImageTrackingMyController_t7C656CBF2C64A347687AFE2E81AA190212AF8BB4* __this, int32_t ___targetIndex0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleImageTrackingMyController_OnTargetFound_mCEA084BFAAD1B8688BEC2E1091C247A344605816 (SampleImageTrackingMyController_t7C656CBF2C64A347687AFE2E81AA190212AF8BB4* __this, int32_t ___0_targetIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7672,7 +7962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleImageTrackingMyController_OnTarget
 	{
 		// Debug.Log("MyController target found: " + targetIndex);
 		String_t* L_0;
-		L_0 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___targetIndex0), NULL);
+		L_0 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___0_targetIndex), NULL);
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralEF07937F6CFA909B3A94593C5A43A33614E54D04, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -7682,7 +7972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleImageTrackingMyController_OnTarget
 	}
 }
 // System.Void WebARFoundation.SampleImageTrackingMyController::OnTargetLost(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleImageTrackingMyController_OnTargetLost_m0FCDE678BEFD3362FFBECADAACD18779B9A613A1 (SampleImageTrackingMyController_t7C656CBF2C64A347687AFE2E81AA190212AF8BB4* __this, int32_t ___targetIndex0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleImageTrackingMyController_OnTargetLost_m0FCDE678BEFD3362FFBECADAACD18779B9A613A1 (SampleImageTrackingMyController_t7C656CBF2C64A347687AFE2E81AA190212AF8BB4* __this, int32_t ___0_targetIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7694,7 +7984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleImageTrackingMyController_OnTarget
 	{
 		// Debug.Log("MyController target lost: " + targetIndex);
 		String_t* L_0;
-		L_0 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___targetIndex0), NULL);
+		L_0 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___0_targetIndex), NULL);
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE16D0BCCA85453EE83BBBE270D40FCC7D432EAE1, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -7704,7 +7994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleImageTrackingMyController_OnTarget
 	}
 }
 // System.Void WebARFoundation.SampleImageTrackingMyController::OnTargetUpdate(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleImageTrackingMyController_OnTargetUpdate_m8172A7C170FEFE90074A82A28A4ABAE94764F055 (SampleImageTrackingMyController_t7C656CBF2C64A347687AFE2E81AA190212AF8BB4* __this, int32_t ___targetIndex0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleImageTrackingMyController_OnTargetUpdate_m8172A7C170FEFE90074A82A28A4ABAE94764F055 (SampleImageTrackingMyController_t7C656CBF2C64A347687AFE2E81AA190212AF8BB4* __this, int32_t ___0_targetIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7716,7 +8006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleImageTrackingMyController_OnTarget
 	{
 		// Debug.Log("MyController target update: " + targetIndex);
 		String_t* L_0;
-		L_0 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___targetIndex0), NULL);
+		L_0 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___0_targetIndex), NULL);
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral725900A9AD57F71ABBA86D0003B565F461D9969A, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
@@ -7781,45 +8071,45 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_inline (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___isFound0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnARUpdateEvent_Invoke_mD2210357BDC28E02E0516C6BFDA4C87590097038_inline (OnARUpdateEvent_tAA210A0B2057A899C7992274303A043BCE5A7C15* __this, int32_t ___0_isFound, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___isFound0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_isFound, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
-		float L_0 = ___x0;
+		float L_0 = ___0_x;
 		__this->___x_2 = L_0;
-		float L_1 = ___y1;
+		float L_1 = ___1_y;
 		__this->___y_3 = L_1;
-		float L_2 = ___z2;
+		float L_2 = ___2_z;
 		__this->___z_4 = L_2;
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_inline (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___targetIndex0, int32_t ___isFound1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnARUpdateEvent_Invoke_mDF4609C060EF34ABAAF384C9E52C34BEA611669B_inline (OnARUpdateEvent_tBF0656CA996B241B36AA4D17E31034E197E5AEB4* __this, int32_t ___0_targetIndex, int32_t ___1_isFound, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___targetIndex0, ___isFound1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_targetIndex, ___1_isFound, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___x0, float ___y1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
-		float L_0 = ___x0;
+		float L_0 = ___0_x;
 		__this->___x_0 = L_0;
-		float L_1 = ___y1;
+		float L_1 = ___1_y;
 		__this->___y_1 = L_1;
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, int32_t ___index0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_Item_m18BC65BB0512B16A1F9C8BE4B83A3E7BBAD7064D_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	float V_2 = 0.0f;
 	{
-		int32_t L_0 = ___index0;
+		int32_t L_0 = ___0_index;
 		V_1 = L_0;
 		int32_t L_1 = V_1;
 		V_0 = L_1;
@@ -7872,25 +8162,25 @@ IL_002d:
 		return L_7;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m5F87930F9B0828E5652E2D9D01ED907C01122C86_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m5F87930F9B0828E5652E2D9D01ED907C01122C86_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
-		float L_0 = ___x0;
+		float L_0 = ___0_x;
 		__this->___x_2 = L_0;
-		float L_1 = ___y1;
+		float L_1 = ___1_y;
 		__this->___y_3 = L_1;
 		__this->___z_4 = (0.0f);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___v0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___v0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_v;
 		float L_1 = L_0.___x_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___v0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_v;
 		float L_3 = L_2.___y_3;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		memset((&L_4), 0, sizeof(L_4));
@@ -7918,17 +8208,17 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTargetEvent_Invoke_m45C6E4
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_inline (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___targetIndex0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnTargetEvent_Invoke_m35E41ECB28BC6E2CAAF1CF0379BF9CFA359EB766_inline (OnTargetEvent_t044EF97657AD2AA5E8A971C21DC8016784DDE8B6* __this, int32_t ___0_targetIndex, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___targetIndex0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_targetIndex, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___euler0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_euler, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___euler0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_euler;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
 		L_1 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_0, (0.0174532924f), NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
@@ -7943,74 +8233,74 @@ IL_0014:
 		return L_3;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___lhs0, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___rhs1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
 {
 	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_lhs;
 		float L_1 = L_0.___w_3;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___1_rhs;
 		float L_3 = L_2.___x_0;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = ___0_lhs;
 		float L_5 = L_4.___x_0;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = ___1_rhs;
 		float L_7 = L_6.___w_3;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = ___0_lhs;
 		float L_9 = L_8.___y_1;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ___1_rhs;
 		float L_11 = L_10.___z_2;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = ___0_lhs;
 		float L_13 = L_12.___z_2;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = ___1_rhs;
 		float L_15 = L_14.___y_1;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = ___0_lhs;
 		float L_17 = L_16.___w_3;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = ___1_rhs;
 		float L_19 = L_18.___y_1;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = ___0_lhs;
 		float L_21 = L_20.___y_1;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = ___1_rhs;
 		float L_23 = L_22.___w_3;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24 = ___0_lhs;
 		float L_25 = L_24.___z_2;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26 = ___1_rhs;
 		float L_27 = L_26.___x_0;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28 = ___0_lhs;
 		float L_29 = L_28.___x_0;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30 = ___1_rhs;
 		float L_31 = L_30.___z_2;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32 = ___0_lhs;
 		float L_33 = L_32.___w_3;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34 = ___1_rhs;
 		float L_35 = L_34.___z_2;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36 = ___0_lhs;
 		float L_37 = L_36.___z_2;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38 = ___1_rhs;
 		float L_39 = L_38.___w_3;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_40 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_40 = ___0_lhs;
 		float L_41 = L_40.___x_0;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42 = ___1_rhs;
 		float L_43 = L_42.___y_1;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_44 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_44 = ___0_lhs;
 		float L_45 = L_44.___y_1;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_46 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_46 = ___1_rhs;
 		float L_47 = L_46.___x_0;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_48 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_48 = ___0_lhs;
 		float L_49 = L_48.___w_3;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_50 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_50 = ___1_rhs;
 		float L_51 = L_50.___w_3;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_52 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_52 = ___0_lhs;
 		float L_53 = L_52.___x_0;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_54 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_54 = ___1_rhs;
 		float L_55 = L_54.___x_0;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_56 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_56 = ___0_lhs;
 		float L_57 = L_56.___y_1;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_58 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_58 = ___1_rhs;
 		float L_59 = L_58.___y_1;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60 = ___lhs0;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60 = ___0_lhs;
 		float L_61 = L_60.___z_2;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_62 = ___rhs1;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_62 = ___1_rhs;
 		float L_63 = L_62.___z_2;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_64;
 		memset((&L_64), 0, sizeof(L_64));
@@ -8025,16 +8315,16 @@ IL_00e5:
 		return L_65;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___x0, float ___y1, float ___z2, float ___w3, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
 	{
-		float L_0 = ___x0;
+		float L_0 = ___0_x;
 		__this->___x_1 = L_0;
-		float L_1 = ___y1;
+		float L_1 = ___1_y;
 		__this->___y_2 = L_1;
-		float L_2 = ___z2;
+		float L_2 = ___2_z;
 		__this->___z_3 = L_2;
-		float L_3 = ___w3;
+		float L_3 = ___3_w;
 		__this->___w_4 = L_3;
 		return;
 	}
@@ -8069,24 +8359,24 @@ IL_001c:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
 {
 	{
-		RuntimeObject* L_0 = (RuntimeObject*)__this->____current_3;
+		RuntimeObject* L_0 = __this->____current_3;
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, float ___d1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___a0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x_2;
-		float L_2 = ___d1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___a0;
+		float L_2 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
 		float L_4 = L_3.___y_3;
-		float L_5 = ___d1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___a0;
+		float L_5 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
 		float L_7 = L_6.___z_4;
-		float L_8 = ___d1;
+		float L_8 = ___1_d;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), /*hidden argument*/NULL);
@@ -8100,39 +8390,39 @@ IL_0021:
 		return L_10;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, float ___x0, float ___y1, float ___z2, float ___w3, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
 	{
-		float L_0 = ___x0;
+		float L_0 = ___0_x;
 		__this->___x_0 = L_0;
-		float L_1 = ___y1;
+		float L_1 = ___1_y;
 		__this->___y_1 = L_1;
-		float L_2 = ___z2;
+		float L_2 = ___2_z;
 		__this->___z_2 = L_2;
-		float L_3 = ___w3;
+		float L_3 = ___3_w;
 		__this->___w_3 = L_3;
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector4_Dot_m40A3B2E258E53E4847583474E40AC29F68AF8BA3_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___a0, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___b1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector4_Dot_m40A3B2E258E53E4847583474E40AC29F68AF8BA3_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_a, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	{
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = ___a0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_0 = ___0_a;
 		float L_1 = L_0.___x_1;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2 = ___b1;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_2 = ___1_b;
 		float L_3 = L_2.___x_1;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_4 = ___a0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_4 = ___0_a;
 		float L_5 = L_4.___y_2;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_6 = ___b1;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_6 = ___1_b;
 		float L_7 = L_6.___y_2;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_8 = ___a0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_8 = ___0_a;
 		float L_9 = L_8.___z_3;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_10 = ___b1;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_10 = ___1_b;
 		float L_11 = L_10.___z_3;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_12 = ___a0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_12 = ___0_a;
 		float L_13 = L_12.___w_4;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_14 = ___b1;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_14 = ___1_b;
 		float L_15 = L_14.___w_4;
 		V_0 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11)))), ((float)il2cpp_codegen_multiply(L_13, L_15))));
 		goto IL_003b;
